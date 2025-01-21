@@ -3,7 +3,8 @@
 	group: "1ED255BD6A1F3077"
 	order_index: 1
 	filename: "19D20D103B43D6DB"
-	title: "Металлическая эпоха"
+	title: "&aЖелезный Век"
+	icon: "minecraft:iron_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,10 +14,7 @@
 			y: 0.0d
 			shape: "gear"
 			description: ["Чтобы построить домну нужно поставить 2 блока фурмы по краям, на них блоки кирпича. Также, чтобы процесс шёл быстрее, нужны меха, которые ставятся к блокам фурмы."]
-			dependencies: [
-				"7A0E4BDCE0CFCEEF"
-				"2F178217D0C37FC8"
-			]
+			dependencies: ["2F178217D0C37FC8"]
 			id: "4EBFB6F86A201036"
 			tasks: [
 				{
@@ -205,7 +203,6 @@
 			y: 1.5d
 			shape: "rsquare"
 			description: ["Чтобы получить блок коксового угля, нужно зажечь и герметично застроить кирпичами блок обычного угля."]
-			dependencies: ["7A0E4BDCE0CFCEEF"]
 			id: "17DABC5FC1A79596"
 			tasks: [{
 				id: "51B2005EAC8205F6"

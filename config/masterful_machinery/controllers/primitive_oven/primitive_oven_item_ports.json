@@ -1,0 +1,10 @@
+{
+	"id": "primitive_oven_item",
+	"controllerId": "primitive_oven"
+	"name": "Primitive Oven Item",
+	"type": "mm:item",
+	"data": {
+		"columns": 3,
+		"row": 3
+	}
+}

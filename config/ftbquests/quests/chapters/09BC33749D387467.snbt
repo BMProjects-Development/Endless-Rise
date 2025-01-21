@@ -126,7 +126,7 @@
 		{
 			title: "Примитивная кирка"
 			x: 5.5d
-			y: -1.5d
+			y: -2.0d
 			description: ["Поможет вам в добыче руды для дальнейшей её оброботке."]
 			dependencies: ["2B75E14C24231869"]
 			id: "6264DD1A5265CA11"
@@ -144,8 +144,8 @@
 		}
 		{
 			title: "Примитивный меч"
-			x: 6.5d
-			y: 0.0d
+			x: 5.5d
+			y: 2.0d
 			description: ["Простой способ убийства враждебных мобов на ранних этапах игры."]
 			dependencies: ["2B75E14C24231869"]
 			id: "0A92EA23D2322807"
@@ -168,8 +168,8 @@
 		}
 		{
 			title: "Примитивная лопата"
-			x: 5.5d
-			y: 1.5d
+			x: 6.5d
+			y: 0.0d
 			description: ["Глина нужна чтобы создать глиняный сосуд и в нём выплавить свой первый металл - медь!"]
 			dependencies: ["2B75E14C24231869"]
 			id: "7EBB21849EC41175"
@@ -195,12 +195,14 @@
 		}
 		{
 			title: "Глиняный сосуд"
-			x: 9.5d
-			y: -3.0d
+			x: 8.5d
+			y: -1.0d
 			shape: "gear"
 			description: ["Нужен чтобы плавить металлы(в основном). Для этого нужно положить его в яму(Шифт + ПКМ) закрыть со всех сторон землей, поверх сосуда положить сено(ПКМ) и дерево(ПКМ), а дальше поджечь."]
-			dependencies: ["08D541875A03DFFD"]
-			size: 1.2d
+			dependencies: [
+				"08D541875A03DFFD"
+				"282697EE1CF44FB2"
+			]
 			id: "42FE908F1D88CAE9"
 			tasks: [{
 				id: "17235380861E02CA"
@@ -221,31 +223,11 @@
 			]
 		}
 		{
-			title: "Кирпичи"
-			x: 9.0d
-			y: 2.0d
-			description: ["Они понадобятся для получения коксового угля и постройки домны."]
-			dependencies: [
-				"33D766CC2E68C961"
-				"226D273CFCD69825"
-			]
-			id: "7A0E4BDCE0CFCEEF"
-			tasks: [{
-				id: "594B9539BDD08E01"
-				type: "item"
-				item: "minecraft:bricks"
-				count: 12L
-			}]
-		}
-		{
 			title: "Медные слитки"
-			x: 10.5d
+			x: 10.0d
 			y: -1.5d
 			description: ["Слитки меди нужны, чтобы построить домну и плавить более тугоплавкие металлы."]
-			dependencies: [
-				"08D541875A03DFFD"
-				"42FE908F1D88CAE9"
-			]
+			dependencies: ["42FE908F1D88CAE9"]
 			id: "2F178217D0C37FC8"
 			tasks: [{
 				id: "7A9E26A9EE9E75A4"
@@ -282,7 +264,7 @@
 		}
 		{
 			title: "Медная руда"
-			x: 8.5d
+			x: 7.0d
 			y: -1.5d
 			description: ["Просто медная руда."]
 			dependencies: ["6264DD1A5265CA11"]
@@ -327,7 +309,6 @@
 			description: ["С помощью ручной мельницы вы можете получить кремень, который понадобится вам для создания примитивных инструментов."]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
-			size: 1.2d
 			id: "4F79D63210D7FE5D"
 			tasks: [
 				{
@@ -356,66 +337,11 @@
 			]
 		}
 		{
-			title: "Внутри Улья \"бз..з\""
-			x: 8.0d
-			y: 0.0d
-			shape: "gear"
-			description: ["Чтобы попасть в улей, нужно кинуть эндер-жемчуг в сам улей. А чтобы выйти из него, вам нужно спуститься в самый низ.(выпасть из улья)"]
-			dependencies: ["0A92EA23D2322807"]
-			size: 1.2d
-			id: "18B3AC82C7E152D5"
-			tasks: [{
-				id: "5C617C63E0E9D69C"
-				type: "dimension"
-				dimension: "the_bumblezone:the_bumblezone"
-			}]
-			rewards: [
-				{
-					id: "6482D0AFA50B3C8D"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "26AF7E7DA6B54F75"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			title: "Пыльца"
-			x: 9.0d
-			y: 0.5d
-			description: ["Эта пыльца генерируется в измерении улья. Её там очень много, хватит на всё."]
-			dependencies: ["18B3AC82C7E152D5"]
-			id: "33D766CC2E68C961"
-			tasks: [{
-				id: "1B49B9FBF4A61070"
-				type: "item"
-				item: "the_bumblezone:pollen_puff"
-				count: 32L
-			}]
-		}
-		{
-			title: "Пчелиный воск для улья"
-			x: 9.0d
-			y: -0.5d
-			description: ["Спавнится на самом дне улья.(Можно сказать вместо бедрока)"]
-			dependencies: ["18B3AC82C7E152D5"]
-			id: "7007EB833169459C"
-			tasks: [{
-				id: "52760E754FA3F8FD"
-				type: "item"
-				item: "the_bumblezone:beehive_beeswax"
-				count: 16L
-			}]
-		}
-		{
 			title: "Кирпичи"
-			x: 6.5d
-			y: 2.0d
+			x: 8.5d
+			y: 1.0d
 			description: ["Чтобы получить кирпичи, нужно положить на землю глинянные кирпичи (шифт + правый клик чтобы положить на землю, со всех сторон, кроме вверха, нужно закрыть землёй). Дальше, на кирпичи положить сено (правый клик) и на самый вверх брёвна(правый клик), потом поджечь и подождать."]
-			dependencies: ["7EBB21849EC41175"]
+			dependencies: ["282697EE1CF44FB2"]
 			id: "226D273CFCD69825"
 			tasks: [
 				{
@@ -530,7 +456,6 @@
 			shape: "gear"
 			description: ["Ваш новый рабочий стол!"]
 			dependencies: ["3A6840BC06F09951"]
-			size: 1.2d
 			id: "2B75E14C24231869"
 			tasks: [{
 				id: "5F4B5F10BC74C967"
@@ -592,8 +517,8 @@
 			]
 		}
 		{
-			x: 11.5d
-			y: 0.0d
+			x: 10.0d
+			y: 1.5d
 			dependencies: ["70366B64083A6A39"]
 			id: "6768C32EEE8EB644"
 			tasks: [
@@ -610,8 +535,8 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 0.0d
+			x: 11.5d
+			y: 2.0d
 			dependencies: ["6768C32EEE8EB644"]
 			id: "3036A5E490FF2436"
 			tasks: [
@@ -628,10 +553,10 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: -1.5d
+			x: 11.5d
+			y: -2.0d
 			dependencies: [
-				"3036A5E490FF2436"
+				"2FD83E2C39D84197"
 				"2F178217D0C37FC8"
 			]
 			id: "18AF86E2C9F63A5C"
@@ -642,11 +567,11 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 8.5d
+			y: 2.0d
 			dependencies: [
-				"33D766CC2E68C961"
-				"7007EB833169459C"
+				"2E033F4A688B9E8B"
+				"226D273CFCD69825"
 			]
 			id: "70366B64083A6A39"
 			tasks: [{
@@ -656,9 +581,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -1.5d
-			dependencies: ["18AF86E2C9F63A5C"]
+			x: 14.5d
+			y: 0.0d
+			dependencies: ["63F5E5D2291607A1"]
 			id: "5BDECB0FE44124D8"
 			tasks: [{
 				id: "74CBE9FCF05DED08"
@@ -667,22 +592,26 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 2.0d
-			dependencies: [
-				"5BDECB0FE44124D8"
-				"7A0E4BDCE0CFCEEF"
-			]
+			x: 16.0d
+			y: 0.0d
+			dependencies: ["5BDECB0FE44124D8"]
 			id: "7CF5E955D4A6A1F5"
-			tasks: [{
-				id: "1EDA97B2A3944DE1"
-				type: "item"
-				item: "naturesaura:infused_brick"
-			}]
+			tasks: [
+				{
+					id: "26C6A972BA408CBE"
+					type: "item"
+					item: "naturesaura:infused_stone"
+				}
+				{
+					id: "12F656674694BC0A"
+					type: "item"
+					item: "naturesaura:infused_brick"
+				}
+			]
 		}
 		{
-			x: 15.5d
-			y: 2.0d
+			x: 17.5d
+			y: 0.0d
 			dependencies: ["7CF5E955D4A6A1F5"]
 			id: "54C4258DA0CA4367"
 			tasks: [{
@@ -692,8 +621,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 1.0d
+			x: 18.0d
+			y: -1.0d
 			dependencies: ["54C4258DA0CA4367"]
 			id: "220E1FD6E4020B8C"
 			tasks: [{
@@ -703,7 +632,7 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 18.0d
 			y: 1.0d
 			dependencies: ["54C4258DA0CA4367"]
 			id: "5C1D1FD3B74A91AC"
@@ -720,7 +649,7 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 18.5d
 			y: 0.0d
 			dependencies: [
 				"220E1FD6E4020B8C"
@@ -731,6 +660,139 @@
 				id: "5C2EA31BB5484541"
 				type: "item"
 				item: "mekanism:ingot_bronze"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["7EBB21849EC41175"]
+			id: "282697EE1CF44FB2"
+			tasks: [{
+				id: "1AED98A6CFA4CC79"
+				type: "item"
+				item: "artisanworktables:worktable_potter"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["0A92EA23D2322807"]
+			id: "2E033F4A688B9E8B"
+			tasks: [{
+				id: "17B2B20499A9AAE8"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["3036A5E490FF2436"]
+			id: "2FD83E2C39D84197"
+			tasks: [
+				{
+					id: "2D23D0C3AC9C038B"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+				{
+					id: "3724F0319438B0C1"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["282697EE1CF44FB2"]
+			id: "211703DCD6C81D6B"
+			tasks: [
+				{
+					id: "0B364C930BB02EC8"
+					type: "item"
+					item: "notreepunching:clay_small_vessel"
+				}
+				{
+					id: "533C70FD7A1BFE88"
+					type: "item"
+					item: "notreepunching:clay_large_vessel"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["211703DCD6C81D6B"]
+			id: "39EFF0026ED4EF0A"
+			tasks: [
+				{
+					id: "3A8DBEDBAD134175"
+					type: "item"
+					item: {
+						id: "notreepunching:ceramic_small_vessel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 9
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0C00579C75C0A068"
+					type: "item"
+					item: {
+						id: "notreepunching:ceramic_large_vessel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 15
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -2.0d
+			dependencies: ["18AF86E2C9F63A5C"]
+			id: "3CB343CD14E3834F"
+			tasks: [{
+				id: "5D55A2A95707C67A"
+				type: "item"
+				item: "artisanworktables:worktable_mason"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: ["3CB343CD14E3834F"]
+			id: "63F5E5D2291607A1"
+			tasks: [{
+				id: "7FEE0CA11EC00B64"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			dependencies: ["42FE908F1D88CAE9"]
+			id: "12732E1755360B05"
+			tasks: [{
+				id: "082732188B5344FE"
+				type: "item"
+				item: "charcoal_pit:ceramic_pot"
 			}]
 		}
 	]
