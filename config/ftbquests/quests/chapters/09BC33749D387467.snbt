@@ -32,7 +32,7 @@
 		}
 		{
 			title: "Добыча верёвки"
-			x: 1.5d
+			x: 1.0d
 			y: 0.0d
 			description: ["Верёвка вам понадобится для создания примитивных инструментов."]
 			dependencies: ["40F68DE6AA5E6427"]
@@ -64,7 +64,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -1.5d
 			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
@@ -82,7 +82,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: -3.0d
 			shape: "rsquare"
 			description: ["Выпадает с любой травы, используя ванильную мотыгу."]
@@ -97,12 +97,11 @@
 		}
 		{
 			title: "Рабочий стол"
-			x: 3.5d
+			x: 2.5d
 			y: 0.0d
 			shape: "pentagon"
 			description: ["С примитивным топором можно быстрее рубить деревья."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
-			size: 1.1d
 			id: "3A6840BC06F09951"
 			tasks: [
 				{
@@ -125,7 +124,7 @@
 		}
 		{
 			title: "Примитивная кирка"
-			x: 5.5d
+			x: 4.5d
 			y: -2.0d
 			description: ["Поможет вам в добыче руды для дальнейшей её оброботке."]
 			dependencies: ["2B75E14C24231869"]
@@ -144,7 +143,7 @@
 		}
 		{
 			title: "Примитивный меч"
-			x: 5.5d
+			x: 4.5d
 			y: 2.0d
 			description: ["Простой способ убийства враждебных мобов на ранних этапах игры."]
 			dependencies: ["2B75E14C24231869"]
@@ -168,7 +167,7 @@
 		}
 		{
 			title: "Примитивная лопата"
-			x: 6.5d
+			x: 5.5d
 			y: 0.0d
 			description: ["Глина нужна чтобы создать глиняный сосуд и в нём выплавить свой первый металл - медь!"]
 			dependencies: ["2B75E14C24231869"]
@@ -195,7 +194,7 @@
 		}
 		{
 			title: "Глиняный сосуд"
-			x: 8.5d
+			x: 7.5d
 			y: -1.0d
 			shape: "gear"
 			description: ["Нужен чтобы плавить металлы(в основном). Для этого нужно положить его в яму(Шифт + ПКМ) закрыть со всех сторон землей, поверх сосуда положить сено(ПКМ) и дерево(ПКМ), а дальше поджечь."]
@@ -224,7 +223,7 @@
 		}
 		{
 			title: "Медные слитки"
-			x: 10.0d
+			x: 9.0d
 			y: -1.5d
 			description: ["Слитки меди нужны, чтобы построить домну и плавить более тугоплавкие металлы."]
 			dependencies: ["42FE908F1D88CAE9"]
@@ -245,7 +244,7 @@
 		}
 		{
 			title: "Огниво"
-			x: 1.0d
+			x: 0.5d
 			y: 1.5d
 			description: ["Используется для разжигания огня."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
@@ -264,7 +263,7 @@
 		}
 		{
 			title: "Медная руда"
-			x: 7.0d
+			x: 6.0d
 			y: -1.5d
 			description: ["Просто медная руда."]
 			dependencies: ["6264DD1A5265CA11"]
@@ -284,8 +283,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 3.0d
+			y: -1.5d
 			description: ["Довольно простой способ добычи еды на ранних этапах игры."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "1623F52695BB1A56"
@@ -338,7 +337,7 @@
 		}
 		{
 			title: "Кирпичи"
-			x: 8.5d
+			x: 7.5d
 			y: 1.0d
 			description: ["Чтобы получить кирпичи, нужно положить на землю глинянные кирпичи (шифт + правый клик чтобы положить на землю, со всех сторон, кроме вверха, нужно закрыть землёй). Дальше, на кирпичи положить сено (правый клик) и на самый вверх брёвна(правый клик), потом поджечь и подождать."]
 			dependencies: ["282697EE1CF44FB2"]
@@ -378,7 +377,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 2.5d
 			y: 3.0d
 			shape: "rsquare"
 			description: ["С помощью костра можно легко жарить еду."]
@@ -392,7 +391,7 @@
 		}
 		{
 			title: "Первый уголь"
-			x: 3.5d
+			x: 2.5d
 			y: 1.5d
 			description: ["Для получение древесного угля необходимо поставить кучу бревён в замкнутное пространство (поставить с каждой стороны по блоку земли, кроме одной). Далее поджечь кучу и закрыть блоком земли, а после просто ждать."]
 			dependencies: ["3A6840BC06F09951"]
@@ -412,46 +411,7 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
-			description: ["Для хранения предметов."]
-			dependencies: ["3A6840BC06F09951"]
-			id: "7C5C00B15B9897BC"
-			tasks: [{
-				id: "3E26E5CCC8D46E8E"
-				type: "item"
-				title: "Сундук"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:chests/wooden"
-					}
-				}
-			}]
-		}
-		{
 			x: 4.0d
-			y: -3.0d
-			shape: "rsquare"
-			description: ["Можно хранить много предметов в ящиках."]
-			dependencies: ["7C5C00B15B9897BC"]
-			id: "139A2673A665DA5F"
-			tasks: [{
-				id: "6DB127AA8FDC3E6A"
-				type: "item"
-				title: "Ящик"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
-			}]
-		}
-		{
-			x: 5.0d
 			y: 0.0d
 			shape: "gear"
 			description: ["Ваш новый рабочий стол!"]
@@ -477,11 +437,11 @@
 		}
 		{
 			title: "Телега"
-			x: 3.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.5d
 			shape: "rsquare"
 			description: ["Можно перевозить свои вещи."]
-			dependencies: ["7C5C00B15B9897BC"]
+			dependencies: ["3A6840BC06F09951"]
 			id: "27F6D0F855D593D6"
 			tasks: [
 				{
@@ -497,27 +457,7 @@
 			]
 		}
 		{
-			title: "Разное"
-			x: 2.5d
-			y: -1.0d
-			description: ["Просто разное..."]
-			dependencies: ["3A6840BC06F09951"]
-			id: "3FB829F02CA5860E"
-			tasks: [
-				{
-					id: "2BF7B97EF3B19CFB"
-					type: "item"
-					item: "dummmmmmy:target_dummy_placer"
-				}
-				{
-					id: "7658F6D556145CB2"
-					type: "item"
-					item: "paraglider:paraglider"
-				}
-			]
-		}
-		{
-			x: 10.0d
+			x: 9.0d
 			y: 1.5d
 			dependencies: ["70366B64083A6A39"]
 			id: "6768C32EEE8EB644"
@@ -535,30 +475,20 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 10.5d
 			y: 2.0d
 			dependencies: ["6768C32EEE8EB644"]
 			id: "3036A5E490FF2436"
-			tasks: [
-				{
-					id: "12CD847710395657"
-					type: "item"
-					item: "naturesaura:wood_stand"
-				}
-				{
-					id: "6895BFC9CBEBF8BD"
-					type: "item"
-					item: "naturesaura:gold_powder"
-				}
-			]
+			tasks: [{
+				id: "6895BFC9CBEBF8BD"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
 		}
 		{
-			x: 11.5d
-			y: -2.0d
-			dependencies: [
-				"2FD83E2C39D84197"
-				"2F178217D0C37FC8"
-			]
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["5CFBF402EAC9DA95"]
 			id: "18AF86E2C9F63A5C"
 			tasks: [{
 				id: "0826840BC49FCE8D"
@@ -567,7 +497,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: 2.0d
 			dependencies: [
 				"2E033F4A688B9E8B"
@@ -649,7 +579,7 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 19.0d
 			y: 0.0d
 			dependencies: [
 				"220E1FD6E4020B8C"
@@ -663,7 +593,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.0d
 			y: 0.0d
 			dependencies: ["7EBB21849EC41175"]
 			id: "282697EE1CF44FB2"
@@ -674,7 +604,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 1.5d
 			dependencies: ["0A92EA23D2322807"]
 			id: "2E033F4A688B9E8B"
@@ -685,31 +615,7 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 0.0d
-			dependencies: ["3036A5E490FF2436"]
-			id: "2FD83E2C39D84197"
-			tasks: [
-				{
-					id: "2D23D0C3AC9C038B"
-					type: "item"
-					item: "naturesaura:bottle_two_the_rebottling"
-				}
-				{
-					id: "3724F0319438B0C1"
-					type: "item"
-					item: {
-						id: "naturesaura:aura_bottle"
-						Count: 1b
-						tag: {
-							stored_type: "naturesaura:overworld"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 9.5d
+			x: 8.5d
 			y: 0.0d
 			dependencies: ["282697EE1CF44FB2"]
 			id: "211703DCD6C81D6B"
@@ -727,7 +633,7 @@
 			]
 		}
 		{
-			x: 10.5d
+			x: 9.5d
 			y: 0.0d
 			dependencies: ["211703DCD6C81D6B"]
 			id: "39EFF0026ED4EF0A"
@@ -764,7 +670,7 @@
 		}
 		{
 			x: 13.0d
-			y: -2.0d
+			y: -1.0d
 			dependencies: ["18AF86E2C9F63A5C"]
 			id: "3CB343CD14E3834F"
 			tasks: [{
@@ -774,8 +680,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 0.0d
+			x: 14.0d
+			y: -1.0d
 			dependencies: ["3CB343CD14E3834F"]
 			id: "63F5E5D2291607A1"
 			tasks: [{
@@ -785,14 +691,74 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 10.5d
 			y: -2.0d
-			dependencies: ["42FE908F1D88CAE9"]
-			id: "12732E1755360B05"
+			dependencies: ["2F178217D0C37FC8"]
+			id: "2AE120F27D53F56A"
 			tasks: [{
-				id: "082732188B5344FE"
+				id: "64AE1B567CEDDBEB"
 				type: "item"
-				item: "charcoal_pit:ceramic_pot"
+				item: "artisanworktables:worktable_carpenter"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: [
+				"2AE120F27D53F56A"
+				"3036A5E490FF2436"
+			]
+			id: "5CFBF402EAC9DA95"
+			tasks: [
+				{
+					id: "263C199932E2E4CA"
+					type: "item"
+					item: "naturesaura:wood_stand"
+				}
+				{
+					id: "260F051F0F8957B7"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+				{
+					id: "62D64F6BF75478C2"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			dependencies: ["5BDECB0FE44124D8"]
+			id: "6F581B25B2EB989F"
+			tasks: [{
+				id: "3E13B053DCF682CD"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["0A92EA23D2322807"]
+			id: "7F7BF59BD265B23E"
+			tasks: [{
+				id: "6DFA7A1C7C5D79C7"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "58188F593A7DCC7E"
+				type: "item"
+				item: "minecraft:ender_pearl"
 			}]
 		}
 	]

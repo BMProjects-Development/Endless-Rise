@@ -10,11 +10,11 @@
 	quests: [
 		{
 			title: "Домна"
-			x: 0.0d
+			x: 5.0d
 			y: 0.0d
 			shape: "gear"
 			description: ["Чтобы построить домну нужно поставить 2 блока фурмы по краям, на них блоки кирпича. Также, чтобы процесс шёл быстрее, нужны меха, которые ставятся к блокам фурмы."]
-			dependencies: ["2F178217D0C37FC8"]
+			dependencies: ["71BBCF47C91950EB"]
 			id: "4EBFB6F86A201036"
 			tasks: [
 				{
@@ -54,32 +54,11 @@
 			]
 		}
 		{
-			title: "Железная руда"
-			x: 1.5d
-			y: 0.0d
-			description: ["Просто железная руда."]
-			dependencies: ["4EBFB6F86A201036"]
-			id: "0D1E69925DD2C3CE"
-			tasks: [{
-				id: "40841BC25AD67AE4"
-				type: "item"
-				title: "Железная руда"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ores/iron"
-					}
-				}
-				count: 4L
-			}]
-		}
-		{
-			x: 3.0d
+			x: 6.5d
 			y: 0.0d
 			shape: "gear"
 			description: ["Это главный металл, чтобы перейти в новую эпоху - Эпоху Механики!"]
-			dependencies: ["0D1E69925DD2C3CE"]
+			dependencies: ["4EBFB6F86A201036"]
 			id: "544D867E9E65F95E"
 			tasks: [{
 				id: "67925F061791895F"
@@ -108,8 +87,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 5.0d
+			y: -4.5d
 			description: ["На кухоную плиту можно поставить кухоные приборы и приготовить очень вкусные блюда!"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7455E4A62CD8E5E9"
@@ -120,8 +99,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 4.0d
+			y: -3.0d
 			description: ["С помощью кухоного котла можно приготовить вкусные блюда, для это нужно поставить его на кухоную плиту."]
 			dependencies: ["544D867E9E65F95E"]
 			id: "098811FF1C8C0952"
@@ -132,8 +111,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 5.0d
+			y: -2.0d
 			description: ["Сундук, который хранит больше вещей, он вам понадобится."]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7E50B0D00134778F"
@@ -144,8 +123,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: 5.5d
+			y: -3.0d
 			dependencies: ["544D867E9E65F95E"]
 			id: "6A0ED669633D1FC0"
 			tasks: [{
@@ -155,8 +134,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: 6.5d
+			y: -2.5d
 			description: ["Для плавки железа."]
 			dependencies: ["544D867E9E65F95E"]
 			id: "5E9827D76147D7A2"
@@ -167,8 +146,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
+			x: 7.0d
+			y: -3.5d
 			description: ["Камень перемещения нужен для того, чтобы сделать путеводный обелиск. И для того, чтобы без обелиска телепортироваться на другую точку. (Зажмите ПКМ)"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "12AE8B72E160FB72"
@@ -185,8 +164,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.5d
+			x: 8.0d
+			y: -3.0d
 			shape: "pentagon"
 			description: ["С помощью путеводного обелиска можно телепортироваться на большие расстояния. Для этого нужно как минимум 2 точки (2 обелиска) или камень перемещения."]
 			dependencies: ["12AE8B72E160FB72"]
@@ -198,17 +177,226 @@
 			}]
 		}
 		{
-			title: "Блок коксового угля"
-			x: 1.0d
-			y: 1.5d
-			shape: "rsquare"
+			x: 2.5d
+			y: -2.5d
 			description: ["Чтобы получить блок коксового угля, нужно зажечь и герметично застроить кирпичами блок обычного угля."]
+			dependencies: ["7F8E1660431A014F"]
 			id: "17DABC5FC1A79596"
 			tasks: [{
-				id: "51B2005EAC8205F6"
+				id: "757FDFD4AF8C24AB"
 				type: "item"
-				item: "charcoal_pit:coke_block"
+				item: "charcoal_pit:coke"
 			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["7FDC9E533E9291EB"]
+			id: "715C276F92589F12"
+			tasks: [{
+				id: "5B9F35BE7461B5A3"
+				type: "dimension"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["7FDC9E533E9291EB"]
+			id: "496D1A4D98936186"
+			tasks: [{
+				id: "1690C631CE52B25D"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["496D1A4D98936186"]
+			id: "1FFDF45135E92DDF"
+			tasks: [{
+				id: "5AD6E519BD6E1442"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["1FFDF45135E92DDF"]
+			id: "122C6C4CAED3AB3A"
+			tasks: [{
+				id: "01AE89AAE7031523"
+				type: "item"
+				item: "relics:mithril_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["122C6C4CAED3AB3A"]
+			id: "3DF62D42B4362E99"
+			tasks: [
+				{
+					id: "01001F52C693A348"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "5796F87B3A0D0009"
+					type: "item"
+					item: "eidolon:stone_hand"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["3DF62D42B4362E99"]
+			id: "3D2076734648DA5A"
+			tasks: [{
+				id: "79BC55C02160B94E"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["715C276F92589F12"]
+			id: "34924C1DEDE7A58D"
+			tasks: [{
+				id: "5858B1A08E87D660"
+				type: "item"
+				item: "the_bumblezone:pollen_puff"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["34924C1DEDE7A58D"]
+			id: "7F8E1660431A014F"
+			tasks: [{
+				id: "5F1B805CD42DB14F"
+				type: "item"
+				item: "minecraft:bricks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["715C276F92589F12"]
+			id: "76861E36A8B941AD"
+			tasks: [{
+				id: "726D137A8D58B5F8"
+				type: "item"
+				item: "the_bumblezone:beehive_beeswax"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: [
+				"3D2076734648DA5A"
+				"1C733572224A2BFC"
+				"5BDAB2B54848FEBC"
+				"0A718C334CD09B3B"
+			]
+			id: "71BBCF47C91950EB"
+			tasks: [{
+				id: "0F6E41962A761962"
+				type: "item"
+				item: "eidolon:polished_planks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["496D1A4D98936186"]
+			id: "5BA6E33D823FED38"
+			tasks: [{
+				id: "16C346CE2B3CB4D7"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["5BA6E33D823FED38"]
+			id: "5BDAB2B54848FEBC"
+			tasks: [
+				{
+					id: "463F978C59764EA5"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "508F0D2BD064799A"
+					type: "item"
+					item: "botania:livingwood"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["17DABC5FC1A79596"]
+			id: "1C733572224A2BFC"
+			tasks: [{
+				id: "257D9CBB03A48BB3"
+				type: "item"
+				item: "charcoal_pit:tiny_coke"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["7FDC9E533E9291EB"]
+			id: "04FD502A4CB9D9EB"
+			tasks: [{
+				id: "3514277DD0886CC6"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [
+				{
+					id: "55618852A668544F"
+					type: "item"
+					item: "minecraft:bee_nest"
+				}
+				{
+					id: "36504FE01CC49FC7"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["76861E36A8B941AD"]
+			id: "0A718C334CD09B3B"
+			tasks: [
+				{
+					id: "46C4681C22E87BA9"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:from_bee_gate_small"
+						}
+					}
+				}
+				{
+					id: "588D5707ABA9572A"
+					type: "item"
+					item: "eidolon:enchanted_ash"
+				}
+			]
 		}
 	]
 }
