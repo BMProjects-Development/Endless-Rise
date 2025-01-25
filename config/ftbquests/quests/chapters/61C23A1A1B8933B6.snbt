@@ -5,75 +5,9 @@
 	filename: "61C23A1A1B8933B6"
 	title: "&aЭпоха Механики"
 	icon: "create:large_cogwheel"
-	default_quest_shape: ""
+	default_quest_shape: "tech_square"
 	default_hide_dependency_lines: false
 	quests: [
-		{
-			title: "Смешивание"
-			x: 2.0d
-			y: -3.5d
-			description: ["Смешивание компонентов в единое целое за счёт кинетической энергии."]
-			dependencies: ["17FC0F3202DCCA6A"]
-			id: "549F858A9EB00499"
-			tasks: [
-				{
-					id: "1CAFCF65A6C563F3"
-					type: "item"
-					item: "create:mechanical_mixer"
-				}
-				{
-					id: "59DF5AD35E233D26"
-					type: "item"
-					item: "create:basin"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 1.5d
-			shape: "pentagon"
-			description: ["Пластинки!"]
-			dependencies: ["7C8A764A4A0F003E"]
-			id: "2373D730A820B6FB"
-			tasks: [{
-				id: "21320A3D0400104C"
-				type: "item"
-				item: "create:golden_sheet"
-				count: 4L
-			}]
-		}
-		{
-			x: 5.0d
-			y: -3.5d
-			description: ["Выдувает поток воздуха... С этим явно можно придумать что-то полезное."]
-			dependencies: ["63B31D2AF4550037"]
-			id: "562B29B6639F36A9"
-			tasks: [
-				{
-					id: "3E1CF5EB8616DF6A"
-					type: "item"
-					item: "create:encased_fan"
-				}
-				{
-					id: "6CAE888EFA3C36B0"
-					type: "item"
-					item: "create:nozzle"
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: 3.0d
-			description: ["Снова корпус."]
-			dependencies: ["30141E3997BA2ADF"]
-			id: "3045A3DD55265737"
-			tasks: [{
-				id: "7724C6BDCAA660EA"
-				type: "item"
-				item: "create:copper_casing"
-				count: 4L
-			}]
-		}
 		{
 			x: 9.5d
 			y: -1.0d
@@ -136,18 +70,6 @@
 				id: "3B437F6D21ED3550"
 				type: "item"
 				item: "create:electron_tube"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 2.5d
-			description: ["Незаменивая вещь любого Механика."]
-			dependencies: ["2373D730A820B6FB"]
-			id: "746E116CECECCC5F"
-			tasks: [{
-				id: "396D12FCC4608E3C"
-				type: "item"
-				item: "create:wrench"
 			}]
 		}
 		{
@@ -275,24 +197,6 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
-			description: ["Склеивает блоки."]
-			dependencies: ["759CD5F854301CA1"]
-			id: "2C26A692DADE6537"
-			tasks: [{
-				id: "21306F0FBC834AEE"
-				type: "item"
-				item: {
-					id: "create:super_glue"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			x: 11.5d
 			y: -1.5d
 			description: ["Сам нажимает!"]
@@ -303,47 +207,6 @@
 				type: "item"
 				item: "create:deployer"
 			}]
-		}
-		{
-			x: 5.0d
-			y: 4.0d
-			description: ["Хранит жидкость."]
-			dependencies: ["3045A3DD55265737"]
-			id: "3DADF1CE7B4D9A06"
-			tasks: [{
-				id: "17CE0E38A3092C84"
-				type: "item"
-				item: "create:fluid_tank"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 4.0d
-			description: ["Передача жидкости."]
-			dependencies: ["3045A3DD55265737"]
-			id: "7BC47C71E95CC330"
-			tasks: [
-				{
-					id: "385F8CF10F83E2F0"
-					type: "item"
-					item: "create:fluid_pipe"
-				}
-				{
-					id: "0963FFB5243B117E"
-					type: "item"
-					item: "create:mechanical_pump"
-				}
-				{
-					id: "0E6A63BA8376E8EB"
-					type: "item"
-					item: "create:smart_fluid_pipe"
-				}
-				{
-					id: "1266EBE59DA505CE"
-					type: "item"
-					item: "create:fluid_valve"
-				}
-			]
 		}
 		{
 			x: 19.0d
@@ -384,42 +247,6 @@
 				id: "2B31D89769CA0FE9"
 				type: "item"
 				item: "create:belt_connector"
-			}]
-		}
-		{
-			x: 3.5d
-			y: 5.5d
-			description: ["Заполняет/Осушает большие объемы жидкости."]
-			dependencies: ["7BC47C71E95CC330"]
-			id: "6901D58B59D2B140"
-			tasks: [{
-				id: "513BD0A943369143"
-				type: "item"
-				item: "create:hose_pulley"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 4.5d
-			description: ["Извлекает жидкость из предметов."]
-			dependencies: ["3045A3DD55265737"]
-			id: "39F1810E0C220168"
-			tasks: [{
-				id: "1C15E43F5D7A569D"
-				type: "item"
-				item: "create:item_drain"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 5.5d
-			description: ["Заполняет некоторые предметы жидкостью."]
-			dependencies: ["3DADF1CE7B4D9A06"]
-			id: "6D9CE4A3BF12A8A8"
-			tasks: [{
-				id: "10099CFAC7BC6335"
-				type: "item"
-				item: "create:spout"
 			}]
 		}
 		{
@@ -525,18 +352,6 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
-			description: ["Позволяют видеть больше!"]
-			dependencies: ["2373D730A820B6FB"]
-			id: "30AA80C08138F6F8"
-			tasks: [{
-				id: "3DE45522BACB1F32"
-				type: "item"
-				item: "create:goggles"
-			}]
-		}
-		{
 			x: 20.5d
 			y: 2.0d
 			dependencies: ["5DCD21BA0E949787"]
@@ -551,28 +366,6 @@
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: -3.0d
-			dependencies: ["759CD5F854301CA1"]
-			id: "17FC0F3202DCCA6A"
-			tasks: [{
-				id: "04A3C2A064BA2DC0"
-				type: "item"
-				item: "create:whisk"
-			}]
-		}
-		{
-			x: 4.0d
-			y: -3.0d
-			dependencies: ["759CD5F854301CA1"]
-			id: "63B31D2AF4550037"
-			tasks: [{
-				id: "70B542BF670493B1"
-				type: "item"
-				item: "create:propeller"
 			}]
 		}
 		{

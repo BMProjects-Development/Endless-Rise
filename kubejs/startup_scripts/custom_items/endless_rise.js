@@ -7,5 +7,6 @@ onEvent('item.registry', event => {
 	 
 	 event.create('photocell').displayName('Фотоэлемент')
 	 
+	 event.create('endless_rise').displayName('Endless Rise')
 	 
 })

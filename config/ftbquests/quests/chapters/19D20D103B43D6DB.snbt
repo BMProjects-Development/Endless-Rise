@@ -5,14 +5,13 @@
 	filename: "19D20D103B43D6DB"
 	title: "&aМеталлический Век"
 	icon: "minecraft:iron_ingot"
-	default_quest_shape: "rsquare"
+	default_quest_shape: "tech_square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Домна"
 			x: 5.0d
 			y: 0.0d
-			shape: "gear"
 			description: ["Чтобы построить домну нужно поставить 2 блока фурмы по краям, на них блоки кирпича. Также, чтобы процесс шёл быстрее, нужны меха, которые ставятся к блокам фурмы."]
 			dependencies: ["71BBCF47C91950EB"]
 			id: "4EBFB6F86A201036"
@@ -56,7 +55,6 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			shape: "gear"
 			description: ["Это главный металл, чтобы перейти в новую эпоху - Эпоху Механики!"]
 			dependencies: ["4EBFB6F86A201036"]
 			id: "544D867E9E65F95E"
@@ -341,7 +339,6 @@
 		{
 			x: 8.5d
 			y: -3.0d
-			shape: "rsquare"
 			description: ["Основа плавильни."]
 			dependencies: ["3DBDAB37A3B9DC34"]
 			id: "331FF86414916787"

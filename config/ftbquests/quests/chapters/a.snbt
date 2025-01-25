@@ -4,7 +4,8 @@
 	order_index: 2
 	filename: "a"
 	title: "&aМеханический Век"
-	default_quest_shape: "rsquare"
+	icon: "create:water_wheel"
+	default_quest_shape: "tech_square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -310,7 +311,6 @@
 		{
 			x: 9.0d
 			y: 1.5d
-			shape: "rsquare"
 			description: ["Начальная выработка энергии с помощью воды."]
 			dependencies: ["31B0B795411A5508"]
 			id: "67D2C16A151DAF63"
@@ -321,7 +321,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 11.0d
 			y: -1.5d
 			description: ["Пластинки!"]
 			dependencies: ["7C8A764A4A0F003E"]
@@ -334,7 +334,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 12.5d
 			y: -1.5d
 			description: ["Чтобы получить горелку Всполоха, необходимо нажать ПКМ по Всполоху, держа в руке пустую горелку. Горелка Всполоха необходима для нагрева ресурсов в чаше, например."]
 			dependencies: ["759CD5F854301CA1"]
@@ -346,10 +346,13 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -2.5d
+			x: 13.5d
+			y: -1.5d
 			description: ["Новый сплав!"]
-			dependencies: ["07BAC67F8C8D8A2A"]
+			dependencies: [
+				"7E413C4295FB5840"
+				"549F858A9EB00499"
+			]
 			id: "2888C9E7B1571B7C"
 			tasks: [{
 				id: "04318D9FF6C1164F"
@@ -359,8 +362,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -2.5d
+			x: 14.5d
+			y: -2.0d
 			description: ["Пластинки!"]
 			dependencies: ["2888C9E7B1571B7C"]
 			id: "29039481EF4BB2EF"
@@ -372,8 +375,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 1.5d
+			x: 10.0d
+			y: -1.5d
 			description: ["Пластинки!"]
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "30141E3997BA2ADF"
@@ -385,10 +388,10 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 12.5d
 			y: 1.5d
 			description: ["С помощью алмазной кирки можно добыть обсидиан. А после создать из него портал в Незер."]
-			dependencies: ["30141E3997BA2ADF"]
+			dependencies: ["04836B5828FD03EE"]
 			id: "31BD23CD6DFA60B1"
 			tasks: [{
 				id: "20BB3C13423F8C8C"
@@ -407,6 +410,265 @@
 				auto: "invisible"
 				command: "/gamestage add @a nether false"
 				player_command: false
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			dependencies: ["31BD23CD6DFA60B1"]
+			id: "44FF154B45DBDAFC"
+			tasks: [{
+				id: "4C56BA131D664D43"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			dependencies: ["44FF154B45DBDAFC"]
+			id: "48B86684686772BE"
+			tasks: [{
+				id: "12C802D2A7A71C3F"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_with_iron"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			dependencies: [
+				"44FF154B45DBDAFC"
+				"07BAC67F8C8D8A2A"
+			]
+			id: "7E413C4295FB5840"
+			tasks: [{
+				id: "78CB05960A24BBA1"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.0d
+			dependencies: ["48B86684686772BE"]
+			id: "24C8D13F4850FCAA"
+			tasks: [{
+				id: "377755C4BC38C366"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "17FC0F3202DCCA6A"
+			tasks: [{
+				id: "04A3C2A064BA2DC0"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			title: "Смешивание"
+			x: 13.0d
+			y: -3.0d
+			description: ["Смешивание компонентов в единое целое за счёт кинетической энергии."]
+			dependencies: ["17FC0F3202DCCA6A"]
+			id: "549F858A9EB00499"
+			tasks: [
+				{
+					id: "1CAFCF65A6C563F3"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "59DF5AD35E233D26"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "63B31D2AF4550037"
+			tasks: [{
+				id: "70B542BF670493B1"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			description: ["Выдувает поток воздуха... С этим явно можно придумать что-то полезное."]
+			dependencies: ["63B31D2AF4550037"]
+			id: "562B29B6639F36A9"
+			tasks: [
+				{
+					id: "3E1CF5EB8616DF6A"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "6CAE888EFA3C36B0"
+					type: "item"
+					item: "create:nozzle"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			description: ["Склеивает блоки."]
+			dependencies: ["759CD5F854301CA1"]
+			id: "2C26A692DADE6537"
+			tasks: [{
+				id: "21306F0FBC834AEE"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["Пластинки!"]
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "2373D730A820B6FB"
+			tasks: [{
+				id: "21320A3D0400104C"
+				type: "item"
+				item: "create:golden_sheet"
+				count: 4L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			description: ["Позволяют видеть больше!"]
+			dependencies: ["2373D730A820B6FB"]
+			id: "30AA80C08138F6F8"
+			tasks: [
+				{
+					id: "3DE45522BACB1F32"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "26B3C3185B9F0F9C"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			description: ["Снова корпус."]
+			dependencies: ["30141E3997BA2ADF"]
+			id: "3045A3DD55265737"
+			tasks: [{
+				id: "7724C6BDCAA660EA"
+				type: "item"
+				item: "create:copper_casing"
+				count: 4L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: ["Извлекает жидкость из предметов."]
+			dependencies: ["3045A3DD55265737"]
+			id: "39F1810E0C220168"
+			tasks: [{
+				id: "1C15E43F5D7A569D"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["Хранит жидкость."]
+			dependencies: ["3045A3DD55265737"]
+			id: "3DADF1CE7B4D9A06"
+			tasks: [{
+				id: "17CE0E38A3092C84"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			description: ["Заполняет некоторые предметы жидкостью."]
+			dependencies: ["3DADF1CE7B4D9A06"]
+			id: "6D9CE4A3BF12A8A8"
+			tasks: [{
+				id: "10099CFAC7BC6335"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			description: ["Передача жидкости."]
+			dependencies: ["3045A3DD55265737"]
+			id: "7BC47C71E95CC330"
+			tasks: [
+				{
+					id: "385F8CF10F83E2F0"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "0963FFB5243B117E"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "0E6A63BA8376E8EB"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "1266EBE59DA505CE"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			description: ["Заполняет/Осушает большие объемы жидкости."]
+			dependencies: ["7BC47C71E95CC330"]
+			id: "6901D58B59D2B140"
+			tasks: [{
+				id: "513BD0A943369143"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "04836B5828FD03EE"
+			tasks: [{
+				id: "2DA32D1B8D1F7C6A"
+				type: "checkmark"
+				title: "Алмазная пластина"
 			}]
 		}
 	]

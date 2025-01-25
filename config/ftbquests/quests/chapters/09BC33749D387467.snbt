@@ -5,7 +5,7 @@
 	filename: "09BC33749D387467"
 	title: "&aЭпоха Примитива"
 	icon: "notreepunching:flint_shard"
-	default_quest_shape: "rsquare"
+	default_quest_shape: "tech_square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -84,7 +84,6 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			shape: "rsquare"
 			description: ["Выпадает с любой травы, используя ванильную мотыгу."]
 			dependencies: ["55592F4BB319F39F"]
 			id: "0F5335A370C7C1BF"
@@ -99,7 +98,6 @@
 			title: "Рабочий стол"
 			x: 2.5d
 			y: 0.0d
-			shape: "pentagon"
 			description: ["С примитивным топором можно быстрее рубить деревья."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "3A6840BC06F09951"
@@ -196,7 +194,6 @@
 			title: "Глиняный сосуд"
 			x: 7.5d
 			y: -1.0d
-			shape: "gear"
 			description: ["Нужен чтобы плавить металлы(в основном). Для этого нужно положить его в яму(Шифт + ПКМ) закрыть со всех сторон землей, поверх сосуда положить сено(ПКМ) и дерево(ПКМ), а дальше поджечь."]
 			dependencies: [
 				"08D541875A03DFFD"
@@ -304,7 +301,6 @@
 			title: "Добыча кремния"
 			x: -2.0d
 			y: 0.0d
-			shape: "gear"
 			description: ["С помощью ручной мельницы вы можете получить кремень, который понадобится вам для создания примитивных инструментов."]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -379,7 +375,6 @@
 		{
 			x: 2.5d
 			y: 3.0d
-			shape: "rsquare"
 			description: ["С помощью костра можно легко жарить еду."]
 			dependencies: ["41C6AB8863DA77C2"]
 			id: "0ABFF94FA1462431"
@@ -413,7 +408,6 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			shape: "gear"
 			description: ["Ваш новый рабочий стол!"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "2B75E14C24231869"
@@ -439,7 +433,6 @@
 			title: "Телега"
 			x: 10.5d
 			y: -3.5d
-			shape: "rsquare"
 			description: ["Можно перевозить свои вещи."]
 			dependencies: ["2AE120F27D53F56A"]
 			id: "27F6D0F855D593D6"
