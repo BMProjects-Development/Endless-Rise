@@ -4,12 +4,14 @@
 	order_index: 1
 	filename: "71840908CA6989E1"
 	title: "{er.71840908ca6989e1.title}"
+	icon: "antiqueatlas:empty_antique_atlas"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.0d
-			y: -0.5d
+			icon: "solcarrot:food_book"
+			x: 1.5d
+			y: 0.5d
 			description: ["{er.71840908ca6989e1.quests0.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -26,6 +28,7 @@
 			}]
 		}
 		{
+			icon: "sereneseasons:calendar"
 			x: 0.0d
 			y: -1.5d
 			description: ["{er.71840908ca6989e1.quests1.description0}"]
@@ -44,8 +47,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.5d
+			icon: "scalinghealth:chance_heart"
+			x: -1.5d
+			y: -0.5d
 			description: ["{er.71840908ca6989e1.quests2.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -63,8 +67,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			icon: "antiqueatlas:empty_antique_atlas"
+			x: -1.5d
+			y: 0.5d
 			description: ["{er.71840908ca6989e1.quests3.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -81,8 +86,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.5d
+			icon: "akashictome:tome"
+			x: 1.5d
+			y: -0.5d
 			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -99,16 +105,13 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			description: ["{er.71840908ca6989e1.quests5.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "2F5756F9BB5C3F0F"
+			x: 0.0d
+			y: 0.0d
+			id: "207D5D4DC9F02D96"
 			tasks: [{
-				id: "6006E90919E9E509"
+				id: "2BB5446055A908A7"
 				type: "checkmark"
-				title: "{er.71840908ca6989e1.quests5.tasks0.title}"
+				title: "Особенности проекта"
 			}]
 		}
 	]
