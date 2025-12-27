@@ -5,7 +5,7 @@
 
 		["World Generation"."Ore Generation"."Copper Settings"]
 			#Determines if Copper should generate so it doesn't interfere with other modded copper.
-			GenerateCopperOre = true
+			GenerateCopperOre = false
 			#Determines if Large Copper Blobs should generate in Dripstone Caves.
 			DripstoneCaveLargeCopperBlobs = true
 
@@ -39,7 +39,7 @@
 
 		["World Generation"."Feature Generation"."Azalea Tree Settings"]
 			#Determines if Azalea Trees should generate in the surface.
-			GenerateAzaleaTrees = true
+			GenerateAzaleaTrees = false
 			#Determines the rarity of spawning for Azalea Trees.
 			AzaleaTreeGenerationRarity = 2
 

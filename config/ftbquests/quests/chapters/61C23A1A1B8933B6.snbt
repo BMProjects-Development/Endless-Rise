@@ -72,8 +72,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
+			x: 0.5d
+			y: 1.0d
 			description: ["{er.61c23a1a1b8933b6.quests3.description0}"]
 			dependencies: ["31B0B795411A5508"]
 			id: "67D2C16A151DAF63"

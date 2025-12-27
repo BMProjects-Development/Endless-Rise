@@ -5,10 +5,10 @@
 	CharcoalCreosote = 50
 	#The time coke ovens take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	CokeTime = 4000
+	CokeTime = 2000
 	#The time charcoal pits take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	CharcoalTime = 2000
+	CharcoalTime = 1200
 	#Amount of creosote oil in mB produced per coal
 	#Range: 0 ~ 1000
 	CokeCreosote = 100
@@ -21,7 +21,7 @@
 	StrawAmount = 6
 	#The time kilns take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	PotteryTime = 1500
+	PotteryTime = 1200
 	#The amount of logs needed for the kiln
 	#Range: 1 ~ 64
 	WoodAmount = 3
@@ -32,7 +32,7 @@
 	BloomCooldown = 1100
 	#The minimum time the bloomery takes to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	BloomeryTime = 1500
+	BloomeryTime = 1200
 	#If the bloomery should require a higher tier pickaxe to mine. Disabled by default as none exist in vanilla before iron
 	EnableBloomeryPickRequirement = false
 

@@ -1,0 +1,30 @@
+{
+	id: "13E0000B8592C62D"
+	group: "4F34514062F979C6"
+	order_index: 4
+	filename: "13E0000B8592C62D"
+	title: "&6Финал..."
+	icon: "kubejs:endless_rise"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "tech_smooth_square"
+		subtitle: "{er.6a357a7586f39d25.quests15.subtitle}"
+		description: [
+			"{er.6a357a7586f39d25.quests15.description0}"
+			""
+			"{er.6a357a7586f39d25.quests15.description1}"
+		]
+		dependencies: ["4B22C2E1D0D516E4"]
+		hide: true
+		size: 1.5d
+		id: "488BACFA502A74E4"
+		tasks: [{
+			id: "6648CD67CB024CDC"
+			type: "item"
+			item: "kubejs:endless_rise"
+		}]
+	}]
+}

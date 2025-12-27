@@ -11,7 +11,7 @@
 		[worldgen.v2.copper_ore]
 			# 
 			#Range: > 0
-			clusterSize = 18
+			clusterSize = 0
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.

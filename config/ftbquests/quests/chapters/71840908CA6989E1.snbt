@@ -194,18 +194,72 @@
 			}]
 		}
 		{
+			icon: "minecraft:furnace"
 			x: 0.0d
 			y: -3.0d
+			subtitle: "Новые механики!"
 			description: [
 				"- Их теперь нужно зажигать для начала работы;"
 				"- Они теперь разводят огонь в радиусе нескольких блоков от себя;"
 				"- Чтобы забирать предметы из печек необходимо иметь полотенце."
 			]
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
 			id: "472983CD65FFD920"
 			tasks: [{
 				id: "66C5D3C800331024"
 				type: "checkmark"
 				title: "Всё о печках"
+			}]
+		}
+		{
+			icon: "artisanworktables:worktable_basic"
+			x: 0.0d
+			y: 3.0d
+			shape: "tech_circle"
+			subtitle: "Больше разнообразия!"
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "3FF34529D1C9CCBE"
+			tasks: [{
+				id: "7001268018E04FE6"
+				type: "checkmark"
+				title: "Новые верстаки"
+			}]
+		}
+		{
+			icon: "minecraft:zombie_head"
+			x: -3.0d
+			y: 0.0d
+			shape: "tech_circle"
+			subtitle: "Сильные противники!"
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "77EC3B823796B709"
+			tasks: [{
+				id: "6B30F92AC901932C"
+				type: "checkmark"
+				title: "Усиленные мобы"
+			}]
+		}
+		{
+			icon: {
+				id: "endrem:old_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			shape: "tech_circle"
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "3A3CCF0128FBD93C"
+			tasks: [{
+				id: "5F5C87927BEF592D"
+				type: "checkmark"
+				title: "Изменения Энда"
 			}]
 		}
 	]

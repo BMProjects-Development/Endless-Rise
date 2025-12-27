@@ -269,6 +269,7 @@
 			dependencies: [
 				"7A0E4BDCE0CFCEEF"
 				"2F178217D0C37FC8"
+				"7007EB833169459C"
 			]
 			size: 1.2d
 			id: "4EBFB6F86A201036"
@@ -516,6 +517,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests21.description0}"]
 			dependencies: ["18B3AC82C7E152D5"]
+			size: 0.9d
 			id: "33D766CC2E68C961"
 			tasks: [{
 				id: "1B49B9FBF4A61070"
@@ -526,10 +528,11 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests22.title}"
-			x: 9.0d
-			y: -0.5d
+			x: 10.0d
+			y: 0.0d
 			description: ["{er.09bc33749d387467.quests22.description0}"]
 			dependencies: ["18B3AC82C7E152D5"]
+			size: 0.95d
 			id: "7007EB833169459C"
 			tasks: [{
 				id: "52760E754FA3F8FD"
@@ -592,10 +595,10 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 3.5d
+			x: 15.0d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
-			dependencies: ["63045AEFFE6135FD"]
+			dependencies: ["544D867E9E65F95E"]
 			id: "7455E4A62CD8E5E9"
 			tasks: [{
 				id: "40D8DF64462B82B4"
@@ -604,10 +607,10 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 2.5d
+			x: 15.0d
+			y: 1.0d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
-			dependencies: ["63045AEFFE6135FD"]
+			dependencies: ["544D867E9E65F95E"]
 			id: "098811FF1C8C0952"
 			tasks: [{
 				id: "5ED598E95E6A06F3"
@@ -986,6 +989,34 @@
 					item: "minecraft:gunpowder"
 				}
 			]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["63045AEFFE6135FD"]
+			id: "7BBBFC4DD495888A"
+			tasks: [{
+				id: "4427C541AF6B35B0"
+				type: "item"
+				item: "burningfurnace:hanger"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.5d
+			dependencies: ["63045AEFFE6135FD"]
+			id: "235DA27BF7F9FB63"
+			tasks: [{
+				id: "387CE4A198804D78"
+				type: "item"
+				item: {
+					id: "burningfurnace:white_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }
