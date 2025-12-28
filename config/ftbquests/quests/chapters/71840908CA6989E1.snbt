@@ -253,6 +253,7 @@
 			x: 3.0d
 			y: 0.0d
 			shape: "tech_circle"
+			subtitle: "Разнообразие глаз!"
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "3A3CCF0128FBD93C"

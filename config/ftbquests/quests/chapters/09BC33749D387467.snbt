@@ -543,10 +543,13 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests23.title}"
-			x: 8.0d
+			x: 8.5d
 			y: 1.5d
 			description: ["{er.09bc33749d387467.quests23.description0}"]
-			dependencies: ["36860DF44D9FF9A5"]
+			dependencies: [
+				"36860DF44D9FF9A5"
+				"563D6D54B597360A"
+			]
 			id: "226D273CFCD69825"
 			tasks: [
 				{
@@ -780,7 +783,7 @@
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
 			x: 6.5d
-			y: 4.5d
+			y: 5.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
 			id: "3FB829F02CA5860E"
@@ -844,7 +847,7 @@
 		}
 		{
 			x: 7.0d
-			y: 1.5d
+			y: 2.0d
 			dependencies: ["7EBB21849EC41175"]
 			id: "36860DF44D9FF9A5"
 			tasks: [{
@@ -855,7 +858,7 @@
 		}
 		{
 			x: 7.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "2A55F762879AF918"
 			tasks: [
@@ -878,7 +881,7 @@
 		}
 		{
 			x: 7.5d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["2A55F762879AF918"]
 			id: "0FD4CF62064122DD"
 			tasks: [
@@ -1016,6 +1019,17 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["7EBB21849EC41175"]
+			id: "563D6D54B597360A"
+			tasks: [{
+				id: "371652F277E45031"
+				type: "item"
+				item: "artisanworktables:worktable_potter"
 			}]
 		}
 	]
