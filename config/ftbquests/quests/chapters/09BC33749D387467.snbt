@@ -125,7 +125,7 @@
 		{
 			title: "{er.09bc33749d387467.quests5.title}"
 			x: 5.5d
-			y: -1.5d
+			y: -2.0d
 			description: ["{er.09bc33749d387467.quests5.description0}"]
 			dependencies: ["2B75E14C24231869"]
 			id: "6264DD1A5265CA11"
@@ -168,7 +168,7 @@
 		{
 			title: "{er.09bc33749d387467.quests7.title}"
 			x: 5.5d
-			y: 1.5d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests7.description0}"]
 			dependencies: ["2B75E14C24231869"]
 			id: "7EBB21849EC41175"
@@ -195,7 +195,7 @@
 		{
 			title: "{er.09bc33749d387467.quests8.title}"
 			x: 9.5d
-			y: -3.0d
+			y: -3.5d
 			shape: "tech_smooth_square"
 			description: ["{er.09bc33749d387467.quests8.description0}"]
 			dependencies: ["08D541875A03DFFD"]
@@ -222,7 +222,7 @@
 		{
 			title: "{er.09bc33749d387467.quests9.title}"
 			x: 9.5d
-			y: 1.5d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests9.description0}"]
 			dependencies: [
 				"33D766CC2E68C961"
@@ -239,7 +239,7 @@
 		{
 			title: "{er.09bc33749d387467.quests10.title}"
 			x: 10.5d
-			y: -1.5d
+			y: -2.0d
 			description: ["{er.09bc33749d387467.quests10.description0}"]
 			dependencies: [
 				"08D541875A03DFFD"
@@ -264,7 +264,7 @@
 		{
 			title: "{er.09bc33749d387467.quests11.title}"
 			x: 10.5d
-			y: 1.5d
+			y: 2.0d
 			shape: "tech_smooth_square"
 			description: ["{er.09bc33749d387467.quests11.description0}"]
 			dependencies: [
@@ -314,7 +314,7 @@
 		{
 			title: "{er.09bc33749d387467.quests12.title}"
 			x: 12.0d
-			y: 1.5d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests12.description0}"]
 			dependencies: ["4EBFB6F86A201036"]
 			id: "0D1E69925DD2C3CE"
@@ -334,7 +334,7 @@
 		}
 		{
 			x: 13.5d
-			y: 1.5d
+			y: 2.0d
 			shape: "tech_smooth_square"
 			description: ["{er.09bc33749d387467.quests13.description0}"]
 			dependencies: ["0D1E69925DD2C3CE"]
@@ -369,7 +369,7 @@
 		{
 			title: "{er.09bc33749d387467.quests14.title}"
 			x: 9.0d
-			y: 2.5d
+			y: 3.0d
 			description: ["{er.09bc33749d387467.quests14.description0}"]
 			dependencies: ["7A0E4BDCE0CFCEEF"]
 			id: "17DABC5FC1A79596"
@@ -401,7 +401,7 @@
 		{
 			title: "{er.09bc33749d387467.quests16.title}"
 			x: 8.5d
-			y: -1.5d
+			y: -2.0d
 			description: ["{er.09bc33749d387467.quests16.description0}"]
 			dependencies: ["6264DD1A5265CA11"]
 			size: 0.95d
@@ -476,7 +476,7 @@
 		}
 		{
 			x: 13.5d
-			y: -0.5d
+			y: 0.0d
 			description: ["{er.09bc33749d387467.quests19.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7E50B0D00134778F"
@@ -515,11 +515,10 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests21.title}"
-			x: 9.0d
-			y: 0.5d
+			x: 8.5d
+			y: 1.0d
 			description: ["{er.09bc33749d387467.quests21.description0}"]
 			dependencies: ["18B3AC82C7E152D5"]
-			size: 0.8d
 			id: "33D766CC2E68C961"
 			tasks: [{
 				id: "1B49B9FBF4A61070"
@@ -530,11 +529,10 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests22.title}"
-			x: 10.0d
-			y: 0.0d
+			x: 9.5d
+			y: 0.5d
 			description: ["{er.09bc33749d387467.quests22.description0}"]
 			dependencies: ["18B3AC82C7E152D5"]
-			size: 0.95d
 			id: "7007EB833169459C"
 			tasks: [{
 				id: "52760E754FA3F8FD"
@@ -546,7 +544,7 @@
 		{
 			title: "{er.09bc33749d387467.quests23.title}"
 			x: 8.5d
-			y: 1.5d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests23.description0}"]
 			dependencies: [
 				"36860DF44D9FF9A5"
@@ -582,7 +580,7 @@
 		}
 		{
 			x: 12.5d
-			y: 0.0d
+			y: 0.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7455E4A62CD8E5E9"
@@ -594,7 +592,7 @@
 		}
 		{
 			x: 14.5d
-			y: 0.0d
+			y: 0.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "098811FF1C8C0952"
@@ -703,7 +701,7 @@
 		}
 		{
 			x: 13.5d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["0B728A65AD5A65F1"]
 			id: "6A0ED669633D1FC0"
 			tasks: [{
@@ -735,7 +733,7 @@
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
 			x: 6.0d
-			y: 4.0d
+			y: 4.5d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
 			id: "3FB829F02CA5860E"
@@ -747,7 +745,7 @@
 		}
 		{
 			x: 12.5d
-			y: 5.5d
+			y: 6.0d
 			description: ["{er.09bc33749d387467.quests37.description0}"]
 			dependencies: ["0B728A65AD5A65F1"]
 			id: "5E9827D76147D7A2"
@@ -803,7 +801,7 @@
 		{
 			title: "Гончарная яма"
 			x: 7.0d
-			y: 2.0d
+			y: 2.5d
 			dependencies: ["7EBB21849EC41175"]
 			id: "36860DF44D9FF9A5"
 			tasks: [
@@ -830,7 +828,7 @@
 		}
 		{
 			x: 7.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "2A55F762879AF918"
 			tasks: [
@@ -863,7 +861,7 @@
 		}
 		{
 			x: 8.0d
-			y: 4.0d
+			y: 4.5d
 			description: ["Улучшенные инструменты!"]
 			dependencies: ["2A55F762879AF918"]
 			id: "0FD4CF62064122DD"
@@ -905,7 +903,7 @@
 		}
 		{
 			x: 13.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["544D867E9E65F95E"]
 			id: "63045AEFFE6135FD"
 			tasks: [
@@ -929,7 +927,7 @@
 		}
 		{
 			x: 13.5d
-			y: 4.5d
+			y: 5.0d
 			dependencies: [
 				"239DA0ED7B6E6E9E"
 				"63045AEFFE6135FD"
@@ -943,7 +941,7 @@
 		}
 		{
 			x: 14.5d
-			y: 5.5d
+			y: 6.0d
 			dependencies: ["0B728A65AD5A65F1"]
 			id: "1D1D8C789B0248D4"
 			tasks: [{
@@ -954,7 +952,7 @@
 		}
 		{
 			x: 14.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["544D867E9E65F95E"]
 			id: "239DA0ED7B6E6E9E"
 			tasks: [
@@ -978,7 +976,7 @@
 		}
 		{
 			x: 11.5d
-			y: 2.5d
+			y: 3.0d
 			dependencies: ["63045AEFFE6135FD"]
 			id: "7BBBFC4DD495888A"
 			tasks: [{
@@ -989,7 +987,7 @@
 		}
 		{
 			x: 11.5d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["63045AEFFE6135FD"]
 			id: "235DA27BF7F9FB63"
 			tasks: [{
@@ -1006,7 +1004,7 @@
 		}
 		{
 			x: 7.0d
-			y: 1.0d
+			y: 1.5d
 			dependencies: ["7EBB21849EC41175"]
 			id: "563D6D54B597360A"
 			tasks: [{
@@ -1017,7 +1015,7 @@
 		}
 		{
 			x: 15.0d
-			y: 1.5d
+			y: 2.0d
 			subtitle: "Перход в новую главу!"
 			dependencies: ["544D867E9E65F95E"]
 			size: 1.3d
@@ -1029,11 +1027,11 @@
 			}]
 		}
 		{
-			x: 9.6d
-			y: -0.8d
+			x: 9.5d
+			y: -1.5d
 			description: ["Хороший способ получить много Пыльцы."]
 			dependencies: ["4851726CE8BE7194"]
-			size: 0.8d
+			size: 0.9d
 			id: "433E640317141488"
 			tasks: [{
 				id: "2C62B282F7937772"
@@ -1093,7 +1091,7 @@
 		}
 		{
 			x: 8.0d
-			y: -4.5d
+			y: -5.0d
 			dependencies: ["7F9BAF137DB45C19"]
 			id: "387C7C8B8BA0851B"
 			tasks: [{
@@ -1103,10 +1101,9 @@
 			}]
 		}
 		{
-			x: 8.8d
-			y: -0.8d
+			x: 9.5d
+			y: -0.5d
 			dependencies: ["18B3AC82C7E152D5"]
-			size: 0.8d
 			id: "4851726CE8BE7194"
 			tasks: [{
 				id: "3B28F70A2D446157"
@@ -1115,8 +1112,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.5d
+			x: 7.5d
+			y: -6.5d
 			dependencies: ["387C7C8B8BA0851B"]
 			id: "75597F53A9396B84"
 			tasks: [{
