@@ -1,11 +1,18 @@
-const MAIN_COPPER_ORE = 'mekanism:copper_ore'
+const MAIN_COPPER_ORE = [
+  'geolosys:copper_cluster',
+  'geolosys:malachite_ore',
+  'geolosys:azurite_ore'
+]
 
 const DUPLICATES_COPPER_ORES = [
   'immersiveengineering:ore_copper',
   'create:copper_ore',
   'cavesandcliffs:copper_ore',
   'tconstruct:copper_ore',
-  'charcoal_pit:copper_ore'
+  'charcoal_pit:copper_ore',
+  'mekanism:copper_ore',
+  'cavesandcliffs:deepslate_copper_ore',
+  'cavesandcliffs:raw_copper'
 ]
 
 

@@ -5,7 +5,8 @@ const DUPLICATES_COPPER_INGOTS = [
   'immersiveengineering:ingot_copper',
   'charcoal_pit:copper_ingot',
   'tconstruct:copper_ingot',
-  'cavesandcliffs:copper_ingot'
+  'cavesandcliffs:copper_ingot',
+  'geolosys:copper_ingot'
 ]
 
 

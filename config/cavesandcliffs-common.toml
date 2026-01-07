@@ -39,7 +39,7 @@
 
 		["World Generation"."Feature Generation"."Azalea Tree Settings"]
 			#Determines if Azalea Trees should generate in the surface.
-			GenerateAzaleaTrees = false
+			GenerateAzaleaTrees = true
 			#Determines the rarity of spawning for Azalea Trees.
 			AzaleaTreeGenerationRarity = 2
 
@@ -78,11 +78,11 @@
 
 ["Gameplay Settings"]
 	#Determines if monsters should only spawn where the light value equals zero.
-	MonstersSpawnInTotalDarkness = false
+	MonstersSpawnInTotalDarkness = true
 
 	["Gameplay Settings"."Raw Ore Settings"]
 		#Determines if Iron, Gold and Copper should drop Raw Ores.
-		RawOreDrops = false
+		RawOreDrops = true
 		#Determines if Copper from other mods should also drop Raw Copper.
 		RawOreDropsForExternalCopper = false
 

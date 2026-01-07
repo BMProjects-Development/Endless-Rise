@@ -3,7 +3,8 @@ const MAIN_COPPER_NUGGET = 'mekanism:nugget_copper'
 const DUPLICATES_COPPER_NUGGET = [
   'immersiveengineering:nugget_copper',
   'create:copper_nugget',
-  'tconstruct:copper_nugget'
+  'tconstruct:copper_nugget',
+  'geolosys:copper_nugget'
 ]
 
 

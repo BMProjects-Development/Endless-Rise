@@ -5,7 +5,8 @@ const DUPLICATES_COPPER_BLOCKS = [
   'immersiveengineering:storage_copper',
   'charcoal_pit:copper_block',
   'tconstruct:copper_block',
-  'cavesandcliffs:copper_block'
+  'cavesandcliffs:copper_block',
+  'cavesandcliffs:raw_copper_block'
 ]
 
 

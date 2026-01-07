@@ -505,7 +505,7 @@
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
-	Deepslate = true
+	Deepslate = false
 	"Fairy Rings" = true
 	"Mega Caves" = true
 	"Monster Box" = true
@@ -519,7 +519,7 @@
 	"Cave Crystal Underground Biome" = true
 	"Elder Prismarine Underground Biome" = true
 	"Glowshroom Underground Biome" = true
-	"Lush Underground Biome" = true
+	"Lush Underground Biome" = false
 	"Overgrown Underground Biome" = true
 	"Permafrost Underground Biome" = true
 	"Sandstone Underground Biome" = true
@@ -1947,7 +1947,7 @@
 	Backpack = true
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Totem Of Holding" = true
 

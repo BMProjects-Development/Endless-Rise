@@ -1,0 +1,16 @@
+{
+  "biome_names": {},
+  "biome_categories": {},
+  "block_names": {},
+  "block_tags": {},
+  "entity_names": {},
+  "entity_tags": {},
+  "black_list": {
+    "biome_names": [],
+    "biome_categories": [],
+    "block_names": [],
+    "block_tags": [],
+    "entity_names": [],
+    "entity_tags": []
+  }
+}

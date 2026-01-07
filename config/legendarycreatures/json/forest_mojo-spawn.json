@@ -1,0 +1,20 @@
+{
+  "biome_names": {},
+  "biome_categories": {},
+  "block_names": {},
+  "block_tags": {
+    "minecraft:flowers": {
+      "chance": 0.1
+    }
+  },
+  "entity_names": {},
+  "entity_tags": {},
+  "black_list": {
+    "biome_names": [],
+    "biome_categories": [],
+    "block_names": [],
+    "block_tags": [],
+    "entity_names": [],
+    "entity_tags": []
+  }
+}
