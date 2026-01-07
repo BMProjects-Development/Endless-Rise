@@ -82,7 +82,7 @@
 
 	["Gameplay Settings"."Raw Ore Settings"]
 		#Determines if Iron, Gold and Copper should drop Raw Ores.
-		RawOreDrops = true
+		RawOreDrops = false
 		#Determines if Copper from other mods should also drop Raw Copper.
 		RawOreDropsForExternalCopper = false
 

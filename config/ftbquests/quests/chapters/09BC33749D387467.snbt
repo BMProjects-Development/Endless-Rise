@@ -461,18 +461,11 @@
 					count: 3L
 				}
 			]
-			rewards: [
-				{
-					id: "619155C1EF4B0081"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "4AC0D505D46F4975"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "4AC0D505D46F4975"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			x: 13.5d
@@ -686,18 +679,11 @@
 				type: "item"
 				item: "artisanworktables:worktable_basic"
 			}]
-			rewards: [
-				{
-					id: "3026AE4A4A035144"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "02D9AA1B1A499667"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "02D9AA1B1A499667"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			x: 13.5d
@@ -761,9 +747,15 @@
 			dependencies: ["42DBB54A6A81625E"]
 			id: "571F237813EF60B5"
 			tasks: [{
-				id: "51BB41C8F97590F0"
+				id: "6935B1E1465180C2"
 				type: "item"
-				item: "toughasnails:empty_canteen"
+				item: {
+					id: "legendarysurvivaloverhaul:canteen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{

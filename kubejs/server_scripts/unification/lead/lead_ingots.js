@@ -1,7 +1,8 @@
 const MAIN_LEAD_INGOT = 'mekanism:ingot_lead'
 
 const DUPLICATES_LEAD_INGOTS = [
-  'immersiveengineering:ingot_lead'
+  'immersiveengineering:ingot_lead',
+  'geolosys:lead_ingot'
 ]
 
 

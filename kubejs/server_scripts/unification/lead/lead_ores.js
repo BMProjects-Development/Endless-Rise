@@ -1,7 +1,11 @@
-const MAIN_LEAD_ORE = 'mekanism:lead_ore'
+const MAIN_LEAD_ORE = [
+  'geolosys:lead_cluster',
+  'geolosys:galena_ore'
+]
 
 const DUPLICATES_LEAD_ORES = [
-  'immersiveengineering:ore_lead'
+  'immersiveengineering:ore_lead',
+  'mekanism:lead_ore'
 ]
 
 

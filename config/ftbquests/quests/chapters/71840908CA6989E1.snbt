@@ -9,27 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "solcarrot:food_book"
-			x: 1.5d
-			y: 0.5d
-			shape: "tech_circle"
-			subtitle: "Диета!"
-			description: ["{er.71840908ca6989e1.quests0.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "069657197FCCDE67"
-			tasks: [{
-				id: "0578A2C6E5DFF80C"
-				type: "checkmark"
-				title: "{er.71840908ca6989e1.quests0.tasks0.title}"
-			}]
-			rewards: [{
-				id: "313B0545F718A9EE"
-				type: "item"
-				item: "solcarrot:food_book"
-			}]
-		}
-		{
 			icon: "sereneseasons:calendar"
 			x: 0.5d
 			y: -1.5d
@@ -48,28 +27,6 @@
 				id: "6CEAA196E81254E8"
 				type: "item"
 				item: "sereneseasons:calendar"
-			}]
-		}
-		{
-			icon: "scalinghealth:chance_heart"
-			x: -1.5d
-			y: -0.5d
-			shape: "tech_circle"
-			subtitle: "Усложение!"
-			description: ["{er.71840908ca6989e1.quests2.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "560C6C0A1DF573D5"
-			tasks: [{
-				id: "40B3429CFB2F34EC"
-				type: "checkmark"
-				title: "{er.71840908ca6989e1.quests2.tasks0.title}"
-			}]
-			rewards: [{
-				id: "648434A8A75F2C05"
-				type: "item"
-				item: "scalinghealth:chance_heart"
-				random_bonus: 1
 			}]
 		}
 		{
@@ -278,8 +235,8 @@
 					gateway: "gateways:from_bee_gate_small"
 				}
 			}
-			x: -2.0d
-			y: -2.0d
+			x: -1.5d
+			y: -0.5d
 			shape: "tech_circle"
 			subtitle: "Новый вид получения ресурсов!"
 			description: ["Теперь Вы можете создавать различные врата из мода GatewaysToEternity для получения различных ресурсов!"]
@@ -294,8 +251,8 @@
 		}
 		{
 			icon: "dynamictrees:spruce_seed"
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: 0.5d
 			shape: "tech_circle"
 			subtitle: "Красота и удобства!"
 			description: ["Теперь в мире генерируются новые деревья, которые намного легче добывать!"]

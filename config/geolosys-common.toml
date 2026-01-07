@@ -9,7 +9,7 @@
 	disableVanillaOreGen = true
 	#The fallback materials which a Deposit can replace if they're not specified by the deposit itself
 	#Format: Comma-delimited set of <modid:block> (see default for example)
-	defaultReplacementMaterials = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:sandstone"]
+	defaultReplacementMaterials = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:sandstone", "byg:rocky_stone", "byg:soapstone", "byg:scoria_stone", "create:gabbro", "create:weathered_limestone", "cavesandcliffs:deepslate", "cavesandcliffs:tuff", "cavesandcliffs:dripstone_block"]
 
 #Prospecting Options
 [prospecting]
@@ -37,7 +37,7 @@
 	#Range: > 1
 	proPickDiameter = 5
 	#Give players a Field Manual if they haven't gotten one
-	giveManual = true
+	giveManual = false
 
 #Mod-Compat Settings
 [compat]
