@@ -101,7 +101,14 @@ const HIDDEN = [
   
   'minecraft:nether_quartz_ore',
   
-  'minecraft:ancient_debris'
+  'minecraft:ancient_debris',
+  
+  'immersiveengineering:ingot_steel',
+  'boss_tools:steel_ingot',
+  'immersiveengineering:nugget_steel',
+  'boss_tools:steel_nugget',
+  'immersiveengineering:dust_steel',
+  'mekanism:block_steel'
 ]
 
 onEvent('jei.hide.items', event => {

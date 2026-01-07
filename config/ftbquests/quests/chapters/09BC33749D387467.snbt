@@ -206,18 +206,11 @@
 				type: "item"
 				item: "charcoal_pit:clay_pot"
 			}]
-			rewards: [
-				{
-					id: "3C4547580739444C"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "290904E8330AA536"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "290904E8330AA536"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests9.title}"
@@ -298,18 +291,11 @@
 					rightclick: false
 				}
 			]
-			rewards: [
-				{
-					id: "7F5EC54BC152C18E"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "20890CEBC581DCF2"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "20890CEBC581DCF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests12.title}"
@@ -353,11 +339,6 @@
 					auto: "invisible"
 					command: "/gamestage add @a primitive false"
 					player_command: false
-				}
-				{
-					id: "050348F7E25635FC"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
 				}
 				{
 					id: "099290F9AF28F54E"

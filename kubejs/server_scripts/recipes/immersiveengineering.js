@@ -14,4 +14,13 @@ onEvent('recipes', event => {
   })
   
   
+  event.shaped('immersiveengineering:storage_steel', [
+    'AAA',
+    'AAA',
+    'AAA'
+  ], {
+    A: '#forge:ingots/steel'
+  })
+  
+  
 })
