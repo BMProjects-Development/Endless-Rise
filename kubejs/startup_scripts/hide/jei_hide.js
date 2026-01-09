@@ -131,8 +131,8 @@ const HIDDEN = [
   'immersiveengineering:armor_steel_legs',
   'immersiveengineering:armor_steel_feet'
  
-  'farmersdelight:flint_knife'
-  'ends_delight:end_stone_knife'
+  'farmersdelight:flint_knife',
+  'ends_delight:end_stone_knife',
   'ends_delight:purpur_knife'
 ]
 
