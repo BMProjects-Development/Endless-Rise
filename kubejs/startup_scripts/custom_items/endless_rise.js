@@ -9,6 +9,6 @@ onEvent('item.registry', event => {
 	 
 	 event.create('photocell')
 	 
-	 event.create('endless_rise').displayName('Endless Rise')
+	 event.create('endless_rise').displayName('Endless Rise').maxStackSize(1)
 	 
 })

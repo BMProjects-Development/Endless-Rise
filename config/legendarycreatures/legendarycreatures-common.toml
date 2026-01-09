@@ -6,22 +6,22 @@
 [MobSpawning]
 
 	[MobSpawning.desert_mojo]
-		"Desert Mojo Natural Spawn " = true
+		"Desert Mojo Natural Spawn " = false
 		"Desert Mojo Breaking Block Spawn " = true
 		"Desert Mojo Killing Entity Spawn " = true
 
 	[MobSpawning.forest_mojo]
-		"Forest Mojo Natural Spawn " = true
+		"Forest Mojo Natural Spawn " = false
 		"Forest Mojo Breaking Block Spawn " = true
 		"Forest Mojo Killing Entity Spawn " = true
 
 	[MobSpawning.hound]
-		"Hound Natural Spawn " = true
+		"Hound Natural Spawn " = false
 		"Hound Breaking Block Spawn " = true
 		"Hound Killing Entity Spawn " = true
 
 	[MobSpawning.Scarecrow]
-		"Scarecrow Natural Spawn " = true
+		"Scarecrow Natural Spawn " = false
 		"Scarecrow Breaking Block Spawn " = true
 		"Scarecrow Killing Entity Spawn " = true
 
@@ -54,7 +54,7 @@
 		"Ender Wisp Purse Xp Reward Range " = [240, 240]
 
 	[MobSpawning.corpse_eater]
-		"Corpse Eater Natural Spawn " = true
+		"Corpse Eater Natural Spawn " = false
 		"Corpse Eater Breaking Block Spawn " = true
 		"Corpse Eater Killing Entity Spawn " = true
 
@@ -64,7 +64,7 @@
 		"Peacock Spider Killing Entity Spawn " = true
 
 	[MobSpawning.bullfrog]
-		"Bullfrog Natural Spawn " = true
+		"Bullfrog Natural Spawn " = false
 		"Bullfrog Breaking Block Spawn " = true
 		"Bullfrog Killing Entity Spawn " = true
 

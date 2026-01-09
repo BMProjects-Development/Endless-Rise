@@ -51,3 +51,13 @@ Recipe.type(Type.BASIC)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:artisanworktables:workshop_engineer>)
   .register();
+  
+  
+Recipe.type(Type.BASIC)
+  .shaped([
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:forge:workbenches>, <tag:items:minecraft:logs>],
+    [<tag:items:forge:fences/wooden>, <item:minecraft:air>, <tag:items:forge:fences/wooden>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:artisanworktables:worktable_carpenter>)
+  .register();
