@@ -499,5 +499,10 @@
     "er.chapter_groups.chapter_groups1.title": "&aПутешествия",
     "er.chapter_groups.chapter_groups2.title": "&aЦифровые технологии",
 	
+	"item.kubejs.wet_paper": "Мокрая бумага",
+	"item.kubejs.lamp": "Лампа",
+	"item.kubejs.lense": "Линза",
+	"item.kubejs.photocell": "Фотоэлемент",
+	
 	"gateways.from_bee_gate_small": "Пчелиные врата"
 }
