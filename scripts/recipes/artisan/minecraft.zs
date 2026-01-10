@@ -146,3 +146,63 @@ Recipe.type(Type.TANNER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:minecraft:leather> * 7)
   .register();
+  
+craftingTable.removeRecipe(<item:minecraft:golden_apple>);  
+Recipe.type(Type.CHEF)
+  .shaped([
+    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>],
+    [<item:minecraft:gold_ingot>, <item:minecraft:apple>, <item:minecraft:gold_ingot>],
+    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]])
+  .tool(<tag:items:artisantools:type/gemcutter>, 10)
+  .tool(<tag:items:artisantools:type/athame>, 25)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:golden_apple>)
+  .register();
+  
+craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);  
+Recipe.type(Type.CHEF)
+  .shaped([
+    [<item:minecraft:potion>.withTag({Potion: "minecraft:fire_resistance" as string}), <item:minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration" as string}), <item:minecraft:potion>.withTag({Potion: "minecraft:fire_resistance" as string})],
+    [<item:minecraft:potion>.withTag({Potion: "apotheosis:resistance" as string}), <item:minecraft:golden_apple>, <item:minecraft:potion>.withTag({Potion: "apotheosis:resistance" as string})],
+    [<item:minecraft:potion>.withTag({Potion: "apotheosis:strong_absorption" as string}), <item:minecraft:potion>.withTag({Potion: "apotheosis:resistance" as string}), <item:minecraft:potion>.withTag({Potion: "apotheosis:strong_absorption" as string})]])
+  .tool(<tag:items:artisantools:type/gemcutter>, 25)
+  .tool(<tag:items:artisantools:type/athame>, 50)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:enchanted_golden_apple>)
+  .register();
+  
+craftingTable.removeRecipe(<item:minecraft:golden_carrot>);  
+Recipe.type(Type.CHEF)
+  .shaped([
+    [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>],
+    [<item:minecraft:gold_nugget>, <item:minecraft:carrot>, <item:minecraft:gold_nugget>],
+    [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>]])
+  .tool(<tag:items:artisantools:type/gemcutter>, 10)
+  .tool(<tag:items:artisantools:type/athame>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:golden_carrot>)
+  .register();
+  
+craftingTable.removeRecipe(<item:minecraft:fermented_spider_eye>);  
+Recipe.type(Type.CHEF)
+  .shaped([
+    [<item:minecraft:spider_eye>, <item:minecraft:brown_mushroom>, <item:minecraft:air>],
+    [<item:minecraft:sugar>, <item:charcoal_pit:vinegar_bottle>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/mortar>, 10)
+  .tool(<tag:items:artisantools:type/paintbrush>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:fermented_spider_eye>)
+  .register();
+  
+craftingTable.removeRecipe(<item:minecraft:glistering_melon_slice>);  
+Recipe.type(Type.CHEF)
+  .shaped([
+    [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>],
+    [<item:minecraft:gold_nugget>, <item:minecraft:melon_slice>, <item:minecraft:gold_nugget>],
+    [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>]])
+  .tool(<tag:items:artisantools:type/gemcutter>, 10)
+  .tool(<tag:items:artisantools:type/athame>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:glistering_melon_slice>)
+  .register();
