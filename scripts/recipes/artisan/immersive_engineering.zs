@@ -67,7 +67,7 @@ Recipe.type(Type.ENGINEER)
   
   
 craftingTable.removeRecipe(<item:immersiveengineering:steel_fence>);
-Recipe.type(Type.ENGINEER)
+Recipe.type(Type.BLACKSMITH)
   .shaped([
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],
@@ -76,4 +76,28 @@ Recipe.type(Type.ENGINEER)
   .tool(<tag:items:artisantools:type/spanner>, 15)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:immersiveengineering:steel_fence> * 3)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:immersiveengineering:hemp_fabric>);
+Recipe.type(Type.TAILOR)
+  .shaped([
+    [<item:immersiveengineering:hemp_fiber>, <item:immersiveengineering:hemp_fiber>, <item:immersiveengineering:hemp_fiber>],
+    [<item:immersiveengineering:hemp_fiber>, <tag:items:forge:rods/wooden>, <item:immersiveengineering:hemp_fiber>],
+    [<item:immersiveengineering:hemp_fiber>, <item:immersiveengineering:hemp_fiber>, <item:immersiveengineering:hemp_fiber>]])
+  .tool(<tag:items:artisantools:type/needle>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:immersiveengineering:hemp_fabric>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:immersiveengineering:windmill_sail>);
+Recipe.type(Type.TAILOR)
+  .shaped([
+    [<item:minecraft:air>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>],
+    [<item:minecraft:air>, <item:immersiveengineering:hemp_fabric>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/needle>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:immersiveengineering:windmill_sail>)
   .register();

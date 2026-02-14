@@ -2,6 +2,8 @@
 SET JAVA_PATH=".\jre-8.0.452.9-hotspot\bin\java.exe"
 SET RAM=8G
 %JAVA_PATH% -Xmx%RAM% -Xms%RAM% ^
+-Dfml.readTimeout=180 ^
+-Dfml.loginTimeout=180 ^
 -XX:+UseG1GC ^
 -XX:+ParallelRefProcEnabled ^
 -XX:MaxGCPauseMillis=200 ^
