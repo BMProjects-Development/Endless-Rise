@@ -1092,6 +1092,13 @@
 		{
 			x: -1.0d
 			y: 1.5d
+			description: [
+				"{er.4402c0cd6f875200.quests49.description0}"
+				""
+				"{er.4402c0cd6f875200.quests49.description1}"
+				""
+				"{er.4402c0cd6f875200.quests49.description2}"
+			]
 			dependencies: ["4AA6F5E7D38B0E33"]
 			id: "360551792F71E58F"
 			tasks: [{
@@ -1102,8 +1109,10 @@
 			}]
 		}
 		{
+			title: "{er.4402c0cd6f875200.quests50.title}"
 			x: 0.0d
 			y: 2.5d
+			description: ["{er.4402c0cd6f875200.quests50.description0}"]
 			dependencies: ["360551792F71E58F"]
 			id: "288B00C75D85AD01"
 			tasks: [
@@ -1122,8 +1131,10 @@
 			]
 		}
 		{
+			title: "{er.4402c0cd6f875200.quests51.title}"
 			x: -2.0d
 			y: 2.5d
+			description: ["{er.4402c0cd6f875200.quests51.description0}"]
 			dependencies: ["360551792F71E58F"]
 			id: "47E7B19B7779722E"
 			tasks: [
@@ -1144,6 +1155,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
+			description: ["{er.4402c0cd6f875200.quests52.description0}"]
 			dependencies: [
 				"47E7B19B7779722E"
 				"288B00C75D85AD01"
@@ -1158,6 +1170,7 @@
 		{
 			x: -1.0d
 			y: 4.5d
+			description: ["{er.4402c0cd6f875200.quests53.description0}"]
 			dependencies: ["3D7DFEAD23FA279A"]
 			id: "1BA8BCED56071B6C"
 			tasks: [{
@@ -1169,6 +1182,7 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			description: ["{er.4402c0cd6f875200.quests54.description0}"]
 			dependencies: ["3D7DFEAD23FA279A"]
 			id: "5AF4BEABD166731C"
 			tasks: [{
@@ -1184,6 +1198,7 @@
 		{
 			x: -2.0d
 			y: 4.0d
+			description: ["{er.4402c0cd6f875200.quests55.description0}"]
 			dependencies: ["3D7DFEAD23FA279A"]
 			id: "331009A6AAE5A662"
 			tasks: [{

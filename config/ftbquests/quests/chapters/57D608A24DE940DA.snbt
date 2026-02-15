@@ -722,7 +722,7 @@
 		{
 			x: -2.0d
 			y: -4.0d
-			description: ["Лавовая удочка позволяет рыбачить в лаве."]
+			description: ["{er.57d608a24de940da.quests33.description0}"]
 			dependencies: ["2472ED4B88B44529"]
 			id: "1D90FCA16E49E375"
 			tasks: [{
@@ -738,10 +738,10 @@
 			}]
 		}
 		{
-			title: "Похититель душ"
+			title: "{er.57d608a24de940da.quests30.title}"
 			x: -2.5d
 			y: -5.5d
-			description: ["Похититель душ - рыба, которую можно выловить в лаве. "]
+			description: ["{er.57d608a24de940da.quests30.description0}"]
 			dependencies: ["1D90FCA16E49E375"]
 			id: "4342554551FCD64C"
 			tasks: [
@@ -761,7 +761,7 @@
 		{
 			x: -4.0d
 			y: -5.5d
-			description: ["Ботинки из похитителя душ - хорошее средство для передвижения по Аду, ведь они имеют зачарование Скорость души 3."]
+			description: ["{er.57d608a24de940da.quests31.description0}"]
 			dependencies: ["4342554551FCD64C"]
 			id: "4CF8C6F0E4A11FF4"
 			tasks: [{
@@ -781,10 +781,10 @@
 			}]
 		}
 		{
-			title: "Позолоченная незеритовая броня"
+			title: "{er.57d608a24de940da.quests32.title}"
 			x: -6.0d
 			y: -4.0d
-			description: ["Позолоченная незеритовая броня хоть и имеет меньше прочности, но зато позволяет не бояться Пиглинов."]
+			description: ["{er.57d608a24de940da.quests32.description0}"]
 			dependencies: ["741186B79AFCC650"]
 			id: "07CE321AFDDBB7DB"
 			tasks: [
