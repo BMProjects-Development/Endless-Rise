@@ -9,21 +9,21 @@ locateMaxTime = 15.0
 # 1 for spawning in most chunks and 1001 for none.
 [Abandonedhouse]
 	#Range: 1 ~ 1001
-	abandonedhouseAverageChunkDistance = 35
+	abandonedhouseAverageChunkDistance = 1001
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Brick Houses.
 # 1 for spawning in most chunks and 1001 for none.
 [Brickhouse]
 	#Range: 1 ~ 1001
-	brickhouseAverageChunkDistance = 40
+	brickhouseAverageChunkDistance = 1001
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Castles.
 # 1 for spawning in most chunks and 1001 for none.
 [Castles]
 	#Range: 1 ~ 1001
-	castleAverageChunkDistance = 40
+	castleAverageChunkDistance = 1001
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Wizard Towers.
@@ -51,7 +51,7 @@ locateMaxTime = 15.0
 # 1 for spawning in most chunks and 1001 for none.
 [PillagerFortress]
 	#Range: 1 ~ 1001
-	pillagerfortressAverageChunkDistance = 60
+	pillagerfortressAverageChunkDistance = 1001
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Ancient Mines.
@@ -65,7 +65,7 @@ locateMaxTime = 15.0
 # 1 for spawning in most chunks and 1001 for none.
 [TinkersWorkshop]
 	#Range: 1 ~ 1001
-	tinkersworkshopAverageChunkDistance = 50
+	tinkersworkshopAverageChunkDistance = 1001
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Sunken Ships.
@@ -149,7 +149,7 @@ locateMaxTime = 15.0
 # 1 for spawning in most chunks and 1001 for none.
 [PillagerCamp]
 	#Range: 1 ~ 1001
-	pillagercampAverageChunkDistance = 25
+	pillagercampAverageChunkDistance = 1001
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Washing Camps.

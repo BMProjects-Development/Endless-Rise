@@ -109,6 +109,7 @@
 		{
 			x: -6.0d
 			y: 1.0d
+			description: ["{er.chipped.quests7.description0}"]
 			dependencies: ["2B75E14C24231869"]
 			hide: true
 			optional: true
@@ -126,6 +127,7 @@
 		{
 			x: -2.0d
 			y: -2.5d
+			description: ["{er.chipped.quests8.description0}"]
 			dependencies: ["56A2E1EB6C1964C1"]
 			optional: true
 			id: "2A60D6E78B138E46"
@@ -138,6 +140,7 @@
 		{
 			x: -2.5d
 			y: -1.5d
+			description: ["{er.chipped.quests9.description0}"]
 			dependencies: ["2B75E14C24231869"]
 			hide: true
 			optional: true
@@ -146,11 +149,13 @@
 				id: "4E4625B16AFCB81A"
 				type: "item"
 				item: "framedblocks:framed_cube"
+				count: 4L
 			}]
 		}
 		{
 			x: -3.0d
 			y: -0.5d
+			description: ["{er.chipped.quests10.description0}"]
 			dependencies: ["56A2E1EB6C1964C1"]
 			optional: true
 			id: "4C99BE09B3D711F0"
@@ -163,6 +168,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
+			description: ["{er.chipped.quests11.description0}"]
 			dependencies: ["56A2E1EB6C1964C1"]
 			optional: true
 			id: "282BD424FC921B6F"
