@@ -119,10 +119,10 @@
 			dependencies: ["462BD8A3987B8465"]
 			id: "67061367401ADFFB"
 			tasks: [{
-				id: "5EC07FD3B9819EE4"
+				id: "46E2136A31F309A9"
 				type: "item"
-				item: "minecraft:ancient_debris"
-				count: 8L
+				item: "geolosys:ancient_debris_cluster"
+				count: 4L
 			}]
 		}
 		{
