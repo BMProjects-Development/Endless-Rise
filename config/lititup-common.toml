@@ -25,7 +25,7 @@
 
 ["Compatibility Handler"]
 	#Enable or disable compatibility with the Brick Furnace mod. Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
-	Brick_furnace_mod_compatibility = true
+	Brick_furnace_mod_compatibility = false
 	#Enable or disable compatibility with the Furnace Mk2 mod. Link: https://www.curseforge.com/minecraft/mc-mods/furnace-mk2
-	Furnace_Mk2_mod_compatibility = true
+	Furnace_Mk2_mod_compatibility = false
 
