@@ -10,7 +10,7 @@ fi
 
 RAM="8G"
 
-"$JAVA_PATH" -Xmx$RAM -Xms$RAM \
+java -Xmx$RAM -Xms$RAM \
 -Dfml.readTimeout=180 \
 -Dfml.loginTimeout=180 \
 -XX:+UseG1GC \
