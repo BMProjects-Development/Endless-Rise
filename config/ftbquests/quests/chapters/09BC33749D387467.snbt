@@ -335,7 +335,13 @@
 			title: "{er.09bc33749d387467.quests15.title}"
 			x: 1.0d
 			y: 1.5d
-			description: ["{er.09bc33749d387467.quests15.description0}"]
+			description: [
+				"{er.09bc33749d387467.quests15.description0}"
+				""
+				"{er.09bc33749d387467.quests15.description1}"
+				""
+				"{image:endless_rise:textures/switchgrass.png width:192 height:108 align:1}"
+			]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "069BDFDAE5930675"
 			tasks: [

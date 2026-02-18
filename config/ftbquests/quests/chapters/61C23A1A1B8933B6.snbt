@@ -1230,7 +1230,15 @@
 			title: "{er.61c23a1a1b8933b6.quests69.title}"
 			x: 3.0d
 			y: -3.0d
-			description: ["{er.61c23a1a1b8933b6.quests69.description0}"]
+			description: [
+				"{er.61c23a1a1b8933b6.quests69.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests69.description1}"
+				""
+				"{image:endless_rise:textures/sun_fern.png width:192 height:108 align:1}"
+				""
+				"{image:endless_rise:textures/ice_fern.png width:192 height:108 align:1}"
+			]
 			dependencies: ["183EB37365746C12"]
 			id: "2CB9305DE80F7DDA"
 			tasks: [
