@@ -65,7 +65,6 @@
 						value: "forge:coal_coke"
 					}
 				}
-				count: 4L
 			}]
 		}
 		{
@@ -128,7 +127,6 @@
 				id: "6ADB71487BBF9487"
 				type: "item"
 				item: "mekanism:ingot_steel"
-				count: 4L
 			}]
 		}
 		{
@@ -1120,13 +1118,11 @@
 					id: "57A85473DA3F77E9"
 					type: "item"
 					item: "immersiveengineering:ingot_constantan"
-					count: 2L
 				}
 				{
 					id: "4E67AA4A18A73D8D"
 					type: "item"
 					item: "immersiveengineering:plate_constantan"
-					count: 4L
 				}
 			]
 		}
@@ -1142,13 +1138,11 @@
 					id: "291AE974E3C15AC6"
 					type: "item"
 					item: "immersiveengineering:ingot_electrum"
-					count: 2L
 				}
 				{
 					id: "313A028E7284285E"
 					type: "item"
 					item: "immersiveengineering:plate_electrum"
-					count: 4L
 				}
 			]
 		}

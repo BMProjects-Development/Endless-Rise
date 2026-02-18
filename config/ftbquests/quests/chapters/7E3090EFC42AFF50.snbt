@@ -39,13 +39,11 @@
 					id: "281F67CDE12B3417"
 					type: "item"
 					item: "mekanism:alloy_infused"
-					count: 8L
 				}
 				{
 					id: "7A9237E00DF9989C"
 					type: "item"
 					item: "mekanism:basic_control_circuit"
-					count: 4L
 				}
 			]
 		}

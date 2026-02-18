@@ -32,7 +32,6 @@
 				id: "7DC60BB2CC447608"
 				type: "item"
 				item: "betterendforge:thallasium_ingot"
-				count: 16L
 			}]
 		}
 		{
@@ -46,7 +45,6 @@
 				id: "5965B408061BAD8D"
 				type: "item"
 				item: "betterendforge:thallasium_ore"
-				count: 8L
 			}]
 		}
 		{
@@ -76,7 +74,6 @@
 				id: "005370C9D21CA17C"
 				type: "item"
 				item: "betterendforge:terminite_ingot"
-				count: 16L
 			}]
 		}
 		{
@@ -182,7 +179,6 @@
 				id: "0ABEFA041AEEC0A4"
 				type: "item"
 				item: "betterendforge:aeternium_ingot"
-				count: 8L
 			}]
 		}
 		{

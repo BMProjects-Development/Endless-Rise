@@ -29,13 +29,11 @@
 					id: "39BDF8E430CC2295"
 					type: "item"
 					item: "pneumaticcraft:reinforced_stone"
-					count: 10L
 				}
 				{
 					id: "6981E956A2111882"
 					type: "item"
 					item: "pneumaticcraft:reinforced_bricks"
-					count: 10L
 				}
 			]
 			rewards: [{
@@ -139,7 +137,6 @@
 				id: "482E3F3536CFE566"
 				type: "item"
 				item: "pneumaticcraft:plastic"
-				count: 10L
 			}]
 		}
 		{
@@ -160,7 +157,6 @@
 					id: "2004EBC9072D9A20"
 					type: "item"
 					item: "pneumaticcraft:printed_circuit_board"
-					count: 5L
 				}
 			]
 		}
