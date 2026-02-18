@@ -20,7 +20,6 @@
 				id: "5AECA94727BED8A7"
 				type: "item"
 				item: "appliedenergistics2:fluix_crystal"
-				count: 8L
 			}]
 		}
 		{
@@ -132,6 +131,7 @@
 			y: -2.0d
 			description: ["{er.79806ce493974743.quests9.description0}"]
 			dependencies: ["71CD56B8654872BE"]
+			min_required_tasks: 1
 			id: "3E655507E5C51C7A"
 			tasks: [
 				{
@@ -157,6 +157,7 @@
 			y: -1.5d
 			description: ["{er.79806ce493974743.quests10.description0}"]
 			dependencies: ["3E655507E5C51C7A"]
+			min_required_tasks: 1
 			id: "1864C5BF06205F25"
 			tasks: [
 				{
@@ -552,7 +553,7 @@
 				id: "3F961B57CF367A8D"
 				type: "item"
 				item: "powah:steel_energized"
-				count: 4L
+				count: 2L
 			}]
 		}
 		{
@@ -565,7 +566,6 @@
 				id: "267C50F26D4EDAA8"
 				type: "item"
 				item: "powah:crystal_blazing"
-				count: 4L
 			}]
 		}
 		{
@@ -578,7 +578,6 @@
 				id: "726F71DF2A08B309"
 				type: "item"
 				item: "powah:crystal_niotic"
-				count: 2L
 			}]
 		}
 		{
@@ -591,7 +590,6 @@
 				id: "0B63516D112B09F7"
 				type: "item"
 				item: "powah:crystal_spirited"
-				count: 2L
 			}]
 		}
 		{
@@ -604,6 +602,7 @@
 				id: "77C4F4D7ABEACD90"
 				type: "item"
 				item: "powah:crystal_nitro"
+				count: 16L
 			}]
 		}
 		{
@@ -619,7 +618,6 @@
 					id: "69D7063AD21B5F76"
 					type: "item"
 					item: "fluxnetworks:flux_dust"
-					count: 8L
 				}
 				{
 					id: "686A2E4CB146F90A"
@@ -639,7 +637,6 @@
 				id: "0B8B24D0500F823A"
 				type: "item"
 				item: "fluxnetworks:flux_block"
-				count: 2L
 			}]
 		}
 		{
@@ -718,7 +715,7 @@
 					id: "666A8F26442D5513"
 					type: "item"
 					item: "powah:dielectric_paste"
-					count: 8L
+					count: 16L
 				}
 				{
 					id: "2F30929D15555DE1"
@@ -762,7 +759,6 @@
 					id: "7918EE510C6B1958"
 					type: "item"
 					item: "powah:capacitor_basic"
-					count: 4L
 				}
 				{
 					id: "155F1302420E418F"

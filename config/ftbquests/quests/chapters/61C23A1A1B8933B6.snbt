@@ -20,7 +20,6 @@
 				id: "7B783C3BBF00F3EA"
 				type: "item"
 				item: "create:andesite_alloy"
-				count: 8L
 			}]
 		}
 		{
@@ -57,18 +56,19 @@
 					id: "3B5E2BE5DE7B336E"
 					type: "item"
 					item: "create:large_cogwheel"
+					count: 2L
 				}
 				{
 					id: "16B33DABB95C7A3C"
 					type: "item"
 					item: "create:cogwheel"
-					count: 4L
+					count: 8L
 				}
 				{
 					id: "53CC01FEFF45928D"
 					type: "item"
 					item: "create:shaft"
-					count: 16L
+					count: 8L
 				}
 			]
 		}
@@ -138,7 +138,6 @@
 				id: "3617D896EEAD970B"
 				type: "item"
 				item: "immersiveengineering:plate_iron"
-				count: 4L
 			}]
 		}
 		{
@@ -152,7 +151,6 @@
 				id: "25757447FBA204E6"
 				type: "item"
 				item: "immersiveengineering:plate_copper"
-				count: 4L
 			}]
 		}
 		{
@@ -166,7 +164,6 @@
 				id: "3B9AB028AFDC8DC8"
 				type: "item"
 				item: "immersiveengineering:plate_gold"
-				count: 4L
 			}]
 		}
 		{
@@ -184,7 +181,6 @@
 				id: "58ACB21720A7811D"
 				type: "item"
 				item: "create:brass_sheet"
-				count: 4L
 			}]
 		}
 		{
@@ -283,13 +279,11 @@
 					id: "467711908237576D"
 					type: "item"
 					item: "atum:limestone"
-					count: 8L
 				}
 				{
 					id: "51EBBEC070BCC878"
 					type: "item"
 					item: "atum:limestone_cracked"
-					count: 8L
 				}
 			]
 		}
@@ -583,7 +577,6 @@
 					Count: 1b
 					tag: { }
 				}
-				count: 4L
 			}]
 		}
 		{
@@ -656,7 +649,6 @@
 				id: "6C7BBD1F28F5D50C"
 				type: "item"
 				item: "create:refined_radiance"
-				count: 2L
 			}]
 		}
 		{
@@ -669,7 +661,6 @@
 				id: "099E707CDF71E764"
 				type: "item"
 				item: "create:shadow_steel"
-				count: 2L
 			}]
 		}
 		{
@@ -801,7 +792,6 @@
 				id: "6622D87485FD7AB4"
 				type: "item"
 				item: "createaddition:overcharged_alloy"
-				count: 2L
 			}]
 		}
 		{
@@ -852,13 +842,12 @@
 					id: "6435CB9B69042C54"
 					type: "item"
 					item: "tconstruct:grout"
-					count: 8L
+					count: 4L
 				}
 				{
 					id: "5B2D4F811A7029EB"
 					type: "item"
 					item: "tconstruct:seared_brick"
-					count: 8L
 				}
 			]
 		}
@@ -892,7 +881,6 @@
 				id: "04318D9FF6C1164F"
 				type: "item"
 				item: "create:brass_ingot"
-				count: 8L
 			}]
 		}
 		{
@@ -923,7 +911,6 @@
 					id: "5ADEFFA2A52051CD"
 					type: "item"
 					item: "create:cinder_flour"
-					count: 2L
 				}
 				{
 					id: "43A259F453432924"
@@ -1130,7 +1117,6 @@
 				id: "7782D5772CB04FC5"
 				type: "item"
 				item: "minecraft:diamond"
-				count: 4L
 			}]
 		}
 		{
@@ -1148,7 +1134,6 @@
 				id: "25BBA4B974ABC5D9"
 				type: "item"
 				item: "minecraft:gold_ingot"
-				count: 4L
 			}]
 		}
 		{

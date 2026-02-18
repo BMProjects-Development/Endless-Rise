@@ -22,7 +22,6 @@
 				id: "7391E0C80E36791F"
 				type: "item"
 				item: "atum:limestone_cracked"
-				count: 16L
 			}]
 		}
 		{
@@ -36,7 +35,6 @@
 				id: "32D8AC81BE7F0884"
 				type: "item"
 				item: "atum:nebu_ingot"
-				count: 5L
 			}]
 		}
 		{
@@ -311,7 +309,6 @@
 				id: "2B83CDC334480A4D"
 				type: "item"
 				item: "atum:limestone"
-				count: 8L
 			}]
 		}
 		{

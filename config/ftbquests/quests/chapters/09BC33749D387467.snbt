@@ -91,7 +91,6 @@
 				id: "47815D72B12A00B1"
 				type: "item"
 				item: "charcoal_pit:straw"
-				count: 4L
 			}]
 		}
 		{
@@ -221,7 +220,6 @@
 				id: "594B9539BDD08E01"
 				type: "item"
 				item: "minecraft:bricks"
-				count: 12L
 			}]
 		}
 		{
@@ -246,7 +244,6 @@
 						value: "forge:ingots/copper"
 					}
 				}
-				count: 2L
 			}]
 		}
 		{
@@ -305,7 +302,6 @@
 						value: "forge:ores/iron"
 					}
 				}
-				count: 4L
 			}]
 		}
 		{
@@ -320,7 +316,6 @@
 				id: "67925F061791895F"
 				type: "item"
 				item: "minecraft:iron_ingot"
-				count: 8L
 			}]
 		}
 		{
@@ -382,7 +377,6 @@
 						value: "forge:ores/copper"
 					}
 				}
-				count: 4L
 			}]
 		}
 		{
@@ -454,11 +448,6 @@
 				type: "dimension"
 				dimension: "the_bumblezone:the_bumblezone"
 			}]
-			rewards: [{
-				id: "26AF7E7DA6B54F75"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests21.title}"
@@ -471,7 +460,6 @@
 				id: "1B49B9FBF4A61070"
 				type: "item"
 				item: "the_bumblezone:pollen_puff"
-				count: 32L
 			}]
 		}
 		{
@@ -485,7 +473,6 @@
 				id: "52760E754FA3F8FD"
 				type: "item"
 				item: "the_bumblezone:beehive_beeswax"
-				count: 16L
 			}]
 		}
 		{
@@ -503,13 +490,11 @@
 					id: "2CF815EE9BCB5193"
 					type: "item"
 					item: "charcoal_pit:unfired_brick"
-					count: 16L
 				}
 				{
 					id: "172E3C506939A4FE"
 					type: "item"
 					item: "minecraft:brick"
-					count: 16L
 				}
 			]
 		}
@@ -582,7 +567,6 @@
 					id: "62FCD132E2DCA425"
 					type: "item"
 					item: "minecraft:charcoal"
-					count: 4L
 				}
 			]
 		}
@@ -819,13 +803,11 @@
 					id: "1B4CE5E1BC9CC456"
 					type: "item"
 					item: "minecraft:stone"
-					count: 4L
 				}
 				{
 					id: "631E04122A6A1EEA"
 					type: "item"
 					item: "minecraft:smooth_stone"
-					count: 4L
 				}
 				{
 					id: "2A7B87A68264FE21"
@@ -834,13 +816,6 @@
 					count: 6L
 				}
 			]
-			rewards: [{
-				id: "66BDF3FABED24B25"
-				type: "item"
-				item: "minecraft:stone"
-				count: 4
-				random_bonus: 4
-			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests41.title}"
@@ -932,7 +907,6 @@
 					id: "5023DC5A23A4F8FE"
 					type: "item"
 					item: "minecraft:gunpowder"
-					count: 2L
 				}
 			]
 		}

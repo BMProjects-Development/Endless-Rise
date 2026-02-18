@@ -70,7 +70,6 @@
 				id: "2B44F1C9788CD89B"
 				type: "item"
 				item: "boss_tools:compressed_steel"
-				count: 10L
 			}]
 		}
 		{
@@ -129,7 +128,6 @@
 				id: "7475336E20A4A0A7"
 				type: "item"
 				item: "boss_tools:desh_ingot"
-				count: 10L
 			}]
 		}
 		{
@@ -203,7 +201,6 @@
 				id: "630EDF407333C801"
 				type: "item"
 				item: "boss_tools:compressed_desh"
-				count: 5L
 			}]
 		}
 		{
