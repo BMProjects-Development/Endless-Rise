@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/resourcepack","quark:emote_resources","file/BMP_Translations_1.16.5.zip","file/Visual Titles 1.1.zip","file/Endless Rise Textures.zip","file/EclecticTrove-noconfig-1.16.5-1.2.0.zip","file/EmbellishedStone.zip","file/SmoothDrawers_1.16.5_v1.zip","file/SmoothFont_1.16.zip","file/Soft-Weather-1.0-1.16.zip","file/updated_aquaculture-1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Medieval_Style_Lootr.zip","file/[1.4.1] Enhanced Boss Bars.zip","file/Infernal Resources.zip","file/Quark Programmer Art.zip"]
+resourcePacks:["vanilla","mod_resources","file/resourcepack","quark:emote_resources","file/BMP_Translations_1.16.5.zip","file/Visual Titles 1.1.zip","file/Endless Rise Textures.zip","file/EclecticTrove-noconfig-1.16.5-1.2.0.zip","file/EmbellishedStone.zip","file/SmoothDrawers_1.16.5_v1.zip","file/SmoothFont_1.16.zip","file/Soft-Weather-1.0-1.16.zip","file/updated_aquaculture-1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Medieval_Style_Lootr.zip","file/Infernal Resources.zip","file/Quark Programmer Art.zip"]
 incompatibleResourcePacks:["quark:emote_resources","file/updated_aquaculture-1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Medieval_Style_Lootr.zip"]
 lastServer:
 lang:
