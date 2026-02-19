@@ -182,6 +182,7 @@
 				id: "4A4FD960EE14ED4D"
 				type: "item"
 				item: "chunkloaders:single_chunk_loader"
+				count: 9L
 			}]
 		}
 		{
