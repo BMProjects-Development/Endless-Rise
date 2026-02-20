@@ -44,7 +44,7 @@ onEvent('recipes', event => {
     'PBP'
   ], {
     P: 'the_bumblezone:pollen_puff',
-	B: 'charcoal_pit:sandy_brick'
+	B: 'charcoal_pit:sandy_brick_item'
   })
   
   
