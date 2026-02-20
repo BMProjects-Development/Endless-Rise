@@ -59,13 +59,11 @@
 					id: "6BAA7EF15E62EC27"
 					type: "item"
 					item: "notreepunching:plant_fiber"
-					count: 6L
 				}
 				{
 					id: "58D6B1E5D0A5AD5E"
 					type: "item"
 					item: "notreepunching:plant_string"
-					count: 2L
 				}
 			]
 		}
@@ -76,10 +74,10 @@
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "55592F4BB319F39F"
 			tasks: [{
-				id: "580C81DE54238A94"
+				id: "676B11B0BB395756"
 				type: "item"
 				item: {
-					id: "minecraft:wooden_hoe"
+					id: "notreepunching:flint_hoe"
 					Count: 1b
 					tag: {
 						Damage: 0

@@ -128,3 +128,5 @@ ItemStages.restrict(<item:atum:limestone_hoe>, "forbidden");
 ItemStages.restrict(<item:betterendforge:iron_hammer>, "forbidden");
 
 ItemStages.restrict(<item:betterendforge:golden_hammer>, "forbidden");
+
+ItemStages.restrict(<item:minecraft:wooden_hoe>, "forbidden");

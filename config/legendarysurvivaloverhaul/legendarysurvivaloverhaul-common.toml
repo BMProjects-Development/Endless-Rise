@@ -13,7 +13,7 @@
 	# If enabled, information like position and direction will be hidden from the debug screen (F3).
 	"Hide Info From Debug" = true
 	# If enabled, the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-	"Natural Regeneration Enabled" = false
+	"Natural Regeneration Enabled" = true
 
 	[core.advanced]
 		# How often player temperature is regularly synced between the client and server, in ticks.
@@ -35,9 +35,9 @@
 # Options related to the temperature system
 [temperature]
 	# If enabled, players will take damage from the effects of high temperature.
-	"Dangerous Heat Temperature Effects" = true
+	"Dangerous Heat Temperature Effects" = false
 	# If enabled, players will take damage from the effects of low temperature.
-	"Dangerous Cold Temperature Effects" = true
+	"Dangerous Cold Temperature Effects" = false
 	# Chance of the ferns to become a gold fern when grow mature.
 	#Range: 0.0 ~ 1.0
 	"Gold Fern Chance" = 0.01
@@ -84,7 +84,7 @@
 
 	[temperature.wetness]
 		# Enable the wetness mechanic.
-		"Wetness Enabled" = true
+		"Wetness Enabled" = false
 		# How much being wet influences the player's temperature.
 		#Range: -1000.0 ~ 1000.0
 		"Wetness Modifier" = -10.0

@@ -33,9 +33,6 @@ onEvent('recipes', event => {
     P: 'the_bumblezone:pollen_puff',
 	B: 'minecraft:brick'
   })
- 
- 
-  event.shapeless('minecraft:wooden_hoe', ['#forge:string', '#forge:rods/wooden', '#forge:rods/wooden'])
   
   
   event.smelting('minecraft:charcoal', '#minecraft:logs')
