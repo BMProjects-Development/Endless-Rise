@@ -125,17 +125,7 @@ ItemStages.restrict(<item:tconstruct:iron_reinforcement>, "iron_age");
 
 ItemStages.restrict(<item:minecraft:cauldron>, "iron_age");
 
-ItemStages.restrict(<tag:items:forge:furnaces/iron>, "iron_age");
-
 ItemStages.restrict(<tag:items:forge:wires/iron>, "iron_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_iron>, "iron_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_gold>, "iron_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_iron2>, "iron_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_silver2>, "iron_age");
 
 ItemStages.restrict(<item:pneumaticcraft:drill_bit_iron>, "iron_age");
 

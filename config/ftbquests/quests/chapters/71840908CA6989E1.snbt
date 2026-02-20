@@ -271,8 +271,9 @@
 				"{er.71840908ca6989e1.quests12.description20}"
 				"{er.71840908ca6989e1.quests12.description21}"
 				"{er.71840908ca6989e1.quests12.description22}"
-				""
 				"{er.71840908ca6989e1.quests12.description23}"
+				""
+				"{er.71840908ca6989e1.quests12.description24}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]

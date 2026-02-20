@@ -55,10 +55,4 @@ ItemStages.restrict(<item:immersiveengineering:slab_sheetmetal_copper>, "copper_
 
 ItemStages.restrict(<item:immersiveengineering:slab_storage_copper>, "copper_age");
 
-ItemStages.restrict(<tag:items:forge:furnaces/copper>, "copper_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_copper>, "copper_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_silver>, "copper_age");
-
 ItemStages.restrict(<item:chimes:copper_chimes>, "copper_age");

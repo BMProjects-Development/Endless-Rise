@@ -10,23 +10,29 @@
 	quests: [
 		{
 			title: "{er.09bc33749d387467.quests0.title}"
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
+			shape: "tech_circle"
 			description: ["{er.09bc33749d387467.quests0.description0}"]
-			dependencies: ["4F79D63210D7FE5D"]
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			size: 1.3d
 			id: "40F68DE6AA5E6427"
 			tasks: [
 				{
 					id: "1A4B12B4B4F177BE"
 					type: "item"
 					item: "minecraft:stick"
-					count: 8L
 				}
 				{
 					id: "7B3F1A50C70A9F90"
 					type: "item"
 					item: "notreepunching:flint_shard"
-					count: 4L
+				}
+				{
+					id: "0A1BC422A8808201"
+					type: "item"
+					item: "minecraft:flint"
 				}
 			]
 		}
@@ -196,7 +202,14 @@
 			x: 9.5d
 			y: -3.5d
 			shape: "tech_smooth_square"
-			description: ["{er.09bc33749d387467.quests8.description0}"]
+			description: [
+				"{er.09bc33749d387467.quests8.description0}"
+				""
+				"{image:endless_rise:textures/clay_vessel_showcase.png width:100 height:100 align:1}"
+				"{image:endless_rise:textures/clay_vessel_showcase_2.png width:192 height:108 align:1}"
+				"{image:endless_rise:textures/clay_vessel_showcase_3.png width:192 height:108 align:1}"
+				"{image:endless_rise:textures/clay_vessel_showcase_4.png width:192 height:108 align:1}"
+			]
 			dependencies: ["08D541875A03DFFD"]
 			size: 1.2d
 			id: "42FE908F1D88CAE9"
@@ -333,7 +346,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests15.title}"
-			x: 1.0d
+			x: 2.0d
 			y: 1.5d
 			description: [
 				"{er.09bc33749d387467.quests15.description0}"
@@ -405,13 +418,11 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests18.title}"
-			x: -2.0d
-			y: 0.0d
+			x: -0.5d
+			y: 1.5d
 			shape: "tech_smooth_square"
 			description: ["{er.09bc33749d387467.quests18.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			size: 1.2d
+			dependencies: ["40F68DE6AA5E6427"]
 			id: "4F79D63210D7FE5D"
 			tasks: [
 				{
@@ -627,19 +638,6 @@
 				id: "5F4B5F10BC74C967"
 				type: "item"
 				item: "artisanworktables:worktable_basic"
-			}]
-		}
-		{
-			x: 14.5d
-			y: 7.0d
-			description: ["{er.09bc33749d387467.quests71.description0}"]
-			dependencies: ["0B728A65AD5A65F1"]
-			optional: true
-			id: "6A0ED669633D1FC0"
-			tasks: [{
-				id: "520F33C9A8F6B4E6"
-				type: "item"
-				item: "ironfurnaces:iron_furnace"
 			}]
 		}
 		{
@@ -1374,8 +1372,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 7.0d
+			x: 15.0d
+			y: 6.5d
 			description: ["{er.09bc33749d387467.quests70.description0}"]
 			dependencies: ["0B728A65AD5A65F1"]
 			optional: true

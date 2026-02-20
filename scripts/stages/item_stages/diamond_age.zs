@@ -92,9 +92,3 @@ ItemStages.restrict(<item:atum:desert_wolf_diamond_armor>, "diamond_age");
 ItemStages.restrict(<item:atum:camel_diamond_armor>, "diamond_age");
 
 ItemStages.restrict(<item:createaddition:diamond_grit>, "diamond_age");
-
-ItemStages.restrict(<tag:items:forge:furnaces/diamond>, "diamond_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_emerald>, "diamond_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_crystal>, "diamond_age");

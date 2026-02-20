@@ -81,7 +81,7 @@
 		#Enable integration with minimap mods?
 		#(true/false)
 		#Default is true.
-		enable_minimap_integration = true
+		enable_minimap_integration = false
 		#Show the default SeasonHUD display when the minimap is hidden?
 		#(true/false)
 		#Default is false.
