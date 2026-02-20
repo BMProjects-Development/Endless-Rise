@@ -8,7 +8,7 @@ onEvent('recipes', event => {
     'CBC'
   ], {
     A: 'create:precision_mechanism',
-	B: 'ironfurnaces:iron_furnace',
+	B: 'minecraft:blast_furnace',
 	C: '#forge:plates/copper'
   })
   

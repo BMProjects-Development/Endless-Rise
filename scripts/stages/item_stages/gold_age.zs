@@ -153,12 +153,6 @@ ItemStages.restrict(<item:atum:crunchy_golden_scarab>, "gold_age");
 
 ItemStages.restrict(<item:xreliquary:midas_touchstone>, "gold_age");
 
-ItemStages.restrict(<tag:items:forge:furnaces/gold>, "gold_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_diamond>, "gold_age");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_gold2>, "gold_age");
-
 ItemStages.restrict(<item:tconstruct:gold_reinforcement>, "gold_age");
 
 ItemStages.restrict(<item:betterendforge:gold_chandelier>, "gold_age");

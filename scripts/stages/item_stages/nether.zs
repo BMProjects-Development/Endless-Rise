@@ -105,16 +105,6 @@ ItemStages.restrict(<tag:items:forge:ores/cobalt>, "nether");
 
 ItemStages.restrict(<item:byg:pervaded_netherrack>, "nether");
 
-ItemStages.restrict(<item:bygonenether:gilded_netherite_helmet>, "nether");
-
-ItemStages.restrict(<item:bygonenether:gilded_netherite_chestplate>, "nether");
-
-ItemStages.restrict(<item:bygonenether:gilded_netherite_leggings>, "nether");
-
-ItemStages.restrict(<item:bygonenether:gilded_netherite_boots>, "nether");
-
-ItemStages.restrict(<item:apotheosis:hellshelf>.withTag({Enchantments: [{lvl: 3 as short, id: "apotheosis:hell_infusion" as string}]}), "nether");
-
 ItemStages.restrict(<item:tconstruct:molten_netherite_bucket>, "nether");
 
 ItemStages.restrict(<item:tconstruct:netherite_item_frame>, "nether");
@@ -149,27 +139,11 @@ ItemStages.restrict(<tag:items:chipped:crimson_fungus>, "nether");
 
 ItemStages.restrict(<tag:items:chipped:warped_fungus>, "nether");
 
-ItemStages.restrict(<item:bygonenether:netherite_scrap_nugget>, "nether");
-
-ItemStages.restrict(<item:bygonenether:netherite_scrap_ingot>, "nether");
-
-ItemStages.restrict(<item:bygonenether:gilded_netherite_shield>, "nether");
-
-ItemStages.restrict(<item:bygonenether:netherite_bell>, "nether");
-
 ItemStages.restrict(<tag:items:forge:ores/netherite_scrap>, "nether");
-
-ItemStages.restrict(<tag:items:forge:furnaces/netherite>, "nether");
-
-ItemStages.restrict(<item:ironfurnaces:upgrade_netherite>, "nether");
 
 ItemStages.restrict(<tag:items:chipped:nether_wart_block>, "nether");
 
 ItemStages.restrict(<tag:items:chipped:nether_sprouts>, "nether");
-
-ItemStages.restrict(<tag:items:netherdepthsupgrade:nether_salad_foods>, "nether");
-
-ItemStages.restrict(<item:netherdepthsupgrade:nether_rice_roll_medley_block>, "nether");
 
 ItemStages.restrict(<item:byg:yellow_nether_bricks>, "nether");
 
@@ -310,10 +284,6 @@ ItemStages.restrict(<tag:items:chipped:soul_lantern>, "nether");
 ItemStages.restrict(<item:minecraft:soul_campfire>, "nether");
 
 ItemStages.restrict(<tag:items:chipped:shroomlight>, "nether");
-
-ItemStages.restrict(<item:buzzier_bees:crimson_beehive>, "nether");
-
-ItemStages.restrict(<item:buzzier_bees:warped_beehive>, "nether");
 
 ItemStages.restrict(<item:quark:crimson_trapped_chest>, "nether");
 

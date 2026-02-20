@@ -861,8 +861,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: 2.0d
+			y: -3.0d
 			description: ["{er.4402c0cd6f875200.quests38.description0}"]
 			dependencies: ["062D32FE0EB6C571"]
 			id: "4177D025E2015B40"
@@ -1063,8 +1063,8 @@
 		}
 		{
 			title: "{er.4402c0cd6f875200.quests48.title}"
-			x: 4.0d
-			y: -3.0d
+			x: 4.5d
+			y: -3.5d
 			subtitle: "{er.4402c0cd6f875200.quests48.subtitle}"
 			description: [
 				"{er.4402c0cd6f875200.quests48.description0}"
@@ -1199,6 +1199,24 @@
 				id: "6DF57C174465F0F0"
 				type: "item"
 				item: "mininggadgets:upgrade_three_by_three"
+			}]
+		}
+		{
+			title: "{er.4402c0cd6f875200.quests56.title}"
+			x: 3.5d
+			y: -3.5d
+			subtitle: "{er.4402c0cd6f875200.quests56.subtitle}"
+			description: [
+				"{er.4402c0cd6f875200.quests56.description0}"
+				""
+				"{er.4402c0cd6f875200.quests56.description1}"
+			]
+			dependencies: ["0CB34097439D4C81"]
+			id: "660249FC715843B9"
+			tasks: [{
+				id: "507361B7A1781A8F"
+				type: "checkmark"
+				title: "{er.4402c0cd6f875200.quests56.tasks0.title}"
 			}]
 		}
 	]

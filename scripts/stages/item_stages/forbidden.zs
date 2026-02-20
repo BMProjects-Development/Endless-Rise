@@ -113,10 +113,6 @@ ItemStages.restrict(<item:betterendforge:terminite_shovel>, "forbidden");
 
 ItemStages.restrict(<item:byg:pendorite_shovel>, "forbidden");
 
-ItemStages.restrict(<item:endrem:end_crystal_shovel>, "forbidden");
-
-ItemStages.restrict(<item:endrem:end_crystal_hoe>, "forbidden");
-
 ItemStages.restrict(<item:byg:pendorite_hoe>, "forbidden");
 
 ItemStages.restrict(<item:betterendforge:aeternium_hoe>, "forbidden");
@@ -132,5 +128,3 @@ ItemStages.restrict(<item:atum:limestone_hoe>, "forbidden");
 ItemStages.restrict(<item:betterendforge:iron_hammer>, "forbidden");
 
 ItemStages.restrict(<item:betterendforge:golden_hammer>, "forbidden");
-
-ItemStages.restrict(<item:atum:nebu_hammer>, "forbidden");

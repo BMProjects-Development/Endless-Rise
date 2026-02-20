@@ -45,7 +45,7 @@ craftingTable.removeRecipe(<item:industrialforegoing:material_stonework_factory>
 Recipe.type(Type.ENGINEER)
   .shaped([
     [<tag:items:forge:plastic>, <item:artisanworktables:worktable_basic>, <tag:items:forge:plastic>],
-    [<item:tconstruct:pickaxe_head>.withTag({Material: "tconstruct:cobalt" as string}), <item:industrialforegoing:machine_frame_advanced>, <item:ironfurnaces:iron_furnace>],
+    [<item:tconstruct:pickaxe_head>.withTag({Material: "tconstruct:cobalt" as string}), <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:blast_furnace>],
     [<tag:items:forge:gears/gold>, <item:industrialforegoing:pink_slime>, <tag:items:forge:gears/gold>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
@@ -110,7 +110,7 @@ craftingTable.removeRecipe(<item:industrialforegoing:mob_crusher>);
 Recipe.type(Type.ENGINEER)
   .shaped([
     [<tag:items:forge:plastic>, <item:tconstruct:small_blade>.withTag({Material: "tconstruct:iron" as string}), <tag:items:forge:plastic>],
-    [<item:apotheosis:weapon_book>, <item:industrialforegoing:machine_frame_advanced>, <item:apotheosis:weapon_book>],
+    [<item:minecraft:book>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:book>],
     [<tag:items:forge:gears/gold>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/gold>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
