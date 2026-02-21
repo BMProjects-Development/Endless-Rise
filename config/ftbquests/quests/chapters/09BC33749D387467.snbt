@@ -162,11 +162,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "291141C86E1BF93B"
-				type: "item"
-				item: "minecraft:ender_pearl"
-			}]
+			rewards: [
+				{
+					id: "291141C86E1BF93B"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "5D1800ECAA47C79F"
+					type: "item"
+					item: "minecraft:bee_nest"
+				}
+			]
 		}
 		{
 			title: "{er.09bc33749d387467.quests7.title}"
@@ -1367,19 +1374,6 @@
 				id: "5383DECBC407FFBC"
 				type: "checkmark"
 				title: "{er.09bc33749d387467.quests69.tasks0.title}"
-			}]
-		}
-		{
-			x: 15.0d
-			y: 6.5d
-			description: ["{er.09bc33749d387467.quests70.description0}"]
-			dependencies: ["0B728A65AD5A65F1"]
-			optional: true
-			id: "4EF2E618B4208EF0"
-			tasks: [{
-				id: "3331E1978E990ACE"
-				type: "item"
-				item: "ceramics:kiln"
 			}]
 		}
 	]
