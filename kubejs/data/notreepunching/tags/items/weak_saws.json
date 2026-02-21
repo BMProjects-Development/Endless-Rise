@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "notreepunching:flint_axe",
+    "minecraft:iron_axe",
+    "minecraft:golden_axe",
+    "minecraft:diamond_axe",
+    "minecraft:netherite_axe",
+	"betterendforge:aeternium_axe",
+	"betterendforge:thallasium_axe",
+	"betterendforge:terminite_axe",
+	"tconstruct:hand_axe"
+  ]
+}
