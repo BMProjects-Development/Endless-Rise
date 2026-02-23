@@ -8,7 +8,7 @@ onEvent('recipes', event => {
   ], {
     W: '#forge:workbenches',
 	P: '#minecraft:planks',
-	F: '#forge:fences/wooden'
+	F: '#minecraft:wooden_fences'
   })
   
 })

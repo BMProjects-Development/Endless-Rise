@@ -218,3 +218,37 @@ Recipe.type(Type.TANNER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:minecraft:book>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:minecraft:chest>);
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:chest>)
+  .register();
+  
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]])
+  .tool(<tag:items:artisantools:type/chisel>, 80)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:chest> * 4)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:minecraft:trapped_chest>);
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:redstone_torch>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:trapped_chest>)
+  .register();

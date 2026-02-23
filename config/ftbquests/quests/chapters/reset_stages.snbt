@@ -1,0 +1,501 @@
+{
+	id: "1B00F8174E4CB0B5"
+	group: ""
+	order_index: 2
+	filename: "reset_stages"
+	title: "{er.reset_stages.title}"
+	icon: "ends_delight:ender_pearl_grain"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{er.reset_stages.quests0.title}"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			description: ["{er.reset_stages.quests0.description0}"]
+			id: "2D403DC96BE005A7"
+			tasks: [{
+				id: "20E718C4EB98F1AF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Copper age"
+			disable_toast: true
+			x: -2.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"6E62A29B69EC18E1"
+			]
+			hide: true
+			repeatable: true
+			id: "76E2586F48607BFE"
+			tasks: [{
+				id: "73CCD0CC6B783C55"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "695D83922B35EAD6"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s copper_age false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Iron age"
+			disable_toast: true
+			x: -1.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"6A29C90242D9CBC8"
+			]
+			hide: true
+			repeatable: true
+			id: "336A091D176D1AC5"
+			tasks: [{
+				id: "75CC882CB49A0719"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6CD1FFDD9C8D8B04"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s iron_age false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Primitive age"
+			disable_toast: true
+			x: 0.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"7B854E2A39C6594B"
+			]
+			hide: true
+			repeatable: true
+			id: "3C594395DB792E68"
+			tasks: [{
+				id: "7CC7F2EDB1164614"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1BE82B625885B5FB"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s primitive false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Gold Age"
+			disable_toast: true
+			x: 1.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"62CB3EBB76D050B3"
+			]
+			hide: true
+			repeatable: true
+			id: "1BF32DD3F073D498"
+			tasks: [{
+				id: "780C983E43964AD7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7ADED708167D07F5"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s gold_age false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Diamond age"
+			disable_toast: true
+			x: 2.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"4064A1996ED9F59C"
+			]
+			hide: true
+			repeatable: true
+			id: "793B8861D319962B"
+			tasks: [{
+				id: "369E7EB99DD86949"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "67DFCCCC6D9B6296"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s diamond_age false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Space age"
+			disable_toast: true
+			x: -2.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"03D444C591714C7D"
+			]
+			hide: true
+			repeatable: true
+			id: "26637BD256CF140D"
+			tasks: [{
+				id: "187DE0703949EA5F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "270EFF5D645200F6"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s space_age false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Create age"
+			disable_toast: true
+			x: -1.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"48217EC3294DAFC3"
+			]
+			hide: true
+			repeatable: true
+			id: "13576750CA09F9BA"
+			tasks: [{
+				id: "2BB01AD877EAC493"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "190FF07FBADB3A9B"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s create false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Immersiveengineering age"
+			disable_toast: true
+			x: 0.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"4A69DE664E0837BE"
+			]
+			hide: true
+			repeatable: true
+			id: "226363AFBE191542"
+			tasks: [{
+				id: "471A2F5655DFED1D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3D8B9ED8B07CAB77"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s immersiveengineering false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Pneumaticcraft age"
+			disable_toast: true
+			x: 1.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"7D00063DBD18C9CF"
+			]
+			hide: true
+			repeatable: true
+			id: "6C6C268516F35E5D"
+			tasks: [{
+				id: "37C959988A8426F9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "79F69B3C3993FD20"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s pneumaticcraft false"
+				player_command: true
+			}]
+		}
+		{
+			title: "AE2 age"
+			disable_toast: true
+			x: 2.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"6B84A6F72430702F"
+			]
+			hide: true
+			repeatable: true
+			id: "32CFFA36A14DE261"
+			tasks: [{
+				id: "5AC49E5F3D47B2AC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "76ABFEF5A5BE9FCD"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s appliedenergistics2 false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Powah age"
+			disable_toast: true
+			x: -2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"168C2024771F640D"
+			]
+			hide: true
+			repeatable: true
+			id: "3F7FA2431FA10EAF"
+			tasks: [{
+				id: "39D8F210BD4CDA01"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6D052A359BF18F25"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s powah false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Flux net age"
+			disable_toast: true
+			x: -1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"32741DB060A0342C"
+			]
+			hide: true
+			repeatable: true
+			id: "622CDEC5EA7FE165"
+			tasks: [{
+				id: "7E29D585C366ED06"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DEA331C1C600282"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s fluxnetworks false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Mekanism age"
+			disable_toast: true
+			x: 0.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"53051E02987C093C"
+			]
+			hide: true
+			repeatable: true
+			id: "4FDA928848838EDF"
+			tasks: [{
+				id: "13F0EA2824F94B71"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4ABCE4EE83BE16CE"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s mekanism false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Industrialforegoing age"
+			disable_toast: true
+			x: 1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"7B4DED00639AB381"
+			]
+			hide: true
+			repeatable: true
+			id: "32024AB36AE2EFDA"
+			tasks: [{
+				id: "3D16B460B3881FDB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0F1DE707310BAEFE"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s industrialforegoing false"
+				player_command: true
+			}]
+		}
+		{
+			title: "Nether + dim age"
+			disable_toast: true
+			x: 2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"39606160F4710D39"
+			]
+			hide: true
+			repeatable: true
+			id: "5DA67DD147C2D18A"
+			tasks: [{
+				id: "5C55E1F83279931F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "139AC6178BEAD44D"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @s nether false"
+					player_command: true
+				}
+				{
+					id: "50ACA374C441A932"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @s nether_dim false"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "Atum + dim age"
+			disable_toast: true
+			x: -1.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"1D93899CFFCF5589"
+			]
+			hide: true
+			repeatable: true
+			id: "327B5D9FB25269A5"
+			tasks: [{
+				id: "3569AD76883175A8"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0D970CBA9F4C50B1"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @s atum false"
+					player_command: true
+				}
+				{
+					id: "0E01A212A408BC50"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @s atum_dim false"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "End + dim age"
+			disable_toast: true
+			x: 0.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"0209E0BBD283D2CF"
+			]
+			hide: true
+			repeatable: true
+			id: "1C2F7DE3D6F857BB"
+			tasks: [{
+				id: "269F623EAD4296DE"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6EDD78679DBC2257"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @s end false"
+					player_command: true
+				}
+				{
+					id: "621933919B0DAF39"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @s end_dim false"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "Jorney age"
+			disable_toast: true
+			x: 1.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"660249FC715843B9"
+			]
+			hide: true
+			repeatable: true
+			id: "22CEC380520EEBA6"
+			tasks: [{
+				id: "3FF77C9C44EB9E87"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4CF1F5699C6BD8FF"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @s journey false"
+				player_command: true
+			}]
+		}
+	]
+}

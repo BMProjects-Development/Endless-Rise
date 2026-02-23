@@ -1218,6 +1218,14 @@
 				type: "checkmark"
 				title: "{er.4402c0cd6f875200.quests56.tasks0.title}"
 			}]
+			rewards: [{
+				id: "217C96A344CBF870"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @s journey false"
+				player_command: false
+			}]
 		}
 	]
 }

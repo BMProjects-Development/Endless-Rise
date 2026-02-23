@@ -1079,6 +1079,9 @@
     "er.57d608a24de940da.quests32.title": "Gilded Netherite Armor",
     "er.57d608a24de940da.quests32.description0": "Although Gilded Netherite Armor has less durability, it makes you immune to Piglins.",
 	"er.57d608a24de940da.quests33.description0": "The Lava Fishing Rod allows you to fish in the lava.",
+	"er.reset_stages.title": "&bMaintenance Quests",
+	"er.reset_stages.quests0.title": "Stages sync",
+	"er.reset_stages.quests0.description0": "This checkmark unlocks the ability to repeat age quests below, in case they didn't trigger correctly in multiplayer or other reasons.",
 	
 	"item.kubejs.wet_paper": "Wet Paper",
 	"item.kubejs.lamp": "Lamp",
