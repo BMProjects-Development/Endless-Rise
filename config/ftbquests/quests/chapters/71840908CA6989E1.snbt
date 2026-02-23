@@ -15,7 +15,11 @@
 			shape: "tech_circle"
 			subtitle: "{er.71840908ca6989e1.quests0.subtitle}"
 			description: ["{er.71840908ca6989e1.quests1.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4015F9A5ADB11078"
+				"207D5D4DC9F02D96"
+			]
 			hide: true
 			id: "4646110081F3DA55"
 			tasks: [{
@@ -31,7 +35,11 @@
 			shape: "tech_circle"
 			subtitle: "{er.71840908ca6989e1.quests13.subtitle}"
 			description: ["{er.71840908ca6989e1.quests13.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4015F9A5ADB11078"
+				"207D5D4DC9F02D96"
+			]
 			hide: true
 			id: "0D811557B1492FA9"
 			tasks: [{
@@ -47,7 +55,11 @@
 			shape: "tech_circle"
 			subtitle: "{er.71840908ca6989e1.quests14.subtitle}"
 			description: ["{er.71840908ca6989e1.quests14.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4015F9A5ADB11078"
+				"207D5D4DC9F02D96"
+			]
 			hide: true
 			id: "0AC2DBC17F3860F2"
 			tasks: [{
