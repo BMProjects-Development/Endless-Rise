@@ -1,0 +1,27 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ores/diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_diamond"
+    },
+    {
+      "item": "mekanism:dust_diamond",
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/diamond",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

@@ -121,7 +121,14 @@
 				{
 					id: "0047C516BAEA8D03"
 					type: "item"
-					item: "minecraft:crafting_table"
+					title: "{er.09bc33749d387467.quests4.tasks0.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbenches"
+						}
+					}
 				}
 			]
 		}

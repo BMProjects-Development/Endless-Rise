@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_obsidian",
+	  "count": 4
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:obsidian",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}
