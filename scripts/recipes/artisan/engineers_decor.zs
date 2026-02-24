@@ -11,7 +11,7 @@ Recipe.type(Type.ENGINEER)
     [<item:engineersdecor:metal_bar>, <item:create:polished_rose_quartz>, <item:engineersdecor:metal_bar>]])
   .tool(<tag:items:artisantools:type/pliers>, 25)
   .tool(<tag:items:artisantools:type/spanner>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:engineersdecor:small_tree_cutter>)
   .register();
   
@@ -24,6 +24,6 @@ Recipe.type(Type.ENGINEER)
     [<item:engineersdecor:metal_bar>, <item:create:polished_rose_quartz>, <item:engineersdecor:metal_bar>]])
   .tool(<tag:items:artisantools:type/pliers>, 25)
   .tool(<tag:items:artisantools:type/spanner>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:engineersdecor:small_block_breaker>)
   .register();

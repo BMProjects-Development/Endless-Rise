@@ -10,7 +10,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:white_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:air>, <item:minecraft:white_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:panda_plushie>)
   .register();
 
@@ -21,7 +21,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:green_wool>, <item:minecraft:green_wool>, <item:minecraft:air>],
     [<item:minecraft:green_wool>, <item:minecraft:green_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:slime_plushie>)
   .register();
 
@@ -32,7 +32,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:orange_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:orange_wool>, <item:minecraft:orange_wool>, <item:minecraft:orange_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:red_fox_plushie>)
   .register();
 
@@ -43,7 +43,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:white_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:white_fox_plushie>)
   .register();
 
@@ -54,7 +54,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:black_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:air>, <item:minecraft:black_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:dragon_plushie>)
   .register();
 
@@ -65,7 +65,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:brown_wool>, <item:minecraft:leather>, <item:minecraft:brown_wool>],
     [<item:minecraft:leather>, <item:minecraft:black_wool>, <item:minecraft:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:cow_plushie>)
   .register();
 
@@ -76,7 +76,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:red_wool>, <item:minecraft:leather>, <item:minecraft:red_wool>],
     [<item:minecraft:red_mushroom>, <item:minecraft:black_wool>, <item:minecraft:red_mushroom>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:mooshroom_plushie>)
   .register();
 
@@ -87,7 +87,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:yellow_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:bee_plushie>)
   .register();
 
@@ -98,7 +98,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:yellow_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:yellow_wool>, <item:minecraft:black_wool>, <item:minecraft:yellow_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:llama_plushie>)
   .register();
 
@@ -109,7 +109,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:magma_block>, <item:minecraft:magma_block>, <item:minecraft:air>],
     [<item:minecraft:magma_block>, <item:minecraft:magma_block>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:magma_cube_plushie>)
   .register();
 
@@ -120,7 +120,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:pink_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:pink_dye>, <item:minecraft:pink_wool>, <item:minecraft:pink_dye>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:axolotl_plushie>)
   .register();
 
@@ -131,7 +131,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:green_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:air>, <item:minecraft:green_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:turtle_plushie>)
   .register();
 
@@ -142,7 +142,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:stick>, <item:minecraft:white_wool>, <item:minecraft:stick>],
     [<item:minecraft:air>, <item:minecraft:white_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:snow_golem_plushie>)
   .register();
 
@@ -153,7 +153,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:cyan_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:air>, <item:minecraft:white_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:dolphin_plushie>)
   .register();
 
@@ -164,7 +164,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:red_wool>, <item:minecraft:red_wool>, <item:minecraft:red_wool>],
     [<item:minecraft:air>, <item:minecraft:red_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:parrot_plushie>)
   .register();
 
@@ -175,7 +175,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:cobblestone>, <item:minecraft:black_wool>],
     [<item:minecraft:air>, <item:minecraft:black_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:warden_plushie>)
   .register();
 
@@ -186,7 +186,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:orange_wool>, <item:minecraft:lily_pad>, <item:minecraft:orange_wool>],
     [<item:minecraft:slime_ball>, <item:minecraft:air>, <item:minecraft:slime_ball>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:frog_plushie>)
   .register();
 
@@ -197,7 +197,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:white_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:goat_plushie>)
   .register();
 
@@ -208,7 +208,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:brown_wool>, <item:minecraft:string>, <item:minecraft:brown_wool>],
     [<item:minecraft:brown_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:brown_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:cat_plushie>)
   .register();
 
@@ -219,7 +219,7 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:black_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:air>, <item:minecraft:black_wool>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:enderman_plushie>)
   .register();
 
@@ -230,6 +230,6 @@ Recipe.type(Type.DESIGNER)
     [<item:minecraft:black_wool>, <item:minecraft:white_wool>, <item:minecraft:black_wool>],
     [<item:minecraft:white_wool>, <item:minecraft:pink_wool>, <item:minecraft:white_wool>]])
   .tool(<tag:items:artisantools:type/needle>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:plushies:sheep_plushie>)
   .register();

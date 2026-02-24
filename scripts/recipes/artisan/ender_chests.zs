@@ -10,7 +10,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:leather>, <item:minecraft:ender_eye>, <item:minecraft:leather>],
     [<tag:items:forge:crops/flax>, <item:minecraft:leather>, <tag:items:forge:crops/flax>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:enderchests:ender_pouch>)
   .register();
   
@@ -22,6 +22,6 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:leather>, <item:enderchests:ender_pouch>, <item:minecraft:leather>],
     [<item:minecraft:blaze_powder>, <tag:items:minecraft:wool>, <item:minecraft:blaze_powder>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:enderchests:ender_bag>)
   .register();

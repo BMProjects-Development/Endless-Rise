@@ -10,7 +10,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:bricks>, <item:minecraft:campfire>, <item:minecraft:bricks>]])
   .tool(<tag:items:artisantools:type/hammer>, 10)
   .tool(<tag:items:artisantools:type/trowel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:stove>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:polished_blackstone_bricks>, <item:minecraft:campfire>, <item:minecraft:polished_blackstone_bricks>]])
   .tool(<tag:items:artisantools:type/hammer>, 10)
   .tool(<tag:items:artisantools:type/trowel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:nethers_delight:blackstone_stove>)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:end_stone_bricks>, <item:minecraft:campfire>, <item:minecraft:end_stone_bricks>]])
   .tool(<tag:items:artisantools:type/hammer>, 10)
   .tool(<tag:items:artisantools:type/trowel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ends_delight:end_stove>)
   .register();
   
@@ -46,7 +46,7 @@ Recipe.type(Type.BLACKSMITH)
     [<item:minecraft:brick>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/framing_hammer>, 10)
   .tool(<tag:items:artisantools:type/burner>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:skillet>)
   .register();
   
@@ -58,7 +58,7 @@ Recipe.type(Type.BLACKSMITH)
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]])
   .tool(<tag:items:artisantools:type/framing_hammer>, 10)
   .tool(<tag:items:artisantools:type/burner>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:cooking_pot>)
   .register();
   
@@ -70,7 +70,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
   .tool(<tag:items:artisantools:type/handsaw>, 10)
   .tool(<tag:items:artisantools:type/carver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:cutting_board>)
   .register();
   
@@ -84,7 +84,7 @@ Recipe.type(Type.BLACKSMITH)
     [<item:minecraft:iron_ingot>, <tag:items:forge:rods/wooden>]])
   .tool(<tag:items:artisantools:type/tsquare>, 10)
   .tool(<tag:items:artisantools:type/hammer>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:iron_knife>)
   .register();
   
@@ -94,7 +94,7 @@ Recipe.type(Type.BLACKSMITH)
     [<item:minecraft:gold_ingot>, <tag:items:forge:rods/wooden>]])
   .tool(<tag:items:artisantools:type/tsquare>, 10)
   .tool(<tag:items:artisantools:type/hammer>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:golden_knife>)
   .register();
   
@@ -104,7 +104,7 @@ Recipe.type(Type.BLACKSMITH)
     [<item:minecraft:diamond>, <tag:items:forge:rods/wooden>]])
   .tool(<tag:items:artisantools:type/tsquare>, 10)
   .tool(<tag:items:artisantools:type/hammer>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmersdelight:diamond_knife>)
   .register();
   
@@ -114,6 +114,6 @@ Recipe.type(Type.BLACKSMITH)
     [<item:ends_delight:dragon_egg_shell>, <item:minecraft:popped_chorus_fruit>]])
   .tool(<tag:items:artisantools:type/tsquare>, 10)
   .tool(<tag:items:artisantools:type/hammer>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ends_delight:dragon_egg_shell_knife>)
   .register();

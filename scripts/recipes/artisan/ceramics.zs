@@ -10,7 +10,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
     [<item:minecraft:air>, <item:minecraft:clay_ball>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ceramics:unfired_clay_bucket>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 5)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ceramics:unfired_clay_plate> * 2)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>]])
   .tool(<item:notreepunching:clay_tool>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ceramics:clay_cistern> * 2)
   .register();
   
@@ -46,7 +46,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:air>, <item:minecraft:clay_ball>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ceramics:clay_faucet> * 2)
   .register();
   
@@ -58,6 +58,6 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]])
   .tool(<item:notreepunching:clay_tool>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:ceramics:clay_channel> * 3)
   .register();

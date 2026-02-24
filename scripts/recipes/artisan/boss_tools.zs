@@ -10,7 +10,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:boss_tools_giselle_addon:module_space_breathing_unit>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:boss_tools_giselle_addon:module_gravity_normalizing_unit>)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:boss_tools_giselle_addon:module_space_fire_proof_unit>)
   .register();
   
@@ -46,6 +46,6 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:boss_tools_giselle_addon:module_venus_acid_proof_unit>)
   .register();

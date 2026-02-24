@@ -1,74 +1,85 @@
 {
-  "minecraft:cold_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:mushroom_fields": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:deep_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:lukewarm_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:river": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:deep_cold_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:frozen_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:deep_frozen_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:the_void": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "biomesoplenty:origin_valley": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:swamp": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true
-  },
-  "minecraft:mushroom_fields_shore": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:swamp_hills": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true
-  },
-  "minecraft:deep_warm_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": true
-  },
-  "minecraft:warm_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": true
-  },
-  "biomesoplenty:rainbow_hills": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  },
-  "minecraft:deep_lukewarm_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false
-  }
+  "minecraft:cold_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:mushroom_fields": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:deep_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:lukewarm_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:river": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:deep_cold_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:frozen_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:deep_frozen_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:the_void": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "biomesoplenty:origin_valley": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:swamp": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "minecraft:mushroom_fields_shore": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:swamp_hills": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "minecraft:deep_warm_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": true },
+  "minecraft:warm_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": true },
+  "biomesoplenty:rainbow_hills": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "minecraft:deep_lukewarm_ocean": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  
+  "byg:zelkova_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:allium_fields": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:jacaranda_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:meadow": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:seasonal_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:twilight_valley": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:evergreen_taiga": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:dunes": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:grassland_plateau": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:bluff_steeps": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:alps": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:red_desert": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:snowy_blue_taiga": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:tropical_fungal_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:aspen_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:dead_sea": { "enable_seasonal_effects": false, "use_tropical_seasons": true },
+  "byg:dover_mountains": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:ancient_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:sierra_valley": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:seasonal_birch_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:guiana_shield": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:enchanted_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:seasonal_taiga": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:weeping_witch_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:mojave_desert": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:cherry_blossom_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:canyons": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:glowshroom_bayou": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:autumnal_valley": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:mangrove_marshes": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:seasonal_deciduous_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:amaranth_fields": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:the_black_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:snowy_deciduous_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:stone_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:crag_gardens": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:prairie": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:snowy_coniferous_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:vibrant_swamplands": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:araucaria_savanna": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:baobab_savanna": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:maple_taiga": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:lush_tundra": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:snowy_evergreen_taiga": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:bayou": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:rose_fields": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:woodlands": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:ebony_woods": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:red_rock_mountains": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:red_oak_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:cypress_swamplands": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:shattered_glacier": { "enable_seasonal_effects": false, "use_tropical_seasons": false },
+  "byg:skyris_highlands": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:great_lakes": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:tropical_rainforest": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:boreal_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:deciduous_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:cika_woods": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:cold_swamplands": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:orchard": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:redwood_tropics": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:blue_taiga": { "enable_seasonal_effects": true, "use_tropical_seasons": false },
+  "byg:shrublands": { "enable_seasonal_effects": true, "use_tropical_seasons": true },
+  "byg:coniferous_forest": { "enable_seasonal_effects": true, "use_tropical_seasons": false }
 }

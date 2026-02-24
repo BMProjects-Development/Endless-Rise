@@ -10,7 +10,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:crops/flax>, <item:minecraft:air>, <tag:items:forge:crops/flax>],
     [<tag:items:forge:crops/flax>, <tag:items:forge:crops/flax>, <tag:items:forge:crops/flax>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:supplementaries:sack>)
   .register();
   
@@ -23,6 +23,6 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:supplementaries:bellows>)
   .register();

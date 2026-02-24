@@ -10,7 +10,7 @@ Recipe.type(Type.MAGE)
     [<item:minecraft:rotten_flesh>, <item:tconstruct:small_blade>.withTag({Material: "tconstruct:rose_gold" as string}), <item:minecraft:rotten_flesh>],
     [<item:xreliquary:zombie_heart>, <item:xreliquary:zombie_heart>, <item:xreliquary:zombie_heart>]])
   .tool(<tag:items:artisantools:type/grimoire>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:xreliquary:mob_charm_fragment>.withTag({entity: "minecraft:zombified_piglin" as string}))
   .register();
   
@@ -22,6 +22,6 @@ Recipe.type(Type.TAILOR)
     [<item:minecraft:red_wool>, <item:tconstruct:silky_cloth>, <item:minecraft:red_wool>],
     [<item:xreliquary:nebulous_heart>, <item:minecraft:black_wool>, <item:xreliquary:nebulous_heart>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:xreliquary:crimson_cloth> * 2)
   .register();

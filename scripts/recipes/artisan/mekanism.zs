@@ -10,7 +10,7 @@ Recipe.type(Type.ENGINEER)
     [<item:powah:steel_energized>, <item:mekanism:hdpe_sheet>, <item:powah:steel_energized>],
     [<tag:items:forge:nuggets/silicon_bronze>, <item:powah:steel_energized>, <tag:items:forge:nuggets/silicon_bronze>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_base>)
   .register();
 
@@ -22,7 +22,7 @@ Recipe.type(Type.ENGINEER)
     [<item:tconstruct:pickaxe_head>.withTag({Material: "tconstruct:cobalt" as string}), <item:mekanism:module_base>, <item:tconstruct:small_axe_head>.withTag({Material: "tconstruct:cobalt" as string})],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_vein_mining_unit>)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.ENGINEER)
     [<item:tconstruct:pickaxe_head>.withTag({Material: "tconstruct:cobalt" as string}), <item:mekanism:module_base>, <item:tconstruct:pickaxe_head>.withTag({Material: "tconstruct:cobalt" as string})],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_silk_touch_unit>)
   .register();
   
@@ -46,7 +46,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_farming_unit>)
   .register();
   
@@ -58,7 +58,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_excavation_escalation_unit>)
   .register();
   
@@ -70,7 +70,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_attack_amplification_unit>)
   .register();
   
@@ -82,7 +82,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:hydrogen_bucket>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_frost_walker_unit>)
   .register();
   
@@ -94,7 +94,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_jetpack_unit>)
   .register();
   
@@ -106,7 +106,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:energy_tablet>, <item:mekanism:module_base>, <item:mekanism:energy_tablet>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_hydraulic_propulsion_unit>)
   .register();
   
@@ -118,7 +118,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:energy_tablet>, <item:mekanism:module_base>, <item:mekanism:energy_tablet>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_elytra_unit>)
   .register();
   
@@ -130,7 +130,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:energy_tablet>, <item:mekanism:module_base>, <item:mekanism:energy_tablet>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_locomotive_boosting_unit>)
   .register();
   
@@ -142,7 +142,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_nutritional_injection_unit>)
   .register();
   
@@ -154,7 +154,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:scuba_mask>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_inhalation_purification_unit>)
   .register();
   
@@ -166,7 +166,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanismgenerators:module_geothermal_generator_unit>)
   .register();
   
@@ -178,7 +178,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_magnetic_attraction_unit>)
   .register();
   
@@ -190,7 +190,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_vision_enhancement_unit>)
   .register();
   
@@ -202,7 +202,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_charge_distribution_unit>)
   .register();
   
@@ -214,7 +214,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
     [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_solar_recharging_unit>)
   .register();
   
@@ -226,7 +226,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_radiation_shielding_unit>)
   .register();
   
@@ -238,7 +238,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_geiger_unit>)
   .register();
   
@@ -250,7 +250,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_electrolytic_breathing_unit>)
   .register();
   
@@ -262,7 +262,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_dosimeter_unit>)
   .register();
   
@@ -274,7 +274,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_energy_unit>)
   .register();
   
@@ -286,7 +286,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_shearing_unit>)
   .register();
   
@@ -298,7 +298,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
     [<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_laser_dissipation_unit>)
   .register();
   
@@ -310,7 +310,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:ultimate_induction_provider>, <item:mekanism:module_base>, <item:mekanism:ultimate_induction_provider>],
     [<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_gravitational_modulating_unit>)
   .register();
   
@@ -322,7 +322,7 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_atomic>, <item:mekanism:module_base>, <item:mekanism:alloy_atomic>],
     [<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:module_teleportation_unit>)
   .register();
   
@@ -334,6 +334,6 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:glass>, <item:mekanism:basic_control_circuit>, <tag:items:forge:glass>],
     [<item:mekanism:ingot_steel>, <item:artifacts:snorkel>, <item:mekanism:ingot_steel>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:mekanism:scuba_mask>)
   .register();

@@ -10,7 +10,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]])
   .tool(<item:notreepunching:clay_tool>, 5)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:clay_pot>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 2)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:unfired_brick> * 2)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 2)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:unfired_sandy_brick> * 4)
   .register();
   
@@ -46,7 +46,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:netherrack>, <item:minecraft:netherrack>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 2)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:nether_brick_item> * 2)
   .register();
   
@@ -59,7 +59,7 @@ Recipe.type(Type.TANNER)
     [<item:the_bumblezone:beehive_beeswax>, <item:minecraft:leather>, <item:the_bumblezone:beehive_beeswax>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:bellows>)
   .register();
   
@@ -72,7 +72,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:cobblestone>, <item:minecraft:leather>, <item:the_bumblezone:beehive_beeswax>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:mechanical_bellows>)
   .register();
   
@@ -83,6 +83,6 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:air>, <tag:items:forge:cobblestone>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:charcoal_pit:mechanical_bellows>)
   .register();
