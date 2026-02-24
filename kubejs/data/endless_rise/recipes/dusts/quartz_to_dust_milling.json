@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_quartz"
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/quartz",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_diamond"
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/diamond",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/aluminum"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:dust_aluminum"
+    }
+  ],
+  "processingTime": 400,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/aluminum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

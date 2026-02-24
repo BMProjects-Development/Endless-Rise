@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_iron"
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/iron",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

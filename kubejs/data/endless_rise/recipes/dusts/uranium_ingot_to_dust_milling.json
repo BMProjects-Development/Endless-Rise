@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_uranium"
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/uranium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

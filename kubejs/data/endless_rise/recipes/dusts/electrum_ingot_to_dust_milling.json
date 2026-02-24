@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/electrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:dust_electrum"
+    }
+  ],
+  "processingTime": 350,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/electrum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

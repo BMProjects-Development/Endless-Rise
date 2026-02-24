@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:gems/fluorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_fluorite"
+    }
+  ],
+  "processingTime": 400,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/fluorite",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

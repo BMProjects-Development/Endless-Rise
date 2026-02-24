@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_gold"
+    }
+  ],
+  "processingTime": 400,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/gold",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

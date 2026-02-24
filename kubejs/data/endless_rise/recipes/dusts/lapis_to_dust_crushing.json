@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:gems/lapis"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_lapis_lazuli"
+    }
+  ],
+  "processingTime": 400,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/lapis",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}
