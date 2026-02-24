@@ -38,6 +38,12 @@ onEvent('recipes', event => {
   event.smelting('minecraft:charcoal', '#minecraft:logs')
   
   event.blasting('minecraft:charcoal', '#minecraft:logs')
+  
+  
+  event.remove({output: 'minecraft:fire_charge'})
+  event.shapeless('3x minecraft:fire_charge', ['minecraft:gunpowder', 'minecraft:blaze_powder', '#minecraft:coals'])
+  
+  event.shapeless('3x minecraft:fire_charge', ['minecraft:gunpowder', 'minecraft:blaze_powder', 'minecraft:charcoal'])
 
   
 })

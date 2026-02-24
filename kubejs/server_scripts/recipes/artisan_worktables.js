@@ -10,5 +10,6 @@ onEvent('recipes', event => {
 	P: '#minecraft:planks',
 	F: '#minecraft:wooden_fences'
   })
+
   
 })

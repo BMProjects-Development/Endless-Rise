@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
   
-  // Список всех предметов, которые нужно удалить
+  
   const itemsToRemove = [
     'minecraft:wooden_sword', 'minecraft:wooden_pickaxe', 'minecraft:wooden_shovel', 'minecraft:wooden_axe',
     'minecraft:stone_sword', 'minecraft:stone_pickaxe', 'minecraft:stone_shovel', 'minecraft:stone_axe', 'minecraft:stone_hoe',
