@@ -10,7 +10,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:ingots/steel>, <item:mekanism:alloy_infused>, <tag:items:forge:ingots/steel>],
     [<tag:items:forge:treated_wood>, <tag:items:forge:ingots/steel>, <tag:items:forge:treated_wood>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:machine_frame_pity>)
   .register();
   
@@ -23,7 +23,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/diamond>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/diamond>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:fluid_laser_base>)
   .register();
   
@@ -36,7 +36,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/diamond>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/diamond>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:ore_laser_base>)
   .register();
   
@@ -49,7 +49,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/gold>, <item:industrialforegoing:pink_slime>, <tag:items:forge:gears/gold>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:material_stonework_factory>)
   .register();
   
@@ -62,7 +62,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/gold>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/gold>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:plant_gatherer>)
   .register();
   
@@ -75,7 +75,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/gold>, <item:industrialforegoing:machine_frame_simple>, <tag:items:forge:gears/gold>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:hydroponic_bed>)
   .register();
   
@@ -88,7 +88,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/iron>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/iron>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:block_breaker>)
   .register();
   
@@ -101,7 +101,7 @@ Recipe.type(Type.ENGINEER)
     [<item:tconstruct:small_axe_head>.withTag({Material: "tconstruct:iron" as string}), <item:create:polished_rose_quartz>, <item:tconstruct:small_axe_head>.withTag({Material: "tconstruct:iron" as string})]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:mob_slaughter_factory>)
   .register();
   
@@ -114,6 +114,6 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:gears/gold>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/gold>]])
   .tool(<tag:items:artisantools:type/hammer>, 15)
   .tool(<tag:items:artisantools:type/pliers>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:industrialforegoing:mob_crusher>)
   .register();

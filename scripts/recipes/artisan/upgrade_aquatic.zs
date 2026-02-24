@@ -11,6 +11,6 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
   .tool(<tag:items:artisantools:type/cutting_board>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:upgrade_aquatic:bedroll>)
   .register();

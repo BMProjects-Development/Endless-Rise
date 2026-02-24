@@ -10,7 +10,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:quark:bonded_leather>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>],
     [<item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:quark:bonded_rabbit_hide>)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.TANNER)
     [<item:quark:ravager_hide>, <item:quark:ravager_hide>, <item:quark:ravager_hide>],
     [<item:quark:ravager_hide>, <item:quark:ravager_hide>, <item:quark:ravager_hide>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:quark:bonded_ravager_hide>)
   .register();
   
@@ -42,7 +42,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:quark:bonded_ravager_hide>])
   .tool(<tag:items:artisantools:type/cutting_board>, 1)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:quark:ravager_hide> * 9)
   .register();
   
@@ -54,6 +54,6 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:rabbit_hide>, <tag:items:quark:seed_pouch_holdable>, <item:minecraft:rabbit_hide>],
     [<item:minecraft:air>, <item:minecraft:rabbit_hide>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:quark:seed_pouch>)
   .register();

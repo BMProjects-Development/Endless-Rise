@@ -10,7 +10,7 @@ Recipe.type(Type.ENGINEER)
     [<tag:items:forge:ingots/copper>, <tag:items:forge:stone>, <tag:items:forge:ingots/copper>],
     [<tag:items:minecraft:stone_crafting_materials>, <item:minecraft:iron_ingot>, <tag:items:minecraft:stone_crafting_materials>]])
   .tool(<tag:items:artisantools:type/spanner>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:appliedenergistics2:grindstone>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:rods/wooden>],
     [<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:rods/wooden>]])
   .tool(<tag:items:artisantools:type/chisel>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:appliedenergistics2:crank>)
   .register();
   
@@ -34,6 +34,6 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <tag:items:forge:rods/wooden>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:appliedenergistics2:wooden_gear>)
   .register();

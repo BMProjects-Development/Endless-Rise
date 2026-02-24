@@ -10,7 +10,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:wooden_buttons>, <item:create:andesite_alloy>, <tag:items:minecraft:wooden_buttons>],
     [<tag:items:minecraft:wooden_buttons>, <tag:items:minecraft:wooden_buttons>, <tag:items:minecraft:wooden_buttons>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:create:cogwheel> * 8)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:planks>, <item:create:andesite_alloy>, <tag:items:minecraft:planks>],
     [<tag:items:minecraft:wooden_buttons>, <tag:items:minecraft:planks>, <tag:items:minecraft:wooden_buttons>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:create:large_cogwheel> * 2)
   .register();
   
@@ -34,6 +34,6 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:wooden_slabs>, <item:create:large_cogwheel>, <tag:items:minecraft:wooden_slabs>],
     [<tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_slabs>]])
   .tool(<tag:items:artisantools:type/chisel>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:create:water_wheel>)
   .register();

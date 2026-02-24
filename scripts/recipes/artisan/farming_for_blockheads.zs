@@ -10,7 +10,7 @@ Recipe.type(Type.FARMER)
     [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmingforblockheads:market>)
   .register();
   
@@ -21,7 +21,7 @@ Recipe.type(Type.FARMER)
     [<tag:items:minecraft:planks>, <item:minecraft:hay_block>, <tag:items:minecraft:planks>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmingforblockheads:chicken_nest>)
   .register();
   
@@ -32,7 +32,7 @@ Recipe.type(Type.FARMER)
     [<tag:items:minecraft:planks>, <item:minecraft:golden_carrot>, <tag:items:minecraft:planks>],
     [<tag:items:minecraft:planks>, <item:minecraft:hay_block>, <tag:items:minecraft:planks>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmingforblockheads:feeding_trough>)
   .register();
   
@@ -44,7 +44,7 @@ Recipe.type(Type.FARMER)
     [<item:minecraft:wheat>, <item:minecraft:wheat>, <item:minecraft:wheat>]])
   .tool(<tag:items:artisantools:type/mortar>, 10)
   .tool(<tag:items:artisantools:type/sifter>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmingforblockheads:green_fertilizer>)
   .register();
 
@@ -56,7 +56,7 @@ Recipe.type(Type.FARMER)
     [<item:minecraft:bone_meal>, <item:minecraft:bone_meal>, <item:minecraft:bone_meal>]])
   .tool(<tag:items:artisantools:type/mortar>, 10)
   .tool(<tag:items:artisantools:type/sifter>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmingforblockheads:red_fertilizer>)
   .register();
 
@@ -68,6 +68,6 @@ Recipe.type(Type.FARMER)
     [<item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>]])
   .tool(<tag:items:artisantools:type/mortar>, 10)
   .tool(<tag:items:artisantools:type/sifter>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:farmingforblockheads:yellow_fertilizer>)
   .register();

@@ -11,7 +11,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:ingots/copper>, <item:minecraft:air>, <tag:items:forge:ingots/copper>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:tconstruct:travelers_helmet>)
   .register();
   
@@ -24,7 +24,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:ingots/copper>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:tconstruct:travelers_chestplate>)
   .register();
   
@@ -37,7 +37,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:tconstruct:travelers_leggings>)
   .register();
   
@@ -50,7 +50,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:tconstruct:travelers_boots>)
   .register();
   
@@ -62,7 +62,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>],
     [<tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>]])
   .tool(<tag:items:artisantools:type/chisel>, 5)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:tconstruct:pattern> * 4)
   .register();
   
@@ -74,6 +74,6 @@ Recipe.type(Type.TAILOR)
     [<tag:items:forge:string>, <item:tconstruct:rose_gold_ingot>, <tag:items:forge:string>],
     [<tag:items:forge:string>, <tag:items:forge:string>, <tag:items:forge:string>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:tconstruct:silky_cloth>)
   .register();

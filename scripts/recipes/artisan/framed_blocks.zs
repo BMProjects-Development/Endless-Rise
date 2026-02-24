@@ -10,7 +10,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <tag:items:forge:rods/wooden>],
     [<tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:framedblocks:framed_cube> * 4)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:framedblocks:framed_cube>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/chisel>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:framedblocks:framed_hammer>)
   .register();
   
@@ -34,6 +34,6 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/chisel>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:framedblocks:framed_wrench>)
   .register();

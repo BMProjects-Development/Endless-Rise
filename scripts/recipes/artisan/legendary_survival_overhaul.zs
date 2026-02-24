@@ -10,7 +10,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:canteen>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:large_canteen>)
   .register();
   
@@ -35,7 +35,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:desert_helmet>)
   .register();
   
@@ -48,7 +48,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
   .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:desert_chestplate>)
   .register();
   
@@ -61,7 +61,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
   .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:desert_leggings>)
   .register();
   
@@ -74,7 +74,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:desert_boots>)
   .register();
   
@@ -87,7 +87,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
   .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:snow_helmet>)
   .register();
   
@@ -100,7 +100,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <tag:items:forge:leather>, <tag:items:minecraft:wool>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
   .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:snow_chestplate>)
   .register();
   
@@ -112,7 +112,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:snow_leggings>)
   .register();
   
@@ -124,6 +124,6 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:legendarysurvivaloverhaul:snow_boots>)
   .register();

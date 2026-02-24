@@ -48,11 +48,11 @@
 
 ["Status Message"]
 	#Personalized message for missing items when using advanced flint and steel interaction
-	Message_fling_and_steel = "Отсутствуют: сгоревший пищевой порошок или порох!"
+	Message_fling_and_steel = "Missing: burnt food powder or gunpowder!"
 	#Personalized message for missing item when interacting with a lit furnace/smoker/blast furnace
-	Message_bypass_item = "Осторожно! Горячо! Используйте что-нибудь, чтобы не обжечься."
+	Message_bypass_item = "Be careful! It's hot! Use something to avoid burning yourself."
 
 ["Compatibility Handler"]
 	#Enable or disable compatibility with the Furnace Mk2 mod. Link: https://www.curseforge.com/minecraft/mc-mods/furnace-mk2
-	Furnace_Mk2_mod_compatibility = true
+	Furnace_Mk2_mod_compatibility = false
 

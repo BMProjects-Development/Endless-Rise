@@ -13,7 +13,7 @@ Recipe.type(Type.POTTER)
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
   .tool(<tag:items:artisantools:type/carver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:cooking_table>)
   .register();
   
@@ -28,7 +28,7 @@ Recipe.type(Type.ENGINEER)
   .tool(<tag:items:artisantools:type/pliers>, 10)
   .tool(<tag:items:artisantools:type/spanner>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:oven>)
   .register();
   
@@ -43,7 +43,7 @@ Recipe.type(Type.POTTER)
   .tool(<tag:items:artisantools:type/carver>, 10)
   .tool(<tag:items:artisantools:type/spanner>, 10)
   .tool(<tag:items:artisantools:type/chisel>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:sink>)
   .register();
   
@@ -54,7 +54,7 @@ Recipe.type(Type.CHEF)
     [<tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>],
     [<item:minecraft:iron_nugget>, <item:minecraft:air>, <item:minecraft:iron_nugget>]])
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:tool_rack>)
   .register();
   
@@ -65,7 +65,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_trapdoor>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <item:minecraft:lava_bucket>, <item:minecraft:iron_ingot>]])
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:toaster>)
   .register();
   
@@ -77,7 +77,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:glass>, <item:minecraft:glass>, <item:minecraft:glass>]])
   .tool(<tag:items:artisantools:type/gemcutter>, 10)
   .tool(<tag:items:artisantools:type/lens>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:milk_jar>)
   .register();
   
@@ -89,7 +89,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/handsaw>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:spice_rack>)
   .register();
   
@@ -101,7 +101,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/handsaw>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:fruit_basket>)
   .register();
   
@@ -113,7 +113,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:terracotta>, <item:minecraft:terracotta>, <item:minecraft:terracotta>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:counter>)
   .register();
 
@@ -125,7 +125,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:terracotta>, <item:minecraft:terracotta>, <item:minecraft:terracotta>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:corner>)
   .register();
   
@@ -137,7 +137,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:terracotta>, <tag:items:forge:chests/wooden>, <item:minecraft:terracotta>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:cabinet>)
   .register();
   
@@ -149,7 +149,7 @@ Recipe.type(Type.ENGINEER)
     [<item:minecraft:iron_ingot>, <item:legendarysurvivaloverhaul:ice_fern_leaf>, <item:minecraft:iron_ingot>]])
   .tool(<tag:items:artisantools:type/spanner>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:fridge>)
   .register();
   
@@ -161,7 +161,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:terracotta>, <item:minecraft:terracotta>, <item:minecraft:terracotta>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:hanging_corner>)
   .register();
   
@@ -173,7 +173,7 @@ Recipe.type(Type.ENGINEER)
     [<item:minecraft:iron_ingot>, <item:legendarysurvivaloverhaul:sun_fern_leaf>, <item:minecraft:iron_ingot>]])
   .tool(<tag:items:artisantools:type/spanner>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:heating_unit>)
   .register();
   
@@ -185,7 +185,7 @@ Recipe.type(Type.ENGINEER)
     [<item:minecraft:iron_ingot>, <item:minecraft:comparator>, <item:minecraft:iron_ingot>]])
   .tool(<tag:items:artisantools:type/spanner>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:ice_unit>)
   .register();
   
@@ -197,7 +197,7 @@ Recipe.type(Type.ENGINEER)
     [<item:minecraft:iron_ingot>, <item:minecraft:comparator>, <item:minecraft:iron_ingot>]])
   .tool(<tag:items:artisantools:type/spanner>, 10)
   .tool(<tag:items:artisantools:type/driver>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:preservation_chamber>)
   .register();
   
@@ -209,7 +209,7 @@ Recipe.type(Type.MASON)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:white_kitchen_floor> * 4)
   .register();
   
@@ -220,6 +220,6 @@ Recipe.type(Type.MASON)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/chisel>, 10)
   .tool(<tag:items:artisantools:type/file>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:cookingforblockheads:white_kitchen_floor> * 12)
   .register();

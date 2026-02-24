@@ -11,6 +11,6 @@ Recipe.type(Type.ENGINEER)
     [<item:mekanism:alloy_infused>, <item:pneumaticcraft:turbine_rotor>, <item:mekanism:alloy_infused>]])
   .tool(<tag:items:artisantools:type/pliers>, 15)
   .tool(<tag:items:artisantools:type/spanner>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:pneumaticcraft:guard_drone>)
   .register();

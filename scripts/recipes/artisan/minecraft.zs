@@ -10,7 +10,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather_helmet>)
   .register();
   
@@ -22,7 +22,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather_chestplate>)
   .register();
   
@@ -34,7 +34,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather_leggings>)
   .register();
   
@@ -46,7 +46,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather_boots>)
   .register();
   
@@ -58,7 +58,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather_horse_armor>)
   .register();
   
@@ -70,7 +70,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather>)
   .register();
   
@@ -78,7 +78,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:betterendforge:leather_stripe>, <item:betterendforge:leather_stripe>, <item:betterendforge:leather_stripe>])
   .tool(<tag:items:artisantools:type/cutting_board>, 2)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather>)
   .register();
   
@@ -86,7 +86,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:alexsmobs:kangaroo_hide>, <item:alexsmobs:kangaroo_hide>])
   .tool(<tag:items:artisantools:type/cutting_board>, 2)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather>)
   .register();
   
@@ -94,7 +94,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:quark:bonded_leather>])
   .tool(<tag:items:artisantools:type/cutting_board>, 1)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather> * 9)
   .register();
   
@@ -103,7 +103,7 @@ craftingTable.removeRecipe(<item:minecraft:rabbit_hide>);
 Recipe.type(Type.TANNER)
   .shapeless([<item:quark:bonded_rabbit_hide>])
   .tool(<tag:items:artisantools:type/cutting_board>, 1)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:rabbit_hide> * 9)
   .register();
   
@@ -111,7 +111,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:minecraft:leather_helmet>])
   .tool(<tag:items:artisantools:type/knife>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather> * 4)
   .register();
   
@@ -119,7 +119,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:minecraft:leather_chestplate>])
   .tool(<tag:items:artisantools:type/knife>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather> * 7)
   .register();
   
@@ -127,7 +127,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:minecraft:leather_leggings>])
   .tool(<tag:items:artisantools:type/knife>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather> * 6)
   .register();
   
@@ -135,7 +135,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:minecraft:leather_boots>])
   .tool(<tag:items:artisantools:type/knife>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather> * 3)
   .register();
   
@@ -143,7 +143,7 @@ Recipe.type(Type.TANNER)
 Recipe.type(Type.TANNER)
   .shapeless([<item:minecraft:leather_horse_armor>])
   .tool(<tag:items:artisantools:type/knife>, 15)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:leather> * 7)
   .register();
   
@@ -155,7 +155,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]])
   .tool(<tag:items:artisantools:type/gemcutter>, 10)
   .tool(<tag:items:artisantools:type/athame>, 25)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:golden_apple>)
   .register();
   
@@ -167,7 +167,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:potion>.withTag({Potion: "apotheosis:strong_absorption" as string}), <item:minecraft:potion>.withTag({Potion: "apotheosis:resistance" as string}), <item:minecraft:potion>.withTag({Potion: "apotheosis:strong_absorption" as string})]])
   .tool(<tag:items:artisantools:type/gemcutter>, 25)
   .tool(<tag:items:artisantools:type/athame>, 50)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:enchanted_golden_apple>)
   .register();
   
@@ -179,7 +179,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>]])
   .tool(<tag:items:artisantools:type/gemcutter>, 10)
   .tool(<tag:items:artisantools:type/athame>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:golden_carrot>)
   .register();
   
@@ -191,7 +191,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/mortar>, 10)
   .tool(<tag:items:artisantools:type/paintbrush>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:fermented_spider_eye>)
   .register();
   
@@ -203,7 +203,7 @@ Recipe.type(Type.CHEF)
     [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>]])
   .tool(<tag:items:artisantools:type/gemcutter>, 10)
   .tool(<tag:items:artisantools:type/athame>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:glistering_melon_slice>)
   .register();
   
@@ -215,7 +215,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:paper>, <item:minecraft:leather>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<tag:items:artisantools:type/cutting_board>, 10)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:book>)
   .register();
   
@@ -227,7 +227,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>],
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
   .tool(<tag:items:artisantools:type/chisel>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:chest>)
   .register();
   
@@ -237,7 +237,7 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]])
   .tool(<tag:items:artisantools:type/chisel>, 80)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:chest> * 4)
   .register();
   
@@ -249,6 +249,6 @@ Recipe.type(Type.CARPENTER)
     [<tag:items:minecraft:planks>, <item:minecraft:redstone_torch>, <tag:items:minecraft:planks>],
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
   .tool(<tag:items:artisantools:type/chisel>, 20)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  
   .output(<item:minecraft:trapped_chest>)
   .register();
