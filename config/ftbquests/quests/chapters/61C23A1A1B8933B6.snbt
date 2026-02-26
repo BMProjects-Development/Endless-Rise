@@ -1443,5 +1443,26 @@
 				}
 			]
 		}
+		{
+			x: 5.0d
+			y: -7.5d
+			description: ["{er.61c23a1a1b8933b6.quests78.description0}"]
+			dependencies: [
+				"172F8DEC670AAEDC"
+				"64BDE97489C13204"
+			]
+			id: "7D6D3BABD99DC8BD"
+			tasks: [{
+				id: "2AA11AB4E115D87E"
+				type: "item"
+				item: {
+					id: "geolosys_scanner:geo_scanner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

@@ -69,7 +69,7 @@
 		}
 		{
 			x: 1.0d
-			y: -1.5d
+			y: 1.5d
 			description: ["{er.09bc33749d387467.quests2.description0}"]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "55592F4BB319F39F"
@@ -87,7 +87,7 @@
 		}
 		{
 			x: 1.5d
-			y: -3.0d
+			y: 3.0d
 			description: ["{er.09bc33749d387467.quests3.description0}"]
 			dependencies: ["55592F4BB319F39F"]
 			id: "0F5335A370C7C1BF"
@@ -451,7 +451,7 @@
 			]
 		}
 		{
-			x: 15.0d
+			x: 15.5d
 			y: 0.0d
 			description: ["{er.09bc33749d387467.quests19.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
@@ -540,7 +540,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 14.5d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
@@ -554,7 +554,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 16.5d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
@@ -708,7 +708,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 14.5d
 			y: 6.0d
 			description: ["{er.09bc33749d387467.quests37.description0}"]
 			dependencies: ["0B728A65AD5A65F1"]
@@ -835,7 +835,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests41.title}"
-			x: 14.5d
+			x: 15.0d
 			y: 3.5d
 			description: [
 				"{er.09bc33749d387467.quests41.description0}"
@@ -865,7 +865,7 @@
 			]
 		}
 		{
-			x: 15.0d
+			x: 15.5d
 			y: 5.0d
 			description: [
 				"{er.09bc33749d387467.quests42.description0}"
@@ -884,7 +884,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 16.5d
 			y: 6.0d
 			description: ["{er.09bc33749d387467.quests43.description0}"]
 			dependencies: ["0B728A65AD5A65F1"]
@@ -897,7 +897,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests44.title}"
-			x: 15.5d
+			x: 16.0d
 			y: 3.5d
 			description: [
 				"{er.09bc33749d387467.quests44.description0}"
@@ -927,7 +927,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: 3.0d
 			description: ["{er.09bc33749d387467.quests45.description0}"]
 			dependencies: ["63045AEFFE6135FD"]
@@ -940,7 +940,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: 4.0d
 			description: ["{er.09bc33749d387467.quests46.description0}"]
 			dependencies: ["63045AEFFE6135FD"]
@@ -970,7 +970,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 17.0d
 			y: 2.0d
 			subtitle: "{er.09bc33749d387467.quests48.subtitle}"
 			description: [
@@ -1048,7 +1048,7 @@
 		}
 		{
 			x: 3.0d
-			y: -2.5d
+			y: -1.5d
 			description: ["{er.09bc33749d387467.quests53.description0}"]
 			dependencies: ["2899535C3F79E47F"]
 			optional: true
@@ -1157,7 +1157,7 @@
 		}
 		{
 			x: 2.0d
-			y: -2.0d
+			y: -1.0d
 			description: ["{er.09bc33749d387467.quests61.description0}"]
 			dependencies: ["1479CC56B0DBB3F1"]
 			optional: true
@@ -1171,10 +1171,9 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -2.5d
 			description: ["{er.09bc33749d387467.quests62.description0}"]
 			dependencies: ["2899535C3F79E47F"]
-			optional: true
 			id: "2936657AD885EAC2"
 			tasks: [{
 				id: "7E34C60F285FA53C"
@@ -1266,7 +1265,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests66.title}"
-			x: 15.0d
+			x: 15.5d
 			y: 2.0d
 			subtitle: "{er.09bc33749d387467.quests66.subtitle}"
 			description: [
@@ -1382,6 +1381,82 @@
 				type: "checkmark"
 				title: "{er.09bc33749d387467.quests69.tasks0.title}"
 			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["{er.09bc33749d387467.quests74.description0}"]
+			dependencies: ["2936657AD885EAC2"]
+			id: "143D8A4A2EBCA2ED"
+			tasks: [{
+				id: "1FBCA5FCB6B23460"
+				type: "item"
+				title: "{er.09bc33749d387467.quests74.tasks0.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: ["{er.09bc33749d387467.quests75.description0}"]
+			dependencies: ["143D8A4A2EBCA2ED"]
+			id: "7C5BF9957BC12F94"
+			tasks: [{
+				id: "0C9FE050AF0F2C5B"
+				type: "item"
+				item: "legendarysurvivaloverhaul:plaster"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"{er.09bc33749d387467.quests76.description0}"
+				""
+				"{er.09bc33749d387467.quests76.description1}"
+			]
+			dependencies: ["7C5BF9957BC12F94"]
+			id: "452699AC13BA4CB5"
+			tasks: [{
+				id: "7F20AA74952EB4AA"
+				type: "item"
+				item: "legendarysurvivaloverhaul:bandage"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			description: [
+				"{er.09bc33749d387467.quests77.description0}"
+				""
+				"{er.09bc33749d387467.quests77.description1}"
+			]
+			dependencies: ["544D867E9E65F95E"]
+			id: "739EDEA160C0D8D3"
+			tasks: [
+				{
+					id: "33A6D7ED55344C88"
+					type: "item"
+					item: "geolosys:prospectors_pick"
+				}
+				{
+					id: "098D7C7CF89A0C5D"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "geolosys:field_manual"
+						}
+					}
+				}
+			]
 		}
 	]
 }

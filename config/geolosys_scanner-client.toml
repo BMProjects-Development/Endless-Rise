@@ -1,0 +1,10 @@
+
+[client]
+	#Enable radar ping sound
+	soundEnabled = false
+	#Sound volume multiplier (0.1 = quiet, 1.0 = loud)
+	#Range: 0.1 ~ 1.0
+	soundVolume = 0.5
+	#Show the scanner HUD overlay
+	hudEnabled = true
+
