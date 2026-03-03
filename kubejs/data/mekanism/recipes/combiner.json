@@ -24,7 +24,7 @@
       "item": "pneumaticcraft:transistor"
     },
     "W": {
-      "item": "create:powdered_obsidian"
+      "tag": "forge:dusts/obsidian"
     },
 	"F": {
       "item": "mekanism:steel_casing"
