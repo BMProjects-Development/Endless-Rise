@@ -51,4 +51,7 @@ onEvent('recipes', event => {
   event.remove({output: 'charcoal_pit:fire_starter'})	
   
   
+  event.smelting('charcoal_pit:ash_block', 'charcoal_pit:log_pile')
+  
+  
 })

@@ -93,7 +93,10 @@ onEvent('recipes', event => {
 	'create:smelting/ingot_tin_compat_mekanism',
 	'create:smelting/ingot_uranium_compat_immersiveengineering',
 	'create:smelting/ingot_uranium_compat_mekanism',
-	'create:smelting/iron_ingot_from_crushed'
+	'create:smelting/iron_ingot_from_crushed',
+	'notreepunching:campfire/brick',
+	'minecraft:charcoal',
+	'quark:building/crafting/compressed/charcoal_block_uncompress'
   ]
   
   recipesToRemove.forEach(id => {
