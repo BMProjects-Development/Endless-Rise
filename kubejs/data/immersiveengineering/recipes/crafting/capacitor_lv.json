@@ -12,7 +12,7 @@
       "item": "immersiveengineering:plate_steel"
     },
     "S": {
-      "item": "create:powdered_obsidian"
+      "tag": "forge:dusts/obsidian"
     },
 	"B": {
       "item": "tconstruct:tinkers_bronze_ingot"

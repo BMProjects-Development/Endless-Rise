@@ -167,7 +167,9 @@ const HIDDEN = [
    'notreepunching:clay_brick',
    'notreepunching:fire_starter',
    'charcoal_pit:fire_starter',
-   'minecraft:wooden_hoe'
+   'minecraft:wooden_hoe',
+   
+   'create:powdered_obsidian'
 ]
 
 onEvent('jei.hide.items', event => {
