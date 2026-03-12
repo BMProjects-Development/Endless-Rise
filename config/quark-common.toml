@@ -357,7 +357,7 @@
 [tweaks]
 	"Skull Pikes" = true
 	"Armed Armor Stands" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Axe Leaf Harvesting" = true
 	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
