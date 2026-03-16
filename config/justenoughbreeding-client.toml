@@ -1,0 +1,133 @@
+
+#Breeding Recipes Configuration
+[breeding]
+
+	[breeding.vanilla]
+		beeSpawnEgg = "minecraft:bee_spawn_egg"
+		catSpawnEgg = "minecraft:cat_spawn_egg"
+		chickenSpawnEgg = "minecraft:chicken_spawn_egg"
+		cowSpawnEgg = "minecraft:cow_spawn_egg"
+		donkeySpawnEgg = "minecraft:donkey_spawn_egg"
+		foxSpawnEgg = "minecraft:fox_spawn_egg"
+		goatSpawnEgg = "minecraft:goat_spawn_egg"
+		hoglinSpawnEgg = "minecraft:hoglin_spawn_egg"
+		horseSpawnEgg = "minecraft:horse_spawn_egg"
+		llamaSpawnEgg = "minecraft:llama_spawn_egg"
+		mooshroomSpawnEgg = "minecraft:mooshroom_spawn_egg"
+		ocelotSpawnEgg = "minecraft:ocelot_spawn_egg"
+		pandaSpawnEgg = "minecraft:panda_spawn_egg"
+		pigSpawnEgg = "minecraft:pig_spawn_egg"
+		rabbitSpawnEgg = "minecraft:rabbit_spawn_egg"
+		sheepSpawnEgg = "minecraft:sheep_spawn_egg"
+		striderSpawnEgg = "minecraft:strider_spawn_egg"
+		trader_llamaSpawnEgg = "minecraft:trader_llama_spawn_egg"
+		turtleSpawnEgg = "minecraft:turtle_spawn_egg"
+		#Egg that turtle lays after breeding
+		turtleeggResult = "minecraft:turtle_egg"
+		#Min amount of eggs that turtle lays after breeding
+		#Range: 1 ~ 64
+		turtleEggMinAmount = 1
+		#Max amount of eggs that turtle lays after breeding
+		#Range: 1 ~ 64
+		turtleEggMaxAmount = 4
+		wolfSpawnEgg = "minecraft:wolf_spawn_egg"
+
+		[breeding.vanilla.bee]
+			#Ingredients required for bee breeding
+			beeIngredients = "#minecraft:flowers"
+
+		[breeding.vanilla.cat]
+			#Ingredients required for cat breeding
+			catIngredients = "minecraft:cod, minecraft:salmon"
+
+		[breeding.vanilla.chicken]
+			#Ingredients required for chicken breeding
+			chickenIngredients = "minecraft:wheat_seeds, minecraft:pumpkin_seeds, minecraft:melon_seeds, minecraft:beetroot_seeds, minecraft:torchflower_seeds, minecraft:pitcher_pod"
+
+		[breeding.vanilla.cow]
+			#Ingredients required for cow breeding
+			cowIngredients = "minecraft:wheat"
+
+		[breeding.vanilla.donkey]
+			#Ingredients required for donkey breeding
+			donkeyIngredients = "minecraft:golden_apple, minecraft:enchanted_golden_apple, minecraft:golden_carrot"
+
+		[breeding.vanilla.fox]
+			#Ingredients required for fox breeding
+			foxIngredients = "minecraft:sweet_berries, minecraft:glow_berries"
+
+		[breeding.vanilla.goat]
+			#Ingredients required for goat breeding
+			goatIngredients = "minecraft:wheat"
+
+		[breeding.vanilla.hoglin]
+			#Ingredients required for hoglin breeding
+			hoglinIngredients = "minecraft:crimson_fungus"
+
+		[breeding.vanilla.horse]
+			#Ingredients required for horse breeding
+			horseIngredients = "minecraft:golden_apple, minecraft:enchanted_golden_apple, minecraft:golden_carrot"
+
+		[breeding.vanilla.llama]
+			#Ingredients required for llama breeding
+			llamaIngredients = "minecraft:hay_block"
+
+		[breeding.vanilla.mooshroom]
+			#Ingredients required for mooshroom breeding
+			mooshroomIngredients = "minecraft:wheat"
+
+		[breeding.vanilla.ocelot]
+			#Ingredients required for ocelot breeding
+			ocelotIngredients = "minecraft:cod, minecraft:salmon"
+
+		[breeding.vanilla.panda]
+			#Ingredients required for panda breeding
+			pandaIngredients = "minecraft:bamboo"
+
+		[breeding.vanilla.pig]
+			#Ingredients required for pig breeding
+			pigIngredients = "minecraft:carrot, minecraft:potato, minecraft:beetroot"
+
+		[breeding.vanilla.rabbit]
+			#Ingredients required for rabbit breeding
+			rabbitIngredients = "minecraft:dandelion, minecraft:carrot, minecraft:golden_carrot"
+
+		[breeding.vanilla.sheep]
+			#Ingredients required for sheep breeding
+			sheepIngredients = "minecraft:wheat"
+
+		[breeding.vanilla.strider]
+			#Ingredients required for strider breeding
+			striderIngredients = "minecraft:warped_fungus"
+
+		[breeding.vanilla.trader_llama]
+			#Ingredients required for trader_llama breeding
+			trader_llamaIngredients = "minecraft:hay_block"
+
+		[breeding.vanilla.turtle]
+			#Ingredients required for turtle breeding
+			turtleIngredients = "minecraft:seagrass"
+
+		[breeding.vanilla.wolf]
+			#Ingredients required for wolf breeding
+			wolfIngredients = "minecraft:porkchop, minecraft:cooked_porkchop, minecraft:beef, minecraft:cooked_beef, minecraft:chicken, minecraft:cooked_chicken, minecraft:rotten_flesh, minecraft:rabbit, minecraft:cooked_rabbit, minecraft:mutton, minecraft:cooked_mutton"
+
+	[breeding.integration]
+
+		[breeding.integration.aquaculture]
+			arrau_turtleSpawnEgg = "aquaculture:arrau_turtle_spawn_egg"
+			box_turtleSpawnEgg = "aquaculture:box_turtle_spawn_egg"
+			starshell_turtleSpawnEgg = "aquaculture:starshell_turtle_spawn_egg"
+
+			[breeding.integration.aquaculture.arrau_turtle]
+				#Ingredients required for arrau_turtle breeding
+				arrau_turtleIngredients = "#aquaculture:turtle_edible"
+
+			[breeding.integration.aquaculture.box_turtle]
+				#Ingredients required for box_turtle breeding
+				box_turtleIngredients = "#aquaculture:turtle_edible"
+
+			[breeding.integration.aquaculture.starshell_turtle]
+				#Ingredients required for starshell_turtle breeding
+				starshell_turtleIngredients = "#aquaculture:turtle_edible"
+
