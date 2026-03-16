@@ -26,7 +26,7 @@ artifact_rarity = 1.0
 	max_y = 45
 	#Probability for a container of a campsite to be replaced by a mimic
 	#Range: 0.0 ~ 1.0
-	mimic_chance = 0.3
+	mimic_chance = 0.1
 	#Probability for an ore vein to generate underneath a campsite
 	#Range: 0.0 ~ 1.0
 	ore_chance = 0.25

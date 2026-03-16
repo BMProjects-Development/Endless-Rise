@@ -15,6 +15,7 @@
 			y: 0.0d
 			description: ["{er.reset_stages.quests0.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
+			hide: true
 			id: "2D403DC96BE005A7"
 			tasks: [{
 				id: "20E718C4EB98F1AF"
