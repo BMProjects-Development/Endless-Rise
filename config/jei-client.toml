@@ -9,10 +9,10 @@
 	#Enable fast batched item rendering for JEI (disable this if items in JEI do not render correctly).
 	FastItemRenderingEnabled = true
 	#Enable cheating items into the hotbar by using Shift + numeric keys.
-	CheatToHotbarUsingHotkeysEnabled = false
+	CheatToHotbarUsingHotkeysEnabled = true
 	#Choose if JEI should give ingredients directly to the inventory (INVENTORY) or pick them up with the mouse (MOUSE_PICKUP).
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
+	GiveMode = "INVENTORY"
 	#Max number of columns shown.
 	#Range: 4 ~ 100
 	MaxColumns = 9
