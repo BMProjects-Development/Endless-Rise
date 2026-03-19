@@ -41,7 +41,13 @@
 			}]
 		}
 		{
-			icon: "akashictome:tome"
+			icon: {
+				id: "eccentrictome:tome"
+				Count: 1b
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
 			x: 1.5d
 			y: -0.5d
 			shape: "tech_circle"
@@ -56,9 +62,15 @@
 				title: "{er.71840908ca6989e1.quests14.tasks0.title}"
 			}]
 			rewards: [{
-				id: "157FB0ADDACC25A6"
+				id: "7D55AF7E8592ACF5"
 				type: "item"
-				item: "akashictome:tome"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
 			}]
 		}
 		{
