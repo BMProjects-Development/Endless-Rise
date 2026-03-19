@@ -21,6 +21,8 @@ ItemStages.restrict(<item:tconstruct:molten_diamond_bucket>, "diamond_age");
 
 ItemStages.restrict(<tag:items:forge:ores/diamond>, "diamond_age");
 
+ItemStages.restrict(<item:cavesandcliffs:deepslate_diamond_ore>, "diamond_age");
+
 ItemStages.restrict(<item:quark:diamond_heart>, "diamond_age");
 
 ItemStages.restrict(<item:farmersdelight:diamond_knife>, "diamond_age");

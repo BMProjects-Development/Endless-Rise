@@ -1,0 +1,14 @@
+
+[Worldgen]
+	#Dimension whitelist of where underground biomes should generate.
+	whitelistedDimensions = ["minecraft:overworld"]
+	#Legacy biome source uses multiple noise values for biome placement.
+	#Experimental biome source is based on the surface biome values in addition to noise.
+	useExperimentalBiomeSource = false
+
+[Debug]
+	#Toggle Biome Debug Mode, a system to visualize cave biome placement through the world.
+	#This does not represent the biome placement accurately, but it's useful for debugging.
+	#This feature is focused for the Experimental biome source.
+	biomeDebugMode = false
+
