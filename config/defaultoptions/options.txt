@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -23,20 +23,20 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:8
+renderDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:180
+maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/resourcepack","quark:emote_resources","file/BMP_Translations_1.16.5.zip","file/Visual Titles 1.1.zip","file/Endless Rise Textures.zip","file/EclecticTrove-noconfig-1.16.5-1.2.0.zip","file/EmbellishedStone.zip","file/SmoothDrawers_1.16.5_v1.zip","file/SmoothFont_1.16.zip","file/Soft-Weather-1.0-1.16.zip","file/updated_aquaculture-1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Medieval_Style_Lootr.zip","file/Infernal Resources.zip","file/Quark Programmer Art.zip"]
+resourcePacks:["vanilla","mod_resources","file/resourcepack","quark:emote_resources","file/BMP_Translations_1.16.5.zip","file/Visual Titles 1.1.zip","file/Endless Rise Textures.zip","file/EclecticTrove-noconfig-1.16.5-1.2.0.zip","file/SmoothDrawers_1.16.5_v1.zip","file/SmoothFont_1.16.zip","file/Soft-Weather-1.0-1.16.zip","file/updated_aquaculture-1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Medieval_Style_Lootr.zip","file/Infernal Resources.zip","file/Quark Programmer Art.zip"]
 incompatibleResourcePacks:["quark:emote_resources","file/updated_aquaculture-1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Medieval_Style_Lootr.zip"]
 lastServer:
-lang:
+lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -65,9 +65,9 @@ glDebugVerbosity:1
 skipMultiplayerWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
-syncChunkWrites:false
-soundCategory_master:0.5022075
-soundCategory_music:0.103286386
+syncChunkWrites:true
+soundCategory_master:0.50993377
+soundCategory_music:0.30751175
 soundCategory_record:0.5046948
 soundCategory_weather:0.3004695
 soundCategory_block:0.5070422

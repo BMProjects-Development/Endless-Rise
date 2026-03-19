@@ -9,8 +9,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>],
     [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
-  .tool(<tag:items:artisantools:type/needle>, 15)
-  
+  .tool(<tag:items:artisantools:type/needle>, 15) 
   .output(<item:legendarysurvivaloverhaul:canteen>)
   .register();
   
@@ -21,8 +20,7 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:air>, <item:minecraft:netherite_scrap>, <item:minecraft:air>],
     [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
-  .tool(<tag:items:artisantools:type/needle>, 25)
-  
+  .tool(<tag:items:artisantools:type/needle>, 25) 
   .output(<item:legendarysurvivaloverhaul:large_canteen>)
   .register();
   
@@ -34,8 +32,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:string>, <tag:items:forge:leather>, <tag:items:forge:string>],
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
-  .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  
+  .tool(<tag:items:artisantools:type/cutting_board>, 20)  
   .output(<item:legendarysurvivaloverhaul:desert_helmet>)
   .register();
   
@@ -47,8 +44,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:string>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
-  .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  
+  .tool(<tag:items:artisantools:type/cutting_board>, 25) 
   .output(<item:legendarysurvivaloverhaul:desert_chestplate>)
   .register();
   
@@ -60,8 +56,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>],
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
-  .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  
+  .tool(<tag:items:artisantools:type/cutting_board>, 25)  
   .output(<item:legendarysurvivaloverhaul:desert_leggings>)
   .register();
   
@@ -73,8 +68,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>],
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
-  .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  
+  .tool(<tag:items:artisantools:type/cutting_board>, 20) 
   .output(<item:legendarysurvivaloverhaul:desert_boots>)
   .register();
   
@@ -86,8 +80,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <tag:items:forge:leather>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>]])
   .tool(<tag:items:artisantools:type/needle>, 20)
-  .tool(<tag:items:artisantools:type/cutting_board>, 20)
-  
+  .tool(<tag:items:artisantools:type/cutting_board>, 20) 
   .output(<item:legendarysurvivaloverhaul:snow_helmet>)
   .register();
   
@@ -99,8 +92,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <tag:items:forge:leather>, <tag:items:minecraft:wool>]])
   .tool(<tag:items:artisantools:type/needle>, 25)
-  .tool(<tag:items:artisantools:type/cutting_board>, 25)
-  
+  .tool(<tag:items:artisantools:type/cutting_board>, 25) 
   .output(<item:legendarysurvivaloverhaul:snow_chestplate>)
   .register();
   
@@ -111,8 +103,7 @@ Recipe.type(Type.TANNER)
     [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>]])
-  .tool(<tag:items:artisantools:type/needle>, 25)
-  
+  .tool(<tag:items:artisantools:type/needle>, 25) 
   .output(<item:legendarysurvivaloverhaul:snow_leggings>)
   .register();
   
@@ -123,7 +114,17 @@ Recipe.type(Type.TANNER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>],
     [<tag:items:minecraft:wool>, <item:minecraft:air>, <tag:items:minecraft:wool>]])
-  .tool(<tag:items:artisantools:type/needle>, 20)
-  
+  .tool(<tag:items:artisantools:type/needle>, 20)  
   .output(<item:legendarysurvivaloverhaul:snow_boots>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:legendarysurvivaloverhaul:water_plant_seeds>);
+Recipe.type(Type.MAGE)
+  .shaped([
+    [<item:minecraft:air>, <item:legendarysurvivaloverhaul:water_plant_bag>, <item:minecraft:air>],
+    [<item:legendarysurvivaloverhaul:water_plant_bag>, <item:xreliquary:potion_essence>.withTag({effects: [{duration: 750 as int, name: "minecraft:water_breathing" as string, potency: 0 as int}]}), <item:legendarysurvivaloverhaul:water_plant_bag>],
+    [<item:minecraft:air>, <item:legendarysurvivaloverhaul:water_plant_bag>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/grimoire>, 15)
+  .output(<item:legendarysurvivaloverhaul:water_plant_seeds>)
   .register();

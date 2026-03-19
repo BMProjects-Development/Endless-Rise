@@ -39,7 +39,7 @@
 
 		["World Generation"."Feature Generation"."Azalea Tree Settings"]
 			#Determines if Azalea Trees should generate in the surface.
-			GenerateAzaleaTrees = true
+			GenerateAzaleaTrees = false
 			#Determines the rarity of spawning for Azalea Trees.
 			AzaleaTreeGenerationRarity = 2
 
