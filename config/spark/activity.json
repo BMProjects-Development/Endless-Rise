@@ -5,19 +5,6 @@
       "name": "BarMaxx",
       "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
     },
-    "time": 1773651632256,
-    "type": "Profiler",
-    "data": {
-      "type": "file",
-      "value": "D:\\Prism Launcher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2026-03-16_12.00.32.sparkprofile"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "BarMaxx",
-      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
-    },
     "time": 1770825770683,
     "type": "Profiler",
     "data": {

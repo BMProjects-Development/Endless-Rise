@@ -84,6 +84,14 @@ Recipe.type(Type.TANNER)
   
   
 Recipe.type(Type.TANNER)
+  .shapeless([<item:alexsmobs:kangaroo_hide>, <item:alexsmobs:kangaroo_hide>])
+  .tool(<tag:items:artisantools:type/cutting_board>, 2)
+  
+  .output(<item:minecraft:leather>)
+  .register();
+  
+  
+Recipe.type(Type.TANNER)
   .shapeless([<item:quark:bonded_leather>])
   .tool(<tag:items:artisantools:type/cutting_board>, 1)
   
