@@ -49,4 +49,14 @@
 35. Smarter Farmers
 36. Champions
 
+Удалены ресурспаки:
+1. Embellished Stone
+
+Обновлены ресурспаки:
+1. BMP Translations
+
+Добавлены ресурспаки:
+1. Sacred Logistics Textures
+2. Embeddium Extras Fast Chest Resourcepack
+
 Update quark-common.toml - фикс проблемы с сервер паком (написал чел в дс)
