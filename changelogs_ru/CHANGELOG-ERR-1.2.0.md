@@ -136,10 +136,12 @@
    + syncChunkWrites:true
    + soundCategory_master:0.50993377
    + soundCategory_music:0.30751175
+   ```
 2. Fancy Menu: Убрано изменённое меню паузы игры
 3. quark-common.toml: Исправлена ошибка с сервером
    ```diff
-   "Automatic Recipe Unlock" = true to false
+   - "Automatic Recipe Unlock" = true
+   + "Automatic Recipe Unlock" = false
    ```
      
 </details>
