@@ -1,17 +1,12 @@
-Список изменений для версии 1.2.0
+# :exclamation: Список изменений для версии 1.2.0
 
-Удалены моды: 
-1. AdvancementPlaques
-2. Akashic Tome
-3. NERB
-4. Rubidium extra
-5. Rubidium
-6. Textures Rubidium Options
-7. Radon
+---
 
-Обновлены моды:
+## :one: Моды
 
-Добавлены моды:
+<details>
+<summary>Добавлено (36)</summary>
+  
 1. FTB Chunks
 2. Achievment Optimazer
 3. Babel
@@ -48,15 +43,48 @@
 34. Season Tweaks
 35. Smarter Farmers
 36. Champions
+  
+</details>
 
-Удалены ресурспаки:
-1. Embellished Stone
+<details>
+<summary>Изменено (?)</summary>
+</details>
 
-Обновлены ресурспаки:
-1. BMP Translations
+<details>
+<summary>Удалено (7)</summary>
+  
+1. AdvancementPlaques
+2. Akashic Tome
+3. NERB
+4. Rubidium extra
+5. Rubidium
+6. Textures Rubidium Options
+7. Radon
+   
+</details>
 
-Добавлены ресурспаки:
+## :two: Ресурспаки
+
+<details>
+<summary>Добавлено (2)</summary>
+
 1. Sacred Logistics Textures
 2. Embeddium Extras Fast Chest Resourcepack
+
+</details>
+
+<details>
+<summary>Изменено (1)</summary>
+
+1. BMP Translations
+     
+</details>
+
+<details>
+<summary>Удалено (1)</summary>
+
+1. Embellished Stone
+
+</details>
 
 Update quark-common.toml - фикс проблемы с сервер паком (написал чел в дс)
