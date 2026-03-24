@@ -47,10 +47,6 @@
 </details>
 
 <details>
-<summary>Изменено (0)</summary>
-</details>
-
-<details>
 <summary>Удалено (7)</summary>
   
 1. AdvancementPlaques
@@ -90,19 +86,38 @@
 ## :three: Квесты
 
 <details>
-<summary>Изменено (2)</summary>
+<summary>Добавлено (2)</summary>
+
+1. Квест с открытием эпохи по моду TConstruct (стадии taiga и materials) в Эпохе Примитива
+2. Квест для повторного открытия стадий TConstruct в главе Технических квестов
+
+</details>
+
+<details>
+<summary>Изменено (3)</summary>
 
 1. Квест на мод Akashic Tome в главе Особенности изменён на мод Eccentric Tome (Чудоковатый фолиант)
-2. Описание главного квеста в главе Особенности изменено: Вместо Тома Акаши - Чудоковатый фолиант
+2. Описание главного квеста в главе Особенности: Вместо Тома Акаши - Чудоковатый фолиант
+3. Описание квеста со стадиями в главе Особенности: Добавлены 2 новые стадии - taiga и materials
 
 </details>
 
 ## :four: Рецепты
 
 <details>
-<summary>Добавлено (1)</summary>
+<summary>Добавлено (3)</summary>
 
-1. Семяна водяного растения 
+1. Добавлен рецепт для Семян водяного растения
+2. Добавлено 4 альтернативных крафта Мокрой бумаги: В Миксере и Вентилляторе в корпусе из Create (для тростника и опилок) ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+3. Добавлен альтернативный крафт для бумаги: В печке (совместимо с печками из других модов) ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+
+</details>
+
+<details>
+<summary>Изменено (2)</summary>
+
+1. Изменены крафты для Установщиков всех уровней в Mekanism ([Issue #58](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/58))
+2. Изменены все крафты, в которых был Инструмент из глины из No Tree Punching: Заменён на Лопатку из Artisan Tools ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
 
 </details>
 
@@ -118,7 +133,7 @@
 ## :six: Конфиги
 
 <details>
-<summary>Изменено (3)</summary>
+<summary>Изменено (5)</summary>
 
 1. Default Options: Изменены некоторые настройки
    ```diff
@@ -143,5 +158,30 @@
    - "Automatic Recipe Unlock" = true
    + "Automatic Recipe Unlock" = false
    ```
+4. Special Mobs: Убрано стандартная замена 100% ванильных мобов на новых, теперь шанс у каждого моба шанс 10%, чтобы стать мобом из Special Mobs
+5. Stylish Effects: Убрано отображение эффектов во всех GUI из Mekanism и Applied Energisitcs 2 ([Issue #59](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/59))
+   ```diff
+   - menu_blacklist = ["curios:curios_container", "tconstruct:smeltery", "tconstruct:tinker_station", "tconstruct:part_builder"]
+   + menu_blacklist = ["curios:curios_container", "tconstruct:smeltery", "tconstruct:tinker_station", "tconstruct:part_builder", "mekanism:factory", "mekanism:enrichment_chamber", "mekanism:osmium_compressor", "mekanism:combiner", "mekanism:crusher", "mekanism:metallurgic_infuser", "mekanism:purification_chamber", "mekanism:energized_smelter", "mekanism:digital_miner", "mekanism:rotary_condensentrator", "mekanism:chemical_oxidizer", "mekanism:chemical_infuser", "mekanism:chemical_injection_chamber", "mekanism:electrolytic_separator", "mekanism:precision_sawmill", "mekanism:chemical_dissolution_chamber", "mekanism:chemical_washer", "mekanism:chemical_crystallizer", "mekanism:pressurized_reaction_chamber", "mekanism:isotopic_centrifuge", "mekanism:nutritional_liquifier", "mekanism:solar_neutron_activator", "mekanism:oredictionificator", "mekanism:formulaic_assemblicator", "mekanism:antiprotonic_nucleosynthesizer", "mekanism:pigment_extractor", "mekanism:pigment_mixer", "mekanism:painting_machine", "mekanism:qio_drive_array", "mekanism:qio_dashboard", "mekanism:energy_cube", "appliedenergistics2:patternterm", "appliedenergistics2:craftingterm", "appliedenergistics2:item_terminal", "appliedenergistics2:cellworkbench", "appliedenergistics2:interface", "appliedenergistics2:ioport", "appliedenergistics2:securitystation", "appliedenergistics2:spatialanchor", "appliedenergistics2:storagebus", "appliedenergistics2:fluid_storage_bus", "appliedenergistics2:interfaceterminal", "appliedenergistics2:fluid_terminal"]
+   ```   
      
+</details>
+
+## :seven: Скрипты
+
+<details>
+<summary>Добавлено (2)</summary>
+
+1. Добавлена стадия для мода TAIGA
+2. Добавлена стадия для мода Materials
+     
+</details>
+
+## :eight: Прочее
+
+<details>
+<summary>Изменено (1)</summary>
+
+1. Изменены награды и цели в заданиях из Bountiful: Убраны инструменты, железная и алмазная броня ([Issue #63](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/63))
+
 </details>
