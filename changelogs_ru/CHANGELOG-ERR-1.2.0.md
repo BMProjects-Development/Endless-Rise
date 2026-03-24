@@ -21,7 +21,7 @@
 
 Ключевые изменения:
 - Переход с Rubidium на Embeddium (лучше производительность)
-- Добавлено больше оптимизационных модов (Fast моды, Achievment Optimazer, Chocolate и другие)
+- Добавлено больше оптимизационных модов (Fast моды, Achievements Optimizer, Chocolate и другие)
 - Улучшение AI мобов и Добавление более сильных и интересных мобов (Enhanced AI, Special Mobs и Champions)
 - Переход с Akashic Tome на Eccentric Tome (лучше совместимость с другими модами)
 - Улучшен мод TConstruct путём добавления множества аддонов (Materials, TAIGA, TC Planner, TC Tweaks Compact)
