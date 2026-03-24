@@ -1,20 +1,37 @@
-# :exclamation: Список изменений для версии 1.2.0
+# :exclamation: Список изменений для версии 1.2.0 - Пересборка!
 
 ---
 
-Данное обновление сосредоточено на оптимизации и стабилизации модпака. Мы заменили Rubidium на Embeddium и добавили множество оптимизирующих модов, что позволило сделать оптимизацию сборки намного лучше. Кроме этого, мы добавили различные QoL моды, которые в том числе добавляют новый контент. А также исправили многие ошибки и недоработки!
+Данное обновление сосредоточено на оптимизации и стабилизации модпака.
 
-Полный список изменений, разделённый на 8 больших блоков, Вы можете прочитать ниже!
+Мы полностью переработали техническую основу сборки:
+- заменили Rubidium на Embeddium  
+- добавили больше оптимизационных модов  
+- доработали многие мелкие неисправности
+- и многое другое!
+
+В результате сборка стала заметно стабильнее, быстрее и комфортнее в игре.
+
+Помимо этого, были добавлены QoL-моды, расширяющие геймплей, а также исправлены ошибки и недоработки.
+
+Полный список изменений представлен ниже.
 
 ---
 
 ## :one: Моды
 
+Ключевые изменения:
+- Переход с Rubidium на Embeddium (лучше производительность)
+- Добавлено больше оптимизационных модов (Fast моды, Achievment Optimazer, Chocolate и другие)
+- Улучшение AI мобов и Добавление более сильных и интересных мобов (Enhanced AI, Special Mobs и Champions)
+- Переход с Akashic Tome на Eccentric Tome (лучше совместимость с другими модами)
+- Улучшен мод TConstruct путём добавления множества аддонов (Materials, TAIGA, TC Planner, TC Tweaks Compact)
+
 <details>
 <summary>Добавлено (36)</summary>
   
 1. FTB Chunks
-2. Achievment Optimazer
+2. Achievement Optimazer
 3. Babel
 4. Chocolate
 5. Client Tweaks
@@ -23,19 +40,19 @@
 8. Embeddium
 9. Embeddium Extension
 10. Embeddium Extras
-11. Enchanced AI
+11. Enhanced AI
 12. Fast Bench
 13. Fast Furnace
 14. Fast Suite
 15. Framed Compact Drawers
 16. Glassential
 17. Immersive Pots
-18. Insane lib
+18. InsaneLib
 19. JEI integration
 20. JEPB
 21. Materials
-22. No recipe advancements
-23. No villagerdm
+22. No Recipe Advancements
+23. No Villager Death Messages
 24. Runelic
 25. Spawner fix
 26. Special Mobs
@@ -78,7 +95,7 @@
 <details>
 <summary>Изменено (1)</summary>
 
-1. BMP Translations
+1. BMP Translations (Добавлены переводы к следующим модам: Framed Compact Drawers, Immersive Pots, JEPB, More Mekanism Processing, Reese's Sodium Options, Special Mobs, TAIGA, TC Planner)
      
 </details>
 
@@ -114,7 +131,9 @@
 <summary>Добавлено (3)</summary>
 
 1. Добавлен рецепт для Семян водяного растения
-2. Добавлено 4 альтернативных крафта Мокрой бумаги: В Миксере и Вентилляторе в корпусе из Create (для тростника и опилок) ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+2. Добавлено 4 альтернативных крафта Мокрой бумаги: ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+   - в Миксере (Create)
+   - через Вентиллятор в корпусе (Create)
 3. Добавлен альтернативный крафт для бумаги: В печке (совместимо с печками из других модов) ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
 
 </details>
@@ -178,8 +197,8 @@
 <details>
 <summary>Добавлено (2)</summary>
 
-1. Добавлена стадия для мода TAIGA
-2. Добавлена стадия для мода Materials
+1. Добавлена стадия для мода taiga
+2. Добавлена стадия для мода materials
      
 </details>
 
