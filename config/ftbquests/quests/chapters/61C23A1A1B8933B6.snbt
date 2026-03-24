@@ -805,7 +805,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			description: ["{er.61c23a1a1b8933b6.quests46.description0}"]
+			description: ["{er.61c23a1a1b8933b6.quests79.description0}"]
 			dependencies: ["2373D730A820B6FB"]
 			id: "30AA80C08138F6F8"
 			tasks: [{

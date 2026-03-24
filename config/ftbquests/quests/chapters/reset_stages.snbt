@@ -99,7 +99,7 @@
 		{
 			title: "Gold Age"
 			disable_toast: true
-			x: 1.0d
+			x: 2.0d
 			y: 1.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -124,8 +124,8 @@
 		{
 			title: "Diamond age"
 			disable_toast: true
-			x: 2.0d
-			y: 1.0d
+			x: -3.0d
+			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -149,8 +149,8 @@
 		{
 			title: "Space age"
 			disable_toast: true
-			x: -2.5d
-			y: 2.0d
+			x: 1.5d
+			y: 3.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -174,7 +174,7 @@
 		{
 			title: "Create age"
 			disable_toast: true
-			x: -1.0d
+			x: -2.0d
 			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -199,7 +199,7 @@
 		{
 			title: "Immersiveengineering age"
 			disable_toast: true
-			x: 0.0d
+			x: -1.0d
 			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -224,7 +224,7 @@
 		{
 			title: "Pneumaticcraft age"
 			disable_toast: true
-			x: 1.0d
+			x: 0.0d
 			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -249,7 +249,7 @@
 		{
 			title: "AE2 age"
 			disable_toast: true
-			x: 2.5d
+			x: 1.0d
 			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -274,8 +274,8 @@
 		{
 			title: "Powah age"
 			disable_toast: true
-			x: -2.0d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -299,8 +299,8 @@
 		{
 			title: "Flux net age"
 			disable_toast: true
-			x: -1.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -324,7 +324,7 @@
 		{
 			title: "Mekanism age"
 			disable_toast: true
-			x: 0.0d
+			x: -1.5d
 			y: 3.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -349,7 +349,7 @@
 		{
 			title: "Industrialforegoing age"
 			disable_toast: true
-			x: 1.0d
+			x: 0.0d
 			y: 3.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -374,8 +374,8 @@
 		{
 			title: "Nether + dim age"
 			disable_toast: true
-			x: 2.0d
-			y: 3.0d
+			x: 2.5d
+			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -408,8 +408,8 @@
 		{
 			title: "Atum + dim age"
 			disable_toast: true
-			x: -1.5d
-			y: 4.0d
+			x: -2.5d
+			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -442,8 +442,8 @@
 		{
 			title: "End + dim age"
 			disable_toast: true
-			x: 0.0d
-			y: 4.5d
+			x: -0.5d
+			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"2D403DC96BE005A7"
@@ -476,7 +476,7 @@
 		{
 			title: "Jorney age"
 			disable_toast: true
-			x: 1.5d
+			x: 0.5d
 			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -497,6 +497,40 @@
 				command: "/gamestage add @s journey false"
 				player_command: true
 			}]
+		}
+		{
+			title: "TConstruct age"
+			disable_toast: true
+			x: 1.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2D403DC96BE005A7"
+				"03F28A68FDB6A5B1"
+			]
+			hide: true
+			repeatable: true
+			id: "3FC88F55DEB5D2DD"
+			tasks: [{
+				id: "2090806CA727A18E"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2B3EFF09572D35A2"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @a materialis false"
+					player_command: false
+				}
+				{
+					id: "1D2FEE938AA3C75B"
+					type: "command"
+					team_reward: true
+					command: "/gamestage add @a taiga false"
+					player_command: false
+				}
+			]
 		}
 	]
 }

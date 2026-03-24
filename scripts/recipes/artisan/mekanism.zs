@@ -337,3 +337,63 @@ Recipe.type(Type.ENGINEER)
   
   .output(<item:mekanism:scuba_mask>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:mekanism:basic_tier_installer>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:powah:steel_energized>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:steel_energized>],
+    [<item:taiga:meteorite_ingot>, <item:create:electron_tube>, <item:mekanism:basic_control_circuit>, <item:create:electron_tube>, <item:taiga:meteorite_ingot>],
+    [<item:taiga:yrdeen_ingot>, <item:mekanism:basic_control_circuit>, <tag:items:minecraft:planks>, <item:mekanism:basic_control_circuit>, <item:taiga:yrdeen_ingot>],
+	[<item:taiga:meteorite_ingot>, <item:create:electron_tube>, <item:mekanism:basic_control_circuit>, <item:create:electron_tube>, <item:taiga:meteorite_ingot>],
+	[<item:powah:steel_energized>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:steel_energized>]])
+  .tool(<tag:items:artisantools:type/pliers>, 25)
+  .tool(<tag:items:artisantools:type/hammer>, 25)
+  .tool(<tag:items:artisantools:type/groover>, 25) 
+  .output(<item:mekanism:basic_tier_installer>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mekanism:advanced_tier_installer>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:powah:crystal_niotic>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:crystal_niotic>],
+    [<item:taiga:meteorite_ingot>, <item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>, <item:taiga:meteorite_ingot>],
+    [<item:taiga:yrdeen_ingot>, <item:mekanism:advanced_control_circuit>, <tag:items:minecraft:planks>, <item:mekanism:advanced_control_circuit>, <item:taiga:yrdeen_ingot>],
+	[<item:taiga:meteorite_ingot>, <item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>, <item:taiga:meteorite_ingot>],
+	[<item:powah:crystal_niotic>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:crystal_niotic>]])
+  .tool(<tag:items:artisantools:type/pliers>, 25)
+  .tool(<tag:items:artisantools:type/hammer>, 25)
+  .tool(<tag:items:artisantools:type/groover>, 25) 
+  .output(<item:mekanism:advanced_tier_installer>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mekanism:elite_tier_installer>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:powah:crystal_spirited>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:crystal_spirited>],
+    [<item:taiga:meteorite_ingot>, <item:mekanism:alloy_reinforced>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_reinforced>, <item:taiga:meteorite_ingot>],
+    [<item:taiga:yrdeen_ingot>, <item:mekanism:elite_control_circuit>, <tag:items:minecraft:planks>, <item:mekanism:elite_control_circuit>, <item:taiga:yrdeen_ingot>],
+	[<item:taiga:meteorite_ingot>, <item:mekanism:alloy_reinforced>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_reinforced>, <item:taiga:meteorite_ingot>],
+	[<item:powah:crystal_spirited>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:crystal_spirited>]])
+  .tool(<tag:items:artisantools:type/pliers>, 25)
+  .tool(<tag:items:artisantools:type/hammer>, 25)
+  .tool(<tag:items:artisantools:type/groover>, 25) 
+  .output(<item:mekanism:elite_tier_installer>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mekanism:ultimate_tier_installer>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:powah:crystal_nitro>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:crystal_nitro>],
+    [<item:taiga:meteorite_ingot>, <item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>, <item:taiga:meteorite_ingot>],
+    [<item:taiga:yrdeen_ingot>, <item:mekanism:ultimate_control_circuit>, <tag:items:minecraft:planks>, <item:mekanism:ultimate_control_circuit>, <item:taiga:yrdeen_ingot>],
+	[<item:taiga:meteorite_ingot>, <item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>, <item:taiga:meteorite_ingot>],
+	[<item:powah:crystal_nitro>, <item:taiga:meteorite_ingot>, <item:taiga:yrdeen_ingot>, <item:taiga:meteorite_ingot>, <item:powah:crystal_nitro>]])
+  .tool(<tag:items:artisantools:type/pliers>, 25)
+  .tool(<tag:items:artisantools:type/hammer>, 25)
+  .tool(<tag:items:artisantools:type/groover>, 25) 
+  .output(<item:mekanism:ultimate_tier_installer>)
+  .register();

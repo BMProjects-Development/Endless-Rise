@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:shears",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1500,
+      "weight": 1000
+    }
+  ]
+}

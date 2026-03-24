@@ -9,7 +9,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]])
-  .tool(<item:notreepunching:clay_tool>, 5)
+  .tool(<tag:items:artisantools:type/trowel>, 5)
   
   .output(<item:charcoal_pit:clay_pot>)
   .register();
@@ -21,7 +21,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
-  .tool(<item:notreepunching:clay_tool>, 2)
+  .tool(<tag:items:artisantools:type/trowel>, 2)
   
   .output(<item:charcoal_pit:unfired_brick> * 2)
   .register();
@@ -33,7 +33,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:sand>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
-  .tool(<item:notreepunching:clay_tool>, 2)
+  .tool(<tag:items:artisantools:type/trowel>, 2)
   
   .output(<item:charcoal_pit:unfired_sandy_brick> * 4)
   .register();
@@ -45,7 +45,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:netherrack>, <item:minecraft:netherrack>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
-  .tool(<item:notreepunching:clay_tool>, 2)
+  .tool(<tag:items:artisantools:type/trowel>, 2)
   
   .output(<item:charcoal_pit:nether_brick_item> * 2)
   .register();

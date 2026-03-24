@@ -44,6 +44,9 @@ onEvent('recipes', event => {
   event.shapeless('3x minecraft:fire_charge', ['minecraft:gunpowder', 'minecraft:blaze_powder', '#minecraft:coals'])
   
   event.shapeless('3x minecraft:fire_charge', ['minecraft:gunpowder', 'minecraft:blaze_powder', 'minecraft:charcoal'])
+  
+  
+  event.smelting('minecraft:paper', 'kubejs:wet_paper')
 
   
 })
