@@ -158,7 +158,7 @@
    - "Automatic Recipe Unlock" = true
    + "Automatic Recipe Unlock" = false
    ```
-4. Special Mobs: Убрано стандартная замена 100% ванильных мобов на новых, теперь шанс у каждого моба шанс 10%, чтобы стать мобом из Special Mobs
+4. Special Mobs: Убрана стандартная замена 100% ванильных мобов на новых, теперь шанс у каждого моба шанс 10%, чтобы стать мобом из Special Mobs
 5. Stylish Effects: Убрано отображение эффектов во всех GUI из Mekanism и Applied Energisitcs 2 ([Issue #59](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/59))
    ```diff
    - menu_blacklist = ["curios:curios_container", "tconstruct:smeltery", "tconstruct:tinker_station", "tconstruct:part_builder"]
