@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:dust_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:wet_paper",
+      "chance": 1.0
+    }
+  ]
+}

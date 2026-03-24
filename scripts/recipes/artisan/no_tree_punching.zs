@@ -44,7 +44,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]])
-  .tool(<item:notreepunching:clay_tool>, 5)
+  .tool(<tag:items:artisantools:type/trowel>, 5)
   
   .output(<item:notreepunching:clay_flower_pot>)
   .register();

@@ -21,7 +21,7 @@
 	# Special Mob Data and any improvements made to the entity (for example, zombies can use bows & shields).
 	# If false, vanilla replacements are disabled for all families; if true, it is determined by the family's config.
 	# <Boolean> Valid Values: { true, false }, Default: true
-	general.master_vanilla_replacement = true
+	general.master_vanilla_replacement = false
 	# When greater than 0, mobs will have a random render scale applied. This is a visual effect only.
 	# For example, with a value of 0.07, mob scale will vary ±7% of normal size.
 	# By default, this applies to all mobs in the mod; but family and species configs can override it.
