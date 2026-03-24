@@ -1,33 +1,33 @@
-# :exclamation: [Endless Rise: Remastered](https://www.curseforge.com/minecraft/modpacks/endless-rise) — Обновление 1.2 “Пересборка”
+# :exclamation: [Endless Rise: Remastered](https://www.curseforge.com/minecraft/modpacks/endless-rise) — Update 1.2 “Overhaul”
 
 ---
 
-Данное обновление сосредоточено на оптимизации и стабилизации модпака.
+This update focuses on optimization and overall stability of the modpack.
 
-Мы полностью переработали техническую основу сборки:
-- заменили Rubidium на Embeddium  
-- добавили больше оптимизационных модов  
-- доработали многие мелкие неисправности
+We have completely reworked the technical foundation of the pack:
+- replaced Rubidium with Embeddium  
+- added more performance-focused mods  
+- fixed numerous minor issues  
 
-В результате сборка стала заметно стабильнее, быстрее и комфортнее в игре.
+As a result, the pack is now noticeably more stable, faster, and more comfortable to play.
 
-Помимо этого, были добавлены QoL-моды, расширяющие геймплей, а также исправлены ошибки и недоработки.
+Additionally, several QoL mods have been added to enhance gameplay, along with various bug fixes and improvements.
 
-Полный список изменений представлен ниже.
+The full list of changes is available below.
 
 ---
 
 ## :one: Моды
 
-Ключевые изменения:
-- Переход с Rubidium на Embeddium (лучше производительность)
-- Добавлено больше оптимизационных модов (Fast моды, Achievment Optimazer, Chocolate и другие)
-- Улучшение AI мобов и Добавление более сильных и интересных мобов (Enhanced AI, Special Mobs и Champions)
-- Переход с Akashic Tome на Eccentric Tome (лучше совместимость с другими модами)
-- Улучшен мод TConstruct путём добавления множества аддонов (Materials, TAIGA, TC Planner, TC Tweaks Compact)
+Key changes:
+- Switched from Rubidium to Embeddium (better performance)
+- Added more optimization mods (Fast mods, Achievements Optimizer, Chocolate, and others)
+- Improved mob AI and added stronger, more diverse enemies (Enhanced AI, Special Mobs, Champions)
+- Replaced Akashic Tome with Eccentric Tome (better compatibility)
+- Improved Tinkers' Construct by adding multiple addons (Materials, TAIGA, TC Planner, TC Tweaks Compact)
 
 <details>
-<summary>Добавлено (36)</summary>
+<summary>Added (36)</summary>
   
 1. FTB Chunks
 2. Achievements Optimizer
@@ -69,7 +69,7 @@
 </details>
 
 <details>
-<summary>Удалено (7)</summary>
+<summary>Removed (7)</summary>
   
 1. AdvancementPlaques
 2. Akashic Tome
@@ -81,10 +81,10 @@
    
 </details>
 
-## :two: Ресурспаки
+## :two: Resource Packs
 
 <details>
-<summary>Добавлено (2)</summary>
+<summary>Added (2)</summary>
 
 1. Sacred Logistics Textures
 2. Embeddium Extras Fast Chest Resourcepack
@@ -92,74 +92,74 @@
 </details>
 
 <details>
-<summary>Изменено (1)</summary>
+<summary>Changed (1)</summary>
 
-1. BMP Translations (Добавлены переводы к следующим модам: Framed Compact Drawers, Immersive Pots, JEPB, More Mekanism Processing, Reese's Sodium Options, Special Mobs, TAIGA, TC Planner)
+1. BMP Translations (Added translations for the following mods: Framed Compact Drawers, Immersive Pots, JEPB, More Mekanism Processing, Reese's Sodium Options, Special Mobs, TAIGA, TC Planner)
      
 </details>
 
 <details>
-<summary>Удалено (1)</summary>
+<summary>Removed (1)</summary>
 
 1. Embellished Stone
 
 </details>
 
-## :three: Квесты
+## :three: Quests
 
 <details>
-<summary>Добавлено (2)</summary>
+<summary>Added (2)</summary>
 
-1. Квест с открытием эпохи по моду TConstruct (стадии taiga и materials) в Эпохе Примитива
-2. Квест для повторного открытия стадий TConstruct в главе Технических квестов
+1. A quest for unlocking the TConstruct era (taiga and materials stages) in the Primitive Age
+2. A quest for re-unlocking TConstruct stages in the Technical Quests chapter
 
 </details>
 
 <details>
-<summary>Изменено (3)</summary>
+<summary>Changed (3)</summary>
 
-1. Квест на мод Akashic Tome в главе Особенности изменён на мод Eccentric Tome (Чудоковатый фолиант)
-2. Описание главного квеста в главе Особенности: Вместо Тома Акаши - Чудоковатый фолиант
-3. Описание квеста со стадиями в главе Особенности: Добавлены 2 новые стадии - taiga и materials
-
-</details>
-
-## :four: Рецепты
-
-<details>
-<summary>Добавлено (3)</summary>
-
-1. Добавлен рецепт для Семян водяного растения
-2. Добавлено 4 альтернативных крафта Мокрой бумаги: ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
-   - в Миксере (Create)
-   - через Вентиллятор в корпусе (Create)
-3. Добавлен альтернативный крафт для бумаги: В печке (совместимо с печками из других модов) ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+1. The quest for Akashic Tome in the Features chapter has been replaced with Eccentric Tome
+2. Updated the main quest description in the Features chapter: replaced Akashic Tome with Eccentric Tome
+3. Updated the stage-related quest description in the Features chapter: added 2 new stages — taiga and materials
 
 </details>
 
-<details>
-<summary>Изменено (2)</summary>
+## :four: Recipes
 
-1. Изменены крафты для Установщиков всех уровней в Mekanism ([Issue #58](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/58))
-2. Изменены все крафты, в которых был Инструмент из глины из No Tree Punching: Заменён на Лопатку из Artisan Tools ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+<details>
+<summary>Added (3)</summary>
+
+1. Added a recipe for Water Plant Seeds
+2. Added 4 alternative crafting methods for Wet Paper ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+   - in the Mixer (Create)
+   - via Fan processing (Create)
+3. Added an alternative recipe for Paper: smelting (compatible with furnaces from other mods) ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
 
 </details>
 
-## :five: Таблицы лута
+<details>
+<summary>Changed (2)</summary>
+
+1. Updated crafting recipes for all tiers of Mekanism Installers ([Issue #58](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/58))
+2. Updated all recipes that used the Clay Tool from No Tree Punching: replaced with the Shovel from Artisan Tools ([Issue #62](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/62))
+
+</details>
+
+## :five: Loot Tables
 
 <details>
-<summary>Изменено (1)</summary>
+<summary>Changed (1)</summary>
 
-1. Водяное растение: Убрано выпадение семян водяного растения
+1. Water Plant: removed seed drops
      
 </details>
 
-## :six: Конфиги
+## :six: Configs
 
 <details>
-<summary>Изменено (5)</summary>
+<summary>Changed (5)</summary>
 
-1. Default Options: Изменены некоторые настройки
+1. Default Options: adjusted several settings
    ```diff
    - enableVsync:true
    + enableVsync:false
@@ -176,14 +176,14 @@
    + soundCategory_master:0.50993377
    + soundCategory_music:0.30751175
    ```
-2. Fancy Menu: Убрано изменённое меню паузы игры
-3. quark-common.toml: Исправлена ошибка с сервером
+2. Fancy Menu: removed the custom pause menu
+3. quark-common.toml: fixed a server-related issue
    ```diff
    - "Automatic Recipe Unlock" = true
    + "Automatic Recipe Unlock" = false
    ```
-4. Special Mobs: Убрана стандартная замена 100% ванильных мобов на новых, теперь у каждого моба есть 10% шанс стать мобом из Special Mobs
-5. Stylish Effects: Убрано отображение эффектов во всех GUI из Mekanism и Applied Energistics 2 ([Issue #59](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/59))
+4. Special Mobs: reduced replacement rate — now each mob has a 10% chance to become a Special Mob
+5. Stylish Effects: disabled effect rendering in Mekanism and Applied Energistics 2 GUIs ([Issue #59](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/59))
    ```diff
    - menu_blacklist = ["curios:curios_container", "tconstruct:smeltery", "tconstruct:tinker_station", "tconstruct:part_builder"]
    + menu_blacklist = ["curios:curios_container", "tconstruct:smeltery", "tconstruct:tinker_station", "tconstruct:part_builder", "mekanism:factory", "mekanism:enrichment_chamber", "mekanism:osmium_compressor", "mekanism:combiner", "mekanism:crusher", "mekanism:metallurgic_infuser", "mekanism:purification_chamber", "mekanism:energized_smelter", "mekanism:digital_miner", "mekanism:rotary_condensentrator", "mekanism:chemical_oxidizer", "mekanism:chemical_infuser", "mekanism:chemical_injection_chamber", "mekanism:electrolytic_separator", "mekanism:precision_sawmill", "mekanism:chemical_dissolution_chamber", "mekanism:chemical_washer", "mekanism:chemical_crystallizer", "mekanism:pressurized_reaction_chamber", "mekanism:isotopic_centrifuge", "mekanism:nutritional_liquifier", "mekanism:solar_neutron_activator", "mekanism:oredictionificator", "mekanism:formulaic_assemblicator", "mekanism:antiprotonic_nucleosynthesizer", "mekanism:pigment_extractor", "mekanism:pigment_mixer", "mekanism:painting_machine", "mekanism:qio_drive_array", "mekanism:qio_dashboard", "mekanism:energy_cube", "appliedenergistics2:patternterm", "appliedenergistics2:craftingterm", "appliedenergistics2:item_terminal", "appliedenergistics2:cellworkbench", "appliedenergistics2:interface", "appliedenergistics2:ioport", "appliedenergistics2:securitystation", "appliedenergistics2:spatialanchor", "appliedenergistics2:storagebus", "appliedenergistics2:fluid_storage_bus", "appliedenergistics2:interfaceterminal", "appliedenergistics2:fluid_terminal"]
@@ -191,34 +191,34 @@
      
 </details>
 
-## :seven: Скрипты
+## :seven: Scripts
 
 <details>
-<summary>Добавлено (2)</summary>
+<summary>Added (2)</summary>
 
-1. Добавлена стадия для мода taiga
-2. Добавлена стадия для мода materials
+1. Added stage for TAIGA
+2. Added stage for Materials
      
 </details>
 
-## :eight: Прочее
+## :eight: Other
 
 <details>
-<summary>Изменено (1)</summary>
+<summary>Changed (1)</summary>
 
-1. Изменены награды и цели в заданиях из Bountiful: Убраны инструменты, железная и алмазная броня ([Issue #63](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/63))
+1. Updated rewards and objectives in Bountiful quests: removed tools, iron armor, and diamond armor ([Issue #63](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/63))
 
 </details>
 
-## 💬 Обратная связь
+## 💬 Feedback
 
-Если у Вас есть вопросы, предложения или Вы нашли ошибку - будем рады Вашей обратной связи:
+If you have any questions, suggestions, or found a bug - we would love to hear your feedback:
 
 - [Telegram](https://t.me/BMProjects)
 - [Discord](https://discord.gg/9GWKBVw3Ty)   
 - [GitHub](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues)
 
-Также там Вы можете следить за разработкой и будущими обновлениями сборки.
+You can also follow development and upcoming updates there.
 
-💖 Если Вы хотите поддержать разработку и получить доступ к дополнительному контенту, а также к закулисью разработки:
+💖 If you would like to support development and get access to additional content and behind-the-scenes materials:
 - [Boosty](https://boosty.to/barmaxx)
