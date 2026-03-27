@@ -58,7 +58,7 @@ Recipe.type(Type.TANNER)
   .output(<item:quark:seed_pouch>)
   .register();
 
-// MUSHROOM
+
 
 craftingTable.removeRecipe(<item:quark:mushroom_chest>);
 
@@ -87,8 +87,6 @@ Recipe.type(Type.CARPENTER)
 
 
 
-// NETHER BRICK
-
 craftingTable.removeRecipe(<item:quark:nether_brick_chest>);
 
 Recipe.type(Type.CARPENTER)
@@ -115,8 +113,6 @@ Recipe.type(Type.CARPENTER)
   .register();
 
 
-
-// PRISMARINE
 
 craftingTable.removeRecipe(<item:quark:prismarine_chest>);
 
@@ -145,8 +141,6 @@ Recipe.type(Type.CARPENTER)
 
 
 
-// PURPUR
-
 craftingTable.removeRecipe(<item:quark:purpur_chest>);
 
 Recipe.type(Type.CARPENTER)
@@ -171,8 +165,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:quark:purpur_trapped_chest>)
   .register();
 
-
-// DARK OAK
 
 craftingTable.removeRecipe(<item:quark:dark_oak_chest>);
 
@@ -209,7 +201,6 @@ Recipe.type(Type.CARPENTER)
   .register();
 
 
-// ACACIA
 
 craftingTable.removeRecipe(<item:quark:acacia_chest>);
 
@@ -246,7 +237,7 @@ Recipe.type(Type.CARPENTER)
   .register();
 
 
-// JUNGLE
+
 
 craftingTable.removeRecipe(<item:quark:jungle_chest>);
 
@@ -283,8 +274,6 @@ Recipe.type(Type.CARPENTER)
   .register();
 
 
-// BIRCH
-
 craftingTable.removeRecipe(<item:quark:birch_chest>);
 
 Recipe.type(Type.CARPENTER)
@@ -319,8 +308,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:quark:birch_trapped_chest>)
   .register();
 
-
-// SPRUCE
 
 craftingTable.removeRecipe(<item:quark:spruce_chest>);
 
@@ -357,7 +344,6 @@ Recipe.type(Type.CARPENTER)
   .register();
 
 
-// OAK
 
 craftingTable.removeRecipe(<item:quark:oak_chest>);
 

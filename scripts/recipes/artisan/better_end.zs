@@ -20,9 +20,6 @@ Recipe.type(Type.TANNER)
   .output(<item:betterendforge:leather_wrapped_stick>)
   .register();
 
-  // BETTEREND FORGE
-
-// UMBRELLA TREE
 
 craftingTable.removeRecipe(<item:betterendforge:umbrella_tree_chest>);
 
@@ -47,8 +44,6 @@ Recipe.type(Type.CARPENTER)
   .register();
 
 
-// MOSSY GLOWSHROOM
-
 craftingTable.removeRecipe(<item:betterendforge:mossy_glowshroom_chest>);
 
 Recipe.type(Type.CARPENTER)
@@ -71,7 +66,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:mossy_glowshroom_chest> * 4)
   .register();
 
-// LACUGROVE
 
 craftingTable.removeRecipe(<item:betterendforge:lacugrove_chest>);
 
@@ -95,8 +89,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:lacugrove_chest> * 4)
   .register();
 
-// END LOTUS
-
 craftingTable.removeRecipe(<item:betterendforge:end_lotus_chest>);
 
 Recipe.type(Type.CARPENTER)
@@ -118,8 +110,6 @@ Recipe.type(Type.CARPENTER)
   .tool(<tag:items:artisantools:type/chisel>, 80)
   .output(<item:betterendforge:end_lotus_chest> * 4)
   .register();
-
-// PYTHADENDRON
 
 craftingTable.removeRecipe(<item:betterendforge:pythadendron_chest>);
 
@@ -143,7 +133,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:pythadendron_chest> * 4)
   .register();
 
-// DRAGON TREE
 
 craftingTable.removeRecipe(<item:betterendforge:dragon_tree_chest>);
 
@@ -167,7 +156,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:dragon_tree_chest> * 4)
   .register();
 
-// TENANEA
 
 craftingTable.removeRecipe(<item:betterendforge:tenanea_chest>);
 
@@ -181,7 +169,7 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:tenanea_chest>)
   .register();
 
-            Recipe.type(Type.CARPENTER)
+          Recipe.type(Type.CARPENTER)
   .shaped([
     [<tag:items:betterendforge:tenanea_logs>, <tag:items:betterendforge:tenanea_logs>, <tag:items:betterendforge:tenanea_logs>],
     [<tag:items:betterendforge:tenanea_logs>, <item:minecraft:air>, <tag:items:betterendforge:tenanea_logs>],
@@ -191,7 +179,7 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:tenanea_chest> * 4)
   .register();
 
-// HELIX TREE
+
 
 craftingTable.removeRecipe(<item:betterendforge:helix_tree_chest>);
 
@@ -215,8 +203,6 @@ Recipe.type(Type.CARPENTER)
   .output(<item:betterendforge:helix_tree_chest> * 4)
   .register();
 
-// JELLYSHROOM
-
 craftingTable.removeRecipe(<item:betterendforge:jellyshroom_chest>);
 
 Recipe.type(Type.CARPENTER)
@@ -238,8 +224,6 @@ Recipe.type(Type.CARPENTER)
   .tool(<tag:items:artisantools:type/chisel>, 80)
   .output(<item:betterendforge:jellyshroom_chest> * 4)
   .register();
-
-  // LUCERNIA
 
 craftingTable.removeRecipe(<item:betterendforge:lucernia_chest>);
 
