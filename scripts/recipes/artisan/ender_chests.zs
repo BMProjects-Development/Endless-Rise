@@ -25,3 +25,16 @@ Recipe.type(Type.TANNER)
   
   .output(<item:enderchests:ender_bag>)
   .register();
+
+  craftingTable.removeRecipe(<item:enderchests:ender_chest>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+     [<tag:items:forge:rods/blaze>, <tag:items:minecraft:wool>, <tag:items:forge:rods/blaze>],
+    [<item:minecraft:obsidian>, <item:minecraft:ender_eye>, <item:minecraft:obsidian>],
+    [<tag:items:forge:rods/blaze>, <item:minecraft:obsidian>, <tag:items:forge:rods/blaze>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .tool(<tag:items:artisantools:type/grimoire>, 20)
+  .output(<item:enderchests:ender_chest>)
+  .register();

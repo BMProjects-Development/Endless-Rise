@@ -243,12 +243,26 @@ Recipe.type(Type.CARPENTER)
   
   
 craftingTable.removeRecipe(<item:minecraft:trapped_chest>);
+
 Recipe.type(Type.CARPENTER)
   .shaped([
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
-    [<tag:items:minecraft:planks>, <item:minecraft:redstone_torch>, <tag:items:minecraft:planks>],
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
-  .tool(<tag:items:artisantools:type/chisel>, 20)
-  
+    [<item:minecraft:chest>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:tripwire_hook>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .tool(<tag:items:artisantools:type/driver>, 5)
   .output(<item:minecraft:trapped_chest>)
+  .register();
+
+  craftingTable.removeRecipe(<item:minecraft:ender_chest>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
+    [<item:minecraft:obsidian>, <item:minecraft:ender_eye>, <item:minecraft:obsidian>],
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .tool(<tag:items:artisantools:type/grimoire>, 20)
+  .output(<item:minecraft:ender_chest>)
   .register();
