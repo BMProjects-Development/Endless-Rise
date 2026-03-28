@@ -11,7 +11,7 @@
 	# The Mob Replacer is the traditional spawn method for Special Mobs which allows everything that spawns
 	# valid vanilla mobs (e.g. dungeon spawners) to spawn this mod's mobs based on your configs instead.
 	# <Boolean> Valid Values: { true, false }, Default: true
-	general.enable_mob_replacer = true
+	general.enable_mob_replacer = false
 	# Whether the natural spawning category (see below) is enabled.
 	# <Boolean> Valid Values: { true, false }, Default: true
 	general.enable_added_natural_spawning = true
