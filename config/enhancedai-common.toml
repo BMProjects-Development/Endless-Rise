@@ -22,10 +22,10 @@
 	[Base.Targeting]
 		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting to 0 will leave the follow range as vanilla.
 		#Range: 0 ~ 128
-		"Follow Range Override" = 64
+		"Follow Range Override" = 16
 		#Chance for a mob to be able to see players through blocks.
 		#Range: 0.0 ~ 1.0
-		"XRay Chance" = 0.2
+		"XRay Chance" = 0.0
 		#Mobs will no longer take random time to target a player.
 		"Instant Target" = true
 
@@ -43,16 +43,16 @@
 	[Creeper."Creeper Swell"]
 		#AND HIS NAME IS ...
 		#Range: 0.0 ~ 1.0
-		"Cena Chance" = 0.02
+		"Cena Chance" = 0.0
 		#Percentage chance for a Creeper to not stand still while exploding.
 		#Range: 0.0 ~ 1.0
-		"Walking Fuse Chance" = 0.1
+		"Walking Fuse Chance" = 0.0
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore Walls Chance" = 0.1
+		"Ignore Walls Chance" = 0.0
 		#Breaching creepers will try to open an hole in the wall to let mobs in.
 		#Range: 0.0 ~ 1.0
-		"Breach Chance" = 0.075
+		"Breach Chance" = 0.0
 		#Launching creepers will try ignite and throw themselves at the player.
 		#Range: 0.0 ~ 1.0
 		"Launch Chance" = 0.05
@@ -76,7 +76,7 @@
 		"Strafe chance" = 0.333
 		#How much inaccuracy does the arrow fired by skeletons have. Vanilla skeletons have 10/6/2 inaccuracy in easy/normal/hard difficulty.
 		#Range: 0.0 ~ 30.0
-		"Arrow Inaccuracy" = 2.0
+		"Arrow Inaccuracy" = 6.0
 
 		#Entities that shouldn't get the enhanced Shoot AI
 		[Skeleton."Skeleton Shoot"."Entity Blacklist"]
@@ -87,7 +87,7 @@
 		[Skeleton."Skeleton Shoot"."Flee from Target"]
 			#Chance for a Skeleton to spawn with the ability to avoid the player
 			#Range: 0.0 ~ 1.0
-			"Avoid Player chance" = 0.5
+			"Avoid Player chance" = 0.0
 			#Chance for a Skeleton to attack while running from a player
 			#Range: 0.0 ~ 1.0
 			"Attack When Avoiding Chance" = 0.5
@@ -107,7 +107,7 @@
 	[Zombie."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.05
+		"Digger Chance" = 0.0
 		#Zombies with Digger AI will mine only if they have a tool in the off-hand
 		"Digger Tool Only" = false
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable.
@@ -134,7 +134,7 @@
 	[Zombie."Pearler Zombie"]
 		#Chance for a Zombie to spawn with an ender pearl in the off hand. I highly recommend using something like Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
-		"Equip Ender Pearl Chance" = 0.04
+		"Equip Ender Pearl Chance" = 0.0
 		#How many ender pearls will Zombies spawn with.
 		#Range: 1 ~ 16
 		"Ender Pearl Amount" = 2
@@ -147,7 +147,7 @@
 
 [Spider]
 	#Makes spiders throw a web at a player, slowing them.
-	"Enable Throwing Web" = true
+	"Enable Throwing Web" = false
 	#Various small changes to Spiders.
 	"Enable Miscellaneous" = true
 
@@ -192,7 +192,7 @@
 	[Spider.Miscellaneous]
 		#Percentage reduction of the fall damage taken by spiders.
 		#Range: 0.0 ~ 1.0
-		"Fall Damage Reduction" = 0.9
+		"Fall Damage Reduction" = 0.0
 
 		#Entities that shouldn't get the Throwing Web AI
 		[Spider.Miscellaneous."Entity Blacklist"]
