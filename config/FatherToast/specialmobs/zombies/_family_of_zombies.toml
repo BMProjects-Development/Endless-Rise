@@ -19,7 +19,7 @@
 
 	# The chance for zombies to spawn as special variants.
 	# <Number> Range: 0.0 ~ 1.0, Default: 0.2
-	general.special_variant_chance.base = 0.01
+	general.special_variant_chance.base = 0.1
 	# The chance for zombies to spawn as special variants when specific environmental conditions are met.
 	# <Environment List> Format: [ "value condition1 state1 & condition2 state2 & ...", ... ], Default: [ "0.1 world_time < 120000", "0.4 moon_phase full & special_difficulty >= 0.5", "0.3 moon_phase full", "0.3 special_difficulty >= 0.5" ]
 	#    Range for Values: 0.0 ~ 1.0

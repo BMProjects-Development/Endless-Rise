@@ -852,7 +852,7 @@ Recipe.type(Type.CARPENTER)
   .output(<item:storagedrawers:quantify_key>)
   .register();
 
-craftingTable.removeRecipe(<item:storagedrawers:shoroud_key>);
+craftingTable.removeRecipe(<item:storagedrawers:shroud_key>);
 
 Recipe.type(Type.CARPENTER)
   .shaped([
@@ -861,7 +861,7 @@ Recipe.type(Type.CARPENTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
   ])
   .tool(<tag:items:artisantools:type/chisel>, 50)
-  .output(<item:storagedrawers:shoroud_key>)
+  .output(<item:storagedrawers:shroud_key>)
   .register();
 
   craftingTable.removeRecipe(<item:framedcompactdrawers:framed_compact_drawer>);
@@ -876,7 +876,7 @@ Recipe.type(Type.CARPENTER)
   .output(<item:framedcompactdrawers:framed_compact_drawer>)
   .register();
 
-  craftingTable.removeRecipe(<item:framedcompactdrawers:framed_drawer_controller>);
+craftingTable.removeRecipe(<item:framedcompactdrawers:framed_drawer_controller>);
 
 Recipe.type(Type.CARPENTER)
   .shaped([
@@ -888,25 +888,13 @@ Recipe.type(Type.CARPENTER)
   .output(<item:framedcompactdrawers:framed_drawer_controller>)
   .register();
 
-  craftingTable.removeRecipe(<item:framedcompactdrawers:framed_drawer_controller>);
+craftingTable.removeRecipe(<item:framedcompactdrawers:framed_trim>);
 
 Recipe.type(Type.CARPENTER)
   .shaped([
-    [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>],
-    [<item:minecraft:stick>, <item:storagedrawers:controller>, <item:minecraft:stick>],
-    [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]
-  ])
-  .tool(<tag:items:artisantools:type/chisel>, 40)
-  .output(<item:framedcompactdrawers:framed_drawer_controller>)
-  .register();
-
-    craftingTable.removeRecipe(<item:framedcompactdrawers:framed_trim>);
-
-Recipe.type(Type.CARPENTER)
-  .shaped([
-    [<item:minecraft:stick>, <tag:item:minecraft:oak_planks>, <item:minecraft:stick>],
-    [<tag:item:minecraft:oak_planks <item:minecraft:stick>, <tag:item:minecraft:oak_planks>],
-    [<item:minecraft:stick>, <tag:item:minecraft:oak_planks>, <item:minecraft:stick>]
+    [<item:minecraft:stick>, <tag:items:minecraft:planks>, <item:minecraft:stick>],
+    [<tag:items:minecraft:planks>, <item:minecraft:stick>, <tag:items:minecraft:planks>],
+    [<item:minecraft:stick>, <tag:items:minecraft:planks>, <item:minecraft:stick>]
   ])
   .tool(<tag:items:artisantools:type/chisel>, 20)
   .output(<item:framedcompactdrawers:framed_trim> * 4)
