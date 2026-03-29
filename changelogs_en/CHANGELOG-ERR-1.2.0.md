@@ -17,7 +17,7 @@ The full list of changes is available below.
 
 ---
 
-## :one: Моды
+## :one: Mods
 
 Key changes:
 - Switched from Rubidium to Embeddium (better performance)
@@ -209,6 +209,8 @@ Key changes:
 1. Updated rewards and objectives in Bountiful quests: removed tools, iron armor, and diamond armor ([Issue #63](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/63))
 
 </details>
+
+---
 
 ## 💬 Feedback
 
