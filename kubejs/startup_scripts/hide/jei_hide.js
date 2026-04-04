@@ -170,7 +170,9 @@ const HIDDEN = [
    'minecraft:wooden_hoe',
    'notreepunching:clay_tool',
    
-   'create:powdered_obsidian'
+   'create:powdered_obsidian',
+   
+   'legendarysurvivaloverhaul:seasonal_calendar'
    
 ]
 
