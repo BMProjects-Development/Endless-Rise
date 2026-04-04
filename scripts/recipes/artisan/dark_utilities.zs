@@ -264,7 +264,7 @@ Recipe.type(Type.ENGINEER)
 Recipe.type(Type.ENGINEER)
 .shaped([
     [<tag:items:forge:stone>, <tag:items:forge:fence_gates/wooden>, <tag:items:forge:stone>],
-    [<tag:items:forge:fence_gates/wooden>, <tag:items:forge:tools/pickaxes>, <tag:items:forge:fence_gates/wooden>],
+    [<tag:items:forge:fence_gates/wooden>, <item:tconstruct:pickaxe_head>.withTag({Material: "tconstruct:queens_slime" as string}), <tag:items:forge:fence_gates/wooden>],
     [<tag:items:forge:stone>, <tag:items:forge:fence_gates/wooden>, <tag:items:forge:stone>]
 ])
 .tool(<tag:items:artisantools:type/grimoire>, 5)
@@ -609,3 +609,29 @@ Recipe.type(Type.ENGINEER)
 .output(<item:darkutils:vector_plate_banner_pattern>)
 .register();
 
+
+craftingTable.removeRecipe(<item:darkutils:rune_damage>);
+
+Recipe.type(Type.ENGINEER)
+.shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:darkutils:blank_plate>, <item:tconstruct:small_blade>.withTag({Material: "tconstruct:iron" as string}), <item:darkutils:blank_plate>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+])
+.tool(<tag:items:artisantools:type/grimoire>, 5)
+.tool(<tag:items:artisantools:type/hammer>, 5)
+.output(<item:darkutils:rune_damage>)
+.register();
+
+craftingTable.removeRecipe(<item:darkutils:rune_damage_player>);
+
+Recipe.type(Type.ENGINEER)
+.shaped([
+    [<item:minecraft:air>, <item:tconstruct:small_blade>.withTag({Material: "tconstruct:manyullyn" as string}), <item:minecraft:air>],
+    [<item:minecraft:cyan_dye>, <item:minecraft:phantom_membrane>, <item:minecraft:cyan_dye>],
+    [<item:darkutils:blank_plate>, <item:darkutils:blank_plate>, <item:darkutils:blank_plate>]
+])
+.tool(<tag:items:artisantools:type/grimoire>, 5)
+.tool(<tag:items:artisantools:type/hammer>, 5)
+.output(<item:darkutils:rune_damage_player>)
+.register();
