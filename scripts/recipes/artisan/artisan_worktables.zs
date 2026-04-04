@@ -105,6 +105,16 @@ Recipe.type(Type.BASIC)
   
 Recipe.type(Type.BASIC)
   .shaped([
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:artisanworktables:workstation_carpenter>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:wooden_fences>, <item:minecraft:air>, <tag:items:minecraft:wooden_fences>]])
+  
+  .output(<item:artisanworktables:workshop_carpenter>)
+  .register();
+  
+  
+Recipe.type(Type.BASIC)
+  .shaped([
     [<item:ends_delight:ender_pearl_grain>, <item:ends_delight:ender_pearl_grain>, <item:ends_delight:ender_pearl_grain>],
     [<item:ends_delight:ender_pearl_grain>, <tag:items:forge:workbenches>, <item:ends_delight:ender_pearl_grain>],
     [<tag:items:minecraft:wooden_fences>, <item:minecraft:air>, <tag:items:minecraft:wooden_fences>]])
