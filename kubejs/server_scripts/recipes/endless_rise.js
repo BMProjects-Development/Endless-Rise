@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
 	
 	
-  event.shaped('2x kubejs:lense', [
+  event.shaped('2x endlessrise:lens', [
     'GGG',
     'GIG',
     'GGG'
@@ -11,7 +11,7 @@ onEvent('recipes', event => {
   })
   
   
-  event.shaped('kubejs:lamp', [
+  event.shaped('endlessrise:lamp', [
     ' Q ',
     ' R ',
     ' I '
@@ -22,7 +22,7 @@ onEvent('recipes', event => {
   })
   
   
-  event.shaped('2x kubejs:photocell', [
+  event.shaped('2x endlessrise:photocell', [
     'GGG',
     'GCG',
     'GGG'

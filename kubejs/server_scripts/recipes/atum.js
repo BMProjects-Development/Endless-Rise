@@ -14,7 +14,6 @@ onEvent('recipes', event => {
   
   
   event.remove({output: 'atum:quern'})
-  event.shapeless('atum:quern', ['#forge:sandstone', '#forge:sandstone', '#forge:sandstone'])
   
   
 })

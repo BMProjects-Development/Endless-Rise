@@ -1113,9 +1113,9 @@
 			dependencies: ["23FFFC5B724778A4"]
 			id: "19EBBD2ED6AD1922"
 			tasks: [{
-				id: "6CAE9723A495293F"
+				id: "11FB7E735D76BAD9"
 				type: "item"
-				item: "kubejs:wet_paper"
+				item: "endlessrise:wet_paper"
 			}]
 		}
 		{
@@ -1493,6 +1493,17 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			dependencies: ["387C7C8B8BA0851B"]
+			id: "0085FE3776814D63"
+			tasks: [{
+				id: "44B7F96DFCC749BA"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
 		}
 	]
 }

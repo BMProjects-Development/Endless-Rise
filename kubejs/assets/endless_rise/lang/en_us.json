@@ -1099,11 +1099,6 @@
 	"er.reset_stages.title": "&bMaintenance Quests",
 	"er.reset_stages.quests0.title": "Stages sync",
 	"er.reset_stages.quests0.description0": "This checkmark unlocks the ability to repeat age quests below, in case they didn't trigger correctly in multiplayer or other reasons.",
-	
-	"item.kubejs.wet_paper": "Wet Paper",
-	"item.kubejs.lamp": "Lamp",
-	"item.kubejs.lense": "Lens",
-	"item.kubejs.photocell": "Photocell",
 
 	"gateways.from_bee_gate_small": "Bee Gate Pearl",
 
