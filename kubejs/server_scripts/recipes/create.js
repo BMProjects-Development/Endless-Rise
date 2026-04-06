@@ -58,7 +58,7 @@ onEvent('recipes', event => {
   ], {
     S: '#forge:string',
 	G: '#forge:plates/gold',
-	L: 'kubejs:lense'
+	L: 'endlessrise:lens'
   })
   
   
@@ -69,7 +69,7 @@ onEvent('recipes', event => {
     '   '
   ], {
     I: '#forge:plates/iron',
-	L: 'kubejs:lamp'
+	L: 'endlessrise:lamp'
   })
   
   

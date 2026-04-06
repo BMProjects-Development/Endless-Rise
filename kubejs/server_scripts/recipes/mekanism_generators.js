@@ -7,7 +7,7 @@ onEvent('recipes', event => {
     'BAB',
     'OOO'
   ], {
-    P: 'kubejs:photocell',
+    P: 'endlessrise:photocell',
 	O: 'mekanism:ingot_osmium',
 	A: 'mekanism:alloy_infused',
 	B: 'pneumaticcraft:printed_circuit_board'

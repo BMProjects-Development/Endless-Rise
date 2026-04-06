@@ -1223,7 +1223,7 @@
 				type: "command"
 				team_reward: true
 				auto: "invisible"
-				command: "/gamestage add @s journey false"
+				command: "/gamestage add @a journey"
 				player_command: false
 			}]
 		}

@@ -4,7 +4,7 @@
 	order_index: 4
 	filename: "13E0000B8592C62D"
 	title: "{er.13e0000b8592c62d.title}"
-	icon: "kubejs:endless_rise"
+	icon: "endlessrise:endless_rise"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
@@ -26,7 +26,7 @@
 		tasks: [{
 			id: "6648CD67CB024CDC"
 			type: "item"
-			item: "kubejs:endless_rise"
+			item: "endlessrise:endless_rise"
 		}]
 	}]
 }
