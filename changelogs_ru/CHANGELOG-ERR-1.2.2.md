@@ -52,7 +52,7 @@
 
 </details>
 
-## :two: Рецепты
+## :three: Рецепты
 
 <details>
 <summary>Добвлено (1)</summary>
@@ -75,7 +75,7 @@
 
 </details>
 
-## :three: Прочее
+## :four: Прочее
 
 <details>
 <summary>Добавлено (1)</summary>
