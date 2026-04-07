@@ -46,7 +46,7 @@
 ## :two: Квесты
 
 <details>
-<summary>Добвлено (1)</summary>
+<summary>Добавлено (1)</summary>
 
 1. Добавлен квест на календарь
 
