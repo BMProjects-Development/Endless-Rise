@@ -38,7 +38,7 @@ The full list of changes is available below.
 3. Macaw's Bridges (3.1.0 -> 3.1.2)
 4. Macaw's Paintings (1.0.5 -> 1.1.0)
 5. Rechiseled (1.16 -> 1.2.4a)
-6. Season HUD (1.13.17 -> 2.0.3)
+6. Season HUD (1.13.17 -> 2.0.4)
 7. Super Martijn642 Core Lib (1.1.19 -> 1.1.21)
 
 </details>
