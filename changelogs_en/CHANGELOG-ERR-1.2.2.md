@@ -31,15 +31,14 @@ The full list of changes is available below.
 </details>
 
 <details>
-<summary>Updated (7)</summary>
+<summary>Updated (5)</summary>
   
 1. Item Collectors (1.1.11 -> 1.1.12)
 2. Just Enough Mekanism Multiblocks (1.9 -> 1.10)
 3. Macaw's Bridges (3.1.0 -> 3.1.2)
 4. Macaw's Paintings (1.0.5 -> 1.1.0)
-5. Rechiseled (1.16 -> 1.2.4a)
-6. Season HUD (1.13.17 -> 2.0.4)
-7. Super Martijn642 Core Lib (1.1.19 -> 1.1.21)
+5. Season HUD (1.13.17 -> 2.0.4)
+6. Super Martijn642 Core Lib (1.1.19 -> 1.1.21)
 
 </details>
 
