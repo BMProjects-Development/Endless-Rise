@@ -1497,6 +1497,7 @@
 		{
 			x: 10.0d
 			y: -5.5d
+			description: ["{er.09bc33749d387467.quests79.description0}"]
 			dependencies: ["387C7C8B8BA0851B"]
 			id: "0085FE3776814D63"
 			tasks: [{
