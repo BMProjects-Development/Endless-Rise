@@ -2,7 +2,7 @@
 
 ---
 
-This update focuses on fixing some important issues and making general improvements to the project.. ([Issue #72](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/72))
+This update focuses on fixing some important issues and making general improvements to the project. ([Issue #72](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/72))
 
 Key features:
 1. Added custom mod Endless Rise Tweaks, that's fixed some errors.
