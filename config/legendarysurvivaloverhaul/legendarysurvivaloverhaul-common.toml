@@ -9,7 +9,7 @@
 	# Whether heart fruits are functional and generate in-world.
 	"Heart Fruits Enabled" = true
 	# Whether body members receive localized damages.
-	"Localized Body Damage Enabled" = true
+	"Localized Body Damage Enabled" = false
 	# If enabled, information like position and direction will be hidden from the debug screen (F3).
 	"Hide Info From Debug" = true
 	# If enabled, the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
@@ -19,7 +19,7 @@
 		# How often player temperature is regularly synced between the client and server, in ticks.
 		# Lower values will increase accuracy at the cost of performance
 		#Range: > 1
-		"Routine Packet Sync" = 30
+		"Routine Packet Sync" = 60
 
 	[core.misc]
 		# What information the compass returns when player is using it or in an item frame.
