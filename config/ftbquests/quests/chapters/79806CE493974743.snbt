@@ -671,8 +671,7 @@
 			rewards: [{
 				id: "7FCDBB134B5DCAFB"
 				type: "command"
-				team_reward: true
-				auto: "invisible"
+				auto: "disabled"
 				command: "/gamestage add @a powah false"
 				player_command: false
 			}]
@@ -697,7 +696,7 @@
 			rewards: [{
 				id: "0A92670869883C12"
 				type: "command"
-				team_reward: true
+				auto: "disabled"
 				command: "/gamestage add @a fluxnetworks false"
 				player_command: false
 			}]
@@ -867,8 +866,7 @@
 			rewards: [{
 				id: "78136FEE2D637CB2"
 				type: "command"
-				team_reward: true
-				auto: "invisible"
+				auto: "disabled"
 				command: "/gamestage add @a space_age false"
 				player_command: false
 			}]

@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
-    "atum:quern"
+    "atum:quern",
+	"minecraft:stone",
+	"the_bumblezone:beehive_beeswax",
+	"the_bumblezone:filled_porous_honeycomb_block",
+	"minecraft:honeycomb_block",
+	"the_bumblezone:honey_crystal",
+	"the_bumblezone:sugar_infused_stone",
+	"the_bumblezone:sugar_infused_cobblestone",
+	"the_bumblezone:honeycomb_brood_block",
+	"the_bumblezone:empty_honeycomb_brood_block",
+	"the_bumblezone:pile_of_pollen"
   ]
 }
