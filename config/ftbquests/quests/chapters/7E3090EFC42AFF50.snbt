@@ -1033,8 +1033,6 @@
 			rewards: [{
 				id: "41ED3C97247758AA"
 				type: "command"
-				team_reward: true
-				auto: "invisible"
 				command: "/gamestage add @a industrialforegoing false"
 				player_command: false
 			}]
@@ -1382,8 +1380,6 @@
 			rewards: [{
 				id: "2FA433E6D8261C90"
 				type: "command"
-				team_reward: true
-				auto: "invisible"
 				command: "/gamestage add @a appliedenergistics2 false"
 				player_command: false
 			}]

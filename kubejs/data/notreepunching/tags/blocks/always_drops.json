@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "atum:quern",
+	"the_bumblezone:beehive_beeswax",
+	"minecraft:honeycomb_block",
+	"the_bumblezone:honey_crystal",
+	"the_bumblezone:pile_of_pollen"
+  ]
+}

@@ -41,9 +41,10 @@
 			rewards: [{
 				id: "695D83922B35EAD6"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s copper_age false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a copper_age false"
+				player_command: false
 			}]
 		}
 		{
@@ -66,9 +67,9 @@
 			rewards: [{
 				id: "6CD1FFDD9C8D8B04"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s iron_age false"
-				player_command: true
+				team_reward: false
+				command: "/gamestage add @a iron_age false"
+				player_command: false
 			}]
 		}
 		{
@@ -91,9 +92,10 @@
 			rewards: [{
 				id: "1BE82B625885B5FB"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s primitive false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a primitive false"
+				player_command: false
 			}]
 		}
 		{
@@ -116,9 +118,10 @@
 			rewards: [{
 				id: "7ADED708167D07F5"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s gold_age false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a gold_age false"
+				player_command: false
 			}]
 		}
 		{
@@ -141,9 +144,10 @@
 			rewards: [{
 				id: "67DFCCCC6D9B6296"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s diamond_age false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a diamond_age false"
+				player_command: false
 			}]
 		}
 		{
@@ -166,9 +170,10 @@
 			rewards: [{
 				id: "270EFF5D645200F6"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s space_age false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a space_age false"
+				player_command: false
 			}]
 		}
 		{
@@ -191,9 +196,10 @@
 			rewards: [{
 				id: "190FF07FBADB3A9B"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s create false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a create false"
+				player_command: false
 			}]
 		}
 		{
@@ -216,9 +222,10 @@
 			rewards: [{
 				id: "3D8B9ED8B07CAB77"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s immersiveengineering false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a immersiveengineering false"
+				player_command: false
 			}]
 		}
 		{
@@ -241,9 +248,10 @@
 			rewards: [{
 				id: "79F69B3C3993FD20"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s pneumaticcraft false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a pneumaticcraft false"
+				player_command: false
 			}]
 		}
 		{
@@ -266,9 +274,10 @@
 			rewards: [{
 				id: "76ABFEF5A5BE9FCD"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s appliedenergistics2 false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a appliedenergistics2 false"
+				player_command: false
 			}]
 		}
 		{
@@ -291,9 +300,10 @@
 			rewards: [{
 				id: "6D052A359BF18F25"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s powah false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a powah false"
+				player_command: false
 			}]
 		}
 		{
@@ -316,9 +326,10 @@
 			rewards: [{
 				id: "4DEA331C1C600282"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s fluxnetworks false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a fluxnetworks false"
+				player_command: false
 			}]
 		}
 		{
@@ -341,9 +352,10 @@
 			rewards: [{
 				id: "4ABCE4EE83BE16CE"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s mekanism false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a mekanism false"
+				player_command: false
 			}]
 		}
 		{
@@ -366,9 +378,10 @@
 			rewards: [{
 				id: "0F1DE707310BAEFE"
 				type: "command"
-				team_reward: true
-				command: "/gamestage add @s industrialforegoing false"
-				player_command: true
+				team_reward: false
+				auto: "disabled"
+				command: "/gamestage add @a industrialforegoing false"
+				player_command: false
 			}]
 		}
 		{
@@ -392,16 +405,18 @@
 				{
 					id: "139AC6178BEAD44D"
 					type: "command"
-					team_reward: true
-					command: "/gamestage add @s nether false"
-					player_command: true
+					team_reward: false
+					auto: "disabled"
+					command: "/gamestage add @a nether false"
+					player_command: false
 				}
 				{
 					id: "50ACA374C441A932"
 					type: "command"
-					team_reward: true
-					command: "/gamestage add @s nether_dim false"
-					player_command: true
+					team_reward: false
+					auto: "enabled"
+					command: "/gamestage add @a nether_dim false"
+					player_command: false
 				}
 			]
 		}
@@ -426,16 +441,18 @@
 				{
 					id: "0D970CBA9F4C50B1"
 					type: "command"
-					team_reward: true
-					command: "/gamestage add @s atum false"
-					player_command: true
+					team_reward: false
+					auto: "disabled"
+					command: "/gamestage add @a atum false"
+					player_command: false
 				}
 				{
 					id: "0E01A212A408BC50"
 					type: "command"
-					team_reward: true
-					command: "/gamestage add @s atum_dim false"
-					player_command: true
+					team_reward: false
+					auto: "disabled"
+					command: "/gamestage add @a atum_dim false"
+					player_command: false
 				}
 			]
 		}
@@ -460,16 +477,18 @@
 				{
 					id: "6EDD78679DBC2257"
 					type: "command"
-					team_reward: true
-					command: "/gamestage add @s end false"
-					player_command: true
+					team_reward: false
+					auto: "disabled"
+					command: "/gamestage add @a end false"
+					player_command: false
 				}
 				{
 					id: "621933919B0DAF39"
 					type: "command"
-					team_reward: true
-					command: "/gamestage add @s end_dim false"
-					player_command: true
+					team_reward: false
+					auto: "disabled"
+					command: "/gamestage add @a end_dim false"
+					player_command: false
 				}
 			]
 		}
@@ -493,9 +512,10 @@
 			rewards: [{
 				id: "4CF1F5699C6BD8FF"
 				type: "command"
-				team_reward: true
+				team_reward: false
+				auto: "disabled"
 				command: "/gamestage add @a journey"
-				player_command: true
+				player_command: false
 			}]
 		}
 		{
@@ -519,14 +539,16 @@
 				{
 					id: "2B3EFF09572D35A2"
 					type: "command"
-					team_reward: true
+					team_reward: false
+					auto: "disabled"
 					command: "/gamestage add @a materialis false"
 					player_command: false
 				}
 				{
 					id: "1D2FEE938AA3C75B"
 					type: "command"
-					team_reward: true
+					team_reward: false
+					auto: "disabled"
 					command: "/gamestage add @a taiga false"
 					player_command: false
 				}

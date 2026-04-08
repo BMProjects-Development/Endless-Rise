@@ -498,8 +498,6 @@
 			rewards: [{
 				id: "5F56D3082D51EFF5"
 				type: "command"
-				team_reward: true
-				auto: "invisible"
 				command: "/gamestage add @a mekanism false"
 				player_command: false
 			}]
