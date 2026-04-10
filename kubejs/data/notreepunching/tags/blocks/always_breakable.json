@@ -11,6 +11,12 @@
 	"the_bumblezone:sugar_infused_cobblestone",
 	"the_bumblezone:honeycomb_brood_block",
 	"the_bumblezone:empty_honeycomb_brood_block",
-	"the_bumblezone:pile_of_pollen"
+	"the_bumblezone:pile_of_pollen",
+	"minecraft:melon",
+	"#chipped:melon",
+	"minecraft:pumpkin",
+	"minecraft:carved_pumpkin",
+	"#chipped:pumpkin",
+	"#chipped:carved_pumpkin"
   ]
 }
