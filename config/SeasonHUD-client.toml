@@ -60,43 +60,41 @@
 			wet_color = 2068975
 
 	[SeasonHUD.Season]
-		#Show the Tropical season (Wet/Dry) while in Tropical Biomes.
-		#This will not change the season behavior in the biomes, just
-		#what is displayed on the Hud
+		#Show the Tropical seasons (Wet/Dry) in Tropical Biomes.
+		#Will not change the season behavior in the biomes, just what is displayed
 		#(true/false)
 		#Default is true.
 		enable_show_tropical_season = true
-		#Show sub-season instead of the basic season?
-		#i.e. Early Winter, Mid Autumn, Late Spring
+		#Show sub-season (i.e. Early Winter, Mid Autumn, Late Spring) instead of basic season?
 		#(true/false)
-		#
-		#If using Fabric Seasons: 
-		#You will want to change the 'seasonLength' options in the
-		#Fabric Seasons config (seasons.json) to be divisible by 3
-		#It defaults to 672000 ticks (28 days)
-		#
-		#Default is false.
+		#Default is true.
 		enable_show_sub_season = true
 		#Show the current day of the season/sub-season?
 		#Default is SHOW_DAY.
 		#Allowed Values: NONE, SHOW_DAY, SHOW_WITH_TOTAL_DAYS
 		enable_show_day = "SHOW_DAY"
-		#Show the current fertility of the biome?
-		#Only shows if not the default fertility of the season
+		#Show the current fertility of the biome
 		#Default is false.
 		enable_show_fertility = false
-		#If the season name should be replaced with the fertility
-		#value when it differs from the default of the biome
-		#Default is false.
-		enable_fertility_replaces_season = false
 
 	[SeasonHUD.Minimap]
 		#Enable integration with minimap mods?
 		#(true/false)
 		#Default is true.
 		enable_minimap_integration = false
-		#Show the default SeasonHUD when the minimap is hidden?
+		#Show the default SeasonHUD display when the minimap is hidden?
 		#(true/false)
 		#Default is false.
 		enable_show_minimap_hidden = false
+
+		[SeasonHUD.Minimap.Journeymap]
+			#Display the season above the JourneyMap minimap, instead of below
+			#(true/false)
+			#Default is false.
+			enable_above_map = false
+			#Toggle for macOS retina display scaling when using JourneyMap.
+			#Enable if the season line is rendering around the halfway point of the screen.
+			#(true/false)
+			#Default is false.
+			enable_macOS = false
 

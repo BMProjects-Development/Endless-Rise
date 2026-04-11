@@ -1,0 +1,8 @@
+
+#General settings
+[general]
+	#Items that should not be transferred back into curios slots (format: 'modid:item')
+	blacklisted_items = []
+	#Whether items with Curse of Binding should be transferred back to curios slots
+	transfer_cursed_items = false
+
