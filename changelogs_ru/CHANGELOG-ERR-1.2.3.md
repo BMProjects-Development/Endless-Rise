@@ -2,7 +2,7 @@
 
 ---
 
-Данное обновление сосредоточено на исправлении некоторых важных проблем и общем улучшении проекта. ([Issue #83](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/83))
+Данное обновление сосредоточено на исправлении некоторых важных проблем и общем улучшении проекта. ([Issue №83](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/83))
 
 Ключевые изменения:
 1. Добавлен собственный мод Gravestone Curios API Compat Backport: теперь при ломании могилы все аксессуары сразу переходят в нужные слоты.
@@ -22,7 +22,7 @@
 <details>
 <summary>Добавлено (1)</summary>
   
-1. Gravestone Curios API Compat Backport (GCACB) ([Issue #80](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/80))
+1. Gravestone Curios API Compat Backport (GCACB) ([Issue №80](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/80))
   
 </details>
 
@@ -57,9 +57,9 @@
 <details>
 <summary>Изменено (3)</summary>
 
-1. Изменён крафт цифрового шахтёра. ([Issue #79](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/79))
-2. Изменён крафт всех кроватей. ([Issue #89](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/89))
-3. Изменён крафт всех ножей из мода Aquaculture. ([Issue #84](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/84))
+1. Изменён крафт цифрового шахтёра. ([Issue №79](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/79))
+2. Изменён крафт всех кроватей. ([Issue №89](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/89))
+3. Изменён крафт всех ножей из мода Aquaculture. ([Issue №84](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/84))
 
 </details>
 
@@ -68,7 +68,7 @@
 <details>
 <summary>Изменено (1)</summary>
 
-1. Изменены теги мода NoTreePunching, теперь некоторые блоки (блоки из измерения The Bumblezone, арбуз и тыкву) можно добывать руками. ([Issue #81](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/81)) и ([Issue #91](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/91))
+1. Изменены теги мода NoTreePunching, теперь некоторые блоки (блоки из измерения The Bumblezone, арбуз и тыкву) можно добывать руками. ([Issue №81](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/81)) и ([Issue №91](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/91))
 </details>
 
 ## :five: Конфиги
