@@ -18,7 +18,7 @@
 	#Set to true if you need to find the class name for a screen that's causing problems
 	"Print Screen Classnames" = false
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
-	"Ignored Screens" = []
+	"Ignored Screens" = ["tconstruct:smeltery", "tconstruct:tinker_station", "tconstruct:crafting_station", "tconstruct:part_builder"]
 	#Set to true to make the quark big worldgen features such as stone clusters or underground biomes generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
