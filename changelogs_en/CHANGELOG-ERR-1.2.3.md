@@ -55,7 +55,7 @@ The full list of changes is available below.
 ## :three: Recipes
 
 <details>
-<summary>Изменено (3)</summary>
+<summary>Changed (3)</summary>
 
 1. Changed recipe of Digital Miner. ([Issue №79](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/79))
 2. Changed recipes of all beds. ([Issue №89](https://github.com/BMProjects-Development/Endless-Rise-Remastered/issues/89))
