@@ -1503,7 +1503,13 @@
 		{
 			x: 8.0d
 			y: -1.5d
+			description: [
+				"{er.09bc33749d387467.quests80.description0}"
+				""
+				"{er.09bc33749d387467.quests80.description1}"
+			]
 			dependencies: ["4851726CE8BE7194"]
+			optional: true
 			id: "2B82EFDB765DEC72"
 			tasks: [{
 				id: "3D958CA4A049CDB0"
