@@ -1455,40 +1455,6 @@
 			]
 		}
 		{
-			title: "{er.09bc33749d387467.quests78.title}"
-			x: 15.5d
-			y: 7.0d
-			subtitle: "{er.09bc33749d387467.quests78.subtitle}"
-			description: [
-				"{er.09bc33749d387467.quests78.description0}"
-				""
-				"{er.09bc33749d387467.quests78.description1}"
-			]
-			dependencies: ["0B728A65AD5A65F1"]
-			id: "03F28A68FDB6A5B1"
-			tasks: [{
-				id: "6415BF196304040A"
-				type: "checkmark"
-				title: "{er.09bc33749d387467.quests78.tasks0.title}"
-			}]
-			rewards: [
-				{
-					id: "5DF5450A367CBD25"
-					type: "command"
-					auto: "disabled"
-					command: "/gamestage add @a materialis false"
-					player_command: false
-				}
-				{
-					id: "3E2506D275CFADC0"
-					type: "command"
-					team_reward: false
-					command: "/gamestage add @a taiga false"
-					player_command: false
-				}
-			]
-		}
-		{
 			x: 10.0d
 			y: -5.5d
 			description: ["{er.09bc33749d387467.quests79.description0}"]

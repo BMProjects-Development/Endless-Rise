@@ -670,7 +670,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests40.title}"
 			x: 5.0d
-			y: -6.5d
+			y: -7.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests40.description0}"
 				""
@@ -726,7 +726,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
 			x: 5.5d
-			y: -5.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -845,9 +845,9 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests50.title}"
 			x: 2.5d
-			y: -5.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests50.description0}"]
-			dependencies: ["549F858A9EB00499"]
+			dependencies: ["03F28A68FDB6A5B1"]
 			id: "331FF86414916787"
 			tasks: [
 				{
@@ -866,7 +866,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests51.title}"
 			x: 3.0d
-			y: -6.0d
+			y: -7.0d
 			description: ["{er.61c23a1a1b8933b6.quests51.description0}"]
 			dependencies: ["331FF86414916787"]
 			id: "1F75B70BE7D3826B"
@@ -949,7 +949,7 @@
 		}
 		{
 			x: 7.0d
-			y: -6.0d
+			y: -7.0d
 			description: [
 				"{er.61c23a1a1b8933b6.quests54.description0}"
 				""
@@ -965,7 +965,7 @@
 		}
 		{
 			x: 7.5d
-			y: -5.0d
+			y: -6.0d
 			description: [
 				"{er.61c23a1a1b8933b6.quests55.description0}"
 				""
@@ -1065,7 +1065,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests62.title}"
 			x: 6.5d
-			y: -7.0d
+			y: -8.0d
 			subtitle: "{er.61c23a1a1b8933b6.quests62.subtitle}"
 			description: [
 				"{er.61c23a1a1b8933b6.quests62.description0}"
@@ -1090,7 +1090,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests63.title}"
 			x: 3.5d
-			y: -7.0d
+			y: -8.0d
 			subtitle: "{er.61c23a1a1b8933b6.quests63.subtitle}"
 			description: [
 				"{er.61c23a1a1b8933b6.quests63.description0}"
@@ -1115,7 +1115,7 @@
 		}
 		{
 			x: 4.0d
-			y: -8.5d
+			y: -9.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests64.description0}"
 				""
@@ -1132,7 +1132,7 @@
 		}
 		{
 			x: 6.0d
-			y: -8.5d
+			y: -9.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests65.description0}"
 				""
@@ -1175,7 +1175,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests67.title}"
 			x: 5.0d
-			y: -9.0d
+			y: -10.0d
 			subtitle: "{er.61c23a1a1b8933b6.quests67.subtitle}"
 			description: [
 				"{er.61c23a1a1b8933b6.quests67.description0}"
@@ -1279,7 +1279,7 @@
 		{
 			title: "{er.61c23a1a1b8933b6.quests71.title}"
 			x: 4.5d
-			y: -5.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests71.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "6872ADC8F44B9111"
@@ -1443,7 +1443,7 @@
 		}
 		{
 			x: 5.0d
-			y: -7.5d
+			y: -8.5d
 			description: ["{er.61c23a1a1b8933b6.quests78.description0}"]
 			dependencies: [
 				"172F8DEC670AAEDC"
@@ -1460,6 +1460,80 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "{er.09bc33749d387467.quests78.title}"
+			x: 2.5d
+			y: -5.0d
+			subtitle: "{er.09bc33749d387467.quests78.subtitle}"
+			description: [
+				"{er.09bc33749d387467.quests78.description0}"
+				""
+				"{er.09bc33749d387467.quests78.description1}"
+			]
+			dependencies: ["549F858A9EB00499"]
+			id: "03F28A68FDB6A5B1"
+			tasks: [{
+				id: "6415BF196304040A"
+				type: "checkmark"
+				title: "{er.09bc33749d387467.quests78.tasks0.title}"
+			}]
+			rewards: [
+				{
+					id: "5DF5450A367CBD25"
+					type: "command"
+					auto: "disabled"
+					command: "/gamestage add @a materialis false"
+					player_command: false
+				}
+				{
+					id: "3E2506D275CFADC0"
+					type: "command"
+					team_reward: false
+					command: "/gamestage add @a taiga false"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -11.5d
+			dependencies: ["39606160F4710D39"]
+			id: "61902C7019114507"
+			tasks: [
+				{
+					id: "76C34BDD9C2AE50D"
+					type: "item"
+					item: "tconstruct:nether_grout"
+				}
+				{
+					id: "3DA4F7EA6AAD324B"
+					type: "item"
+					item: "tconstruct:scorched_brick"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -12.0d
+			dependencies: ["61902C7019114507"]
+			id: "6933E46EE4A22AE1"
+			tasks: [{
+				id: "5498F16752990098"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.5d
+			dependencies: ["6933E46EE4A22AE1"]
+			id: "5938F1B33EB0B127"
+			tasks: [{
+				id: "573E01B586A517C7"
+				type: "item"
+				item: "tconstruct:foundry_controller"
 			}]
 		}
 	]
