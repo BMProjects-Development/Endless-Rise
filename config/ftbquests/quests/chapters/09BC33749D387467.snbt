@@ -275,7 +275,11 @@
 			x: 10.5d
 			y: 2.5d
 			shape: "tech_smooth_square"
-			description: ["{er.09bc33749d387467.quests11.description0}"]
+			description: [
+				"{er.09bc33749d387467.quests11.description0}"
+				"{image:endless_rise:textures/blast_furnace_charcoalpit.png width:100 height:100 align:1}"
+				"{er.09bc33749d387467.quests11.description1}"
+			]
 			dependencies: [
 				"7A0E4BDCE0CFCEEF"
 				"6A29C90242D9CBC8"
@@ -288,23 +292,17 @@
 					id: "6C236567795EC17D"
 					type: "item"
 					item: "charcoal_pit:brick_tuyere"
-					count: 2L
 				}
 				{
 					id: "15CD856AD86D76FE"
 					type: "item"
 					item: "charcoal_pit:bellows"
-					count: 2L
 				}
 				{
-					id: "459CFFDA2FD1CAF1"
-					type: "questsadditions:structure"
-					title: "{er.09bc33749d387467.quests11.tasks2.title}"
-					name: "bloomery_new"
-					hasCustomPicture: false
-					layer: true
-					ignoreState: false
-					rightclick: false
+					id: "4D8751AF2523EC28"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 4L
 				}
 			]
 		}
@@ -312,21 +310,27 @@
 			title: "{er.09bc33749d387467.quests12.title}"
 			x: 12.0d
 			y: 2.5d
-			description: ["{er.09bc33749d387467.quests12.description0}"]
+			description: [
+				"{er.09bc33749d387467.quests12.description0}"
+				"{er.09bc33749d387467.quests12.description1}"
+				"{er.09bc33749d387467.quests12.description2}"
+			]
 			dependencies: ["4EBFB6F86A201036"]
 			id: "0D1E69925DD2C3CE"
-			tasks: [{
-				id: "40841BC25AD67AE4"
-				type: "item"
-				title: "{er.09bc33749d387467.quests12.tasks0.title}"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ores/iron"
-					}
+			tasks: [
+				{
+					id: "45A211C46482B19B"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 4L
 				}
-			}]
+				{
+					id: "73352C8908772D0A"
+					type: "item"
+					item: "geolosys:iron_cluster"
+					count: 4L
+				}
+			]
 		}
 		{
 			x: 13.5d
