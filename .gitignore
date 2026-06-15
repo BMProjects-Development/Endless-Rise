@@ -40,6 +40,9 @@ saves/
 xaero/
 XaeroWaypoints_**
 libraries/
+knownkeys.txt
+tconplanner/
+journeymap/
 
 .curseclient
 options.txt
