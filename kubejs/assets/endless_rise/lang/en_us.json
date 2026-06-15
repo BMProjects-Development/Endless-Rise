@@ -990,11 +990,27 @@
     "er.71840908ca6989e1.quests12.description22": "- space_age.",
     "er.71840908ca6989e1.quests12.description23": "If you didn't get a certain game stage for any reason, you can use following command to unlock it: [/gamestage add @a \\\"Stage name\\\" false].",
     "er.71840908ca6989e1.quests12.tasks0.title": "Click me!",
+	"er.reset_stages.title": "&bMaintenance Quests",
+	"er.reset_stages.quests0.title": "Stages sync",
+	"er.reset_stages.quests0.description0": "This checkmark unlocks the ability to repeat age quests below, in case they didn't trigger correctly in multiplayer or other reasons.",
 	
 	"item.kubejs.wet_paper": "Wet Paper",
 	"item.kubejs.lamp": "Lamp",
 	"item.kubejs.lense": "Lens",
 	"item.kubejs.photocell": "Photocell",
 	
-	"gateways.from_bee_gate_small": "Bee Gate Pearl"
+	"gateways.from_bee_gate_small": "Bee Gate Pearl",
+	
+	"tip.endless_rise.create_kinetic_energy": "In Create, kinetic energy is transferred through shafts and cogwheels. Use a Water Wheel or Windmill to generate power!",
+    "tip.endless_rise.create_stress": "Create mechanisms create stress on the system. Watch the overload indicator and add more power sources!",
+    "tip.endless_rise.create_contraption": "Build moving contraptions in Create using Chassis, Pistons, and Super Glue. Shafts and belts connect mechanisms!",
+    "tip.endless_rise.mekanism_ores": "Mekanism allows tripling and quintupling ores! Use Enrichment Chamber, Enriching Chamber, and Injector for maximum output.",
+    "tip.endless_rise.ae2_inscriber": "In Applied Energistics 2, use the Inscriber to create processors. Presses are found in meteorites, which can be located with a Sky Compass!",
+    "tip.endless_rise.atum_portal": "The Atum portal is built from limestone 5x5 with water in the center. Throw a Scarab into the water to open the portal!",
+    "tip.endless_rise.tinkers_smeltery": "Tinkers' Construct Smeltery requires 27+ seared brick blocks. Controller, fuel tank, and drains are key components!",
+    "tip.endless_rise.immersive_engineering": "Immersive Engineering uses multiblock structures. Engineer's Hammer and Manual are essential for progression!",
+    "tip.endless_rise.bumblezone": "To enter the Bumblezone dimension, throw an ender pearl into a bee nest. Warning: exit by falling down!",
+    "tip.endless_rise.pneumaticcraft_pressure": "PneumaticCraft uses compressed air as energy. Compressors and pressure pipes transfer air to machines!",
+    "tip.endless_rise.betterend_alloys": "In BetterEnd, the ender smelter creates Thallasium and Terminite. Aeternium is the strongest alloy in the mod!",
+    "tip.endless_rise.charcoal_pit_bloomery": "Charcoal Pit Bloomery requires 2 tuyeres and bellows. Use a clay pot for your first copper smelt!"
 }
