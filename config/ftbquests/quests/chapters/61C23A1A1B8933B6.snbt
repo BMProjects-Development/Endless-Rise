@@ -553,6 +553,7 @@
 				"{er.61c23a1a1b8933b6.quests31.description1}"
 			]
 			dependencies: ["759CD5F854301CA1"]
+			optional: true
 			id: "07BAC67F8C8D8A2A"
 			tasks: [
 				{
@@ -884,10 +885,9 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -1.0d
+			x: 8.0d
+			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests52.description0}"]
-			dependencies: ["07BAC67F8C8D8A2A"]
 			id: "2888C9E7B1571B7C"
 			tasks: [{
 				id: "04318D9FF6C1164F"
