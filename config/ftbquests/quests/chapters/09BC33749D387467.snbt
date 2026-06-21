@@ -312,7 +312,9 @@
 			y: 2.5d
 			description: [
 				"{er.09bc33749d387467.quests12.description0}"
+				""
 				"{er.09bc33749d387467.quests12.description1}"
+				""
 				"{er.09bc33749d387467.quests12.description2}"
 			]
 			dependencies: ["4EBFB6F86A201036"]
@@ -602,8 +604,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -3.5d
+			x: 3.0d
+			y: -4.5d
 			description: ["{er.09bc33749d387467.quests31.description0}"]
 			dependencies: ["2899535C3F79E47F"]
 			id: "7C5C00B15B9897BC"
@@ -621,8 +623,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
+			x: 3.5d
+			y: -6.0d
 			description: ["{er.09bc33749d387467.quests32.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
 			optional: true
@@ -656,8 +658,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests35.title}"
-			x: 3.0d
-			y: -5.0d
+			x: 2.5d
+			y: -6.0d
 			description: ["{er.09bc33749d387467.quests35.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
 			optional: true
@@ -753,8 +755,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests38.title}"
-			x: 3.5d
-			y: -6.0d
+			x: 3.0d
+			y: -7.0d
 			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
 			optional: true
@@ -1010,8 +1012,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -6.0d
+			x: 2.0d
+			y: -7.0d
 			description: ["{er.09bc33749d387467.quests50.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
 			optional: true
@@ -1023,8 +1025,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 			description: ["{er.09bc33749d387467.quests51.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
 			optional: true
@@ -1061,8 +1063,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -5.5d
+			x: 9.0d
+			y: -6.5d
 			description: ["{er.09bc33749d387467.quests54.description0}"]
 			dependencies: ["7F9BAF137DB45C19"]
 			id: "387C7C8B8BA0851B"
@@ -1087,8 +1089,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -7.0d
+			x: 8.5d
+			y: -8.0d
 			description: [
 				"{er.09bc33749d387467.quests56.description0}"
 				""
@@ -1104,8 +1106,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -4.0d
+			x: 7.0d
+			y: -5.0d
 			description: [
 				"{er.09bc33749d387467.quests57.description0}"
 				""
@@ -1120,8 +1122,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.0d
+			x: 8.5d
+			y: -5.0d
 			description: ["{er.09bc33749d387467.quests58.description0}"]
 			dependencies: ["19EBBD2ED6AD1922"]
 			id: "7F9BAF137DB45C19"
@@ -1132,8 +1134,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -7.0d
+			x: 7.0d
+			y: -8.0d
 			description: ["{er.09bc33749d387467.quests59.description0}"]
 			dependencies: ["75597F53A9396B84"]
 			optional: true
@@ -1145,8 +1147,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -3.5d
+			x: 6.0d
+			y: -4.5d
 			description: ["{er.09bc33749d387467.quests60.description0}"]
 			dependencies: ["2899535C3F79E47F"]
 			id: "23FFFC5B724778A4"
@@ -1291,7 +1293,7 @@
 		}
 		{
 			x: 4.5d
-			y: -4.0d
+			y: -3.5d
 			description: [
 				"{er.09bc33749d387467.quests67.description0}"
 				""
@@ -1307,7 +1309,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 4.5d
 			y: -5.0d
 			description: [
 				"{er.09bc33749d387467.quests68.description0}"
@@ -1367,7 +1369,7 @@
 					}
 				}
 			}
-			x: 5.5d
+			x: 4.5d
 			y: -6.5d
 			description: [
 				"{er.09bc33749d387467.quests69.description0}"
@@ -1459,8 +1461,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -5.5d
+			x: 10.5d
+			y: -6.5d
 			description: ["{er.09bc33749d387467.quests79.description0}"]
 			dependencies: ["387C7C8B8BA0851B"]
 			id: "0085FE3776814D63"

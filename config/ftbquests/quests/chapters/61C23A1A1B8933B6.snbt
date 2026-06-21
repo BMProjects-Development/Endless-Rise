@@ -86,8 +86,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests4.title}"
-			x: 3.0d
-			y: -4.0d
+			x: 5.0d
+			y: -4.5d
 			description: ["{er.61c23a1a1b8933b6.quests4.description0}"]
 			dependencies: ["17FC0F3202DCCA6A"]
 			id: "549F858A9EB00499"
@@ -167,7 +167,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: 0.0d
 			shape: "tech_circle"
 			subtitle: "{er.61c23a1a1b8933b6.quests9.subtitle}"
@@ -184,7 +184,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 3.0d
 			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests10.description0}"]
 			dependencies: ["63B31D2AF4550037"]
@@ -250,7 +250,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 13.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests14.description0}"]
 			dependencies: ["2C356C79E12F86BE"]
@@ -269,7 +269,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests15.title}"
-			x: 11.5d
+			x: 12.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests15.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
@@ -288,7 +288,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 14.0d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests16.description0}"]
 			dependencies: ["46515BC511B4975E"]
@@ -300,7 +300,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 15.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests17.description0}"]
 			dependencies: ["309F4243634A2888"]
@@ -325,7 +325,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests19.title}"
-			x: 16.0d
+			x: 17.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests19.description0}"]
@@ -340,7 +340,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 17.0d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests20.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -364,7 +364,7 @@
 			]
 		}
 		{
-			x: 17.5d
+			x: 18.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests21.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -378,8 +378,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests22.title}"
-			x: 13.5d
-			y: -3.5d
+			x: 14.0d
+			y: -2.5d
 			description: ["{er.61c23a1a1b8933b6.quests22.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "19080414E59C38ED"
@@ -409,8 +409,8 @@
 			]
 		}
 		{
-			x: 15.5d
-			y: -3.5d
+			x: 17.0d
+			y: -2.5d
 			description: ["{er.61c23a1a1b8933b6.quests23.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "0221FA51E282769A"
@@ -428,7 +428,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests24.title}"
-			x: 16.0d
+			x: 17.0d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests24.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -491,7 +491,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 15.5d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests28.description0}"]
 			dependencies: ["3A22BE56B1E3CBDA"]
@@ -545,14 +545,14 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests31.title}"
-			x: 6.5d
-			y: -2.0d
+			x: 11.0d
+			y: -4.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests31.description0}"
 				""
 				"{er.61c23a1a1b8933b6.quests31.description1}"
 			]
-			dependencies: ["759CD5F854301CA1"]
+			dependencies: ["39606160F4710D39"]
 			optional: true
 			id: "07BAC67F8C8D8A2A"
 			tasks: [
@@ -569,7 +569,7 @@
 			]
 		}
 		{
-			x: 22.0d
+			x: 23.0d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests32.description0}"]
 			dependencies: ["0F7CFC82FFD07B37"]
@@ -585,7 +585,7 @@
 			}]
 		}
 		{
-			x: 23.5d
+			x: 24.5d
 			y: -2.0d
 			description: ["{er.61c23a1a1b8933b6.quests33.description0}"]
 			dependencies: ["48E28ED91BA9ED80"]
@@ -645,7 +645,7 @@
 			}]
 		}
 		{
-			x: 22.5d
+			x: 23.5d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests38.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -657,7 +657,7 @@
 			}]
 		}
 		{
-			x: 23.5d
+			x: 24.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests39.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -670,8 +670,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests40.title}"
-			x: 5.0d
-			y: -7.5d
+			x: 8.0d
+			y: -6.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests40.description0}"
 				""
@@ -726,8 +726,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
-			x: 5.5d
-			y: -6.0d
+			x: 7.5d
+			y: -8.5d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -755,7 +755,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 10.5d
 			y: 0.0d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests42.description0}"]
@@ -769,7 +769,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 12.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests43.description0}"]
@@ -796,7 +796,7 @@
 			]
 		}
 		{
-			x: 23.5d
+			x: 24.5d
 			y: 2.0d
 			description: ["{er.61c23a1a1b8933b6.quests44.description0}"]
 			dependencies: ["1F5DBD70C3621400"]
@@ -820,7 +820,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.5d
 			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests46.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -832,7 +832,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 4.5d
 			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests47.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -845,8 +845,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests50.title}"
-			x: 2.5d
-			y: -6.0d
+			x: 5.0d
+			y: -6.5d
 			description: ["{er.61c23a1a1b8933b6.quests50.description0}"]
 			dependencies: ["03F28A68FDB6A5B1"]
 			id: "331FF86414916787"
@@ -866,7 +866,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests51.title}"
-			x: 3.0d
+			x: 6.5d
 			y: -7.0d
 			description: ["{er.61c23a1a1b8933b6.quests51.description0}"]
 			dependencies: ["331FF86414916787"]
@@ -888,6 +888,7 @@
 			x: 8.0d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests52.description0}"]
+			dependencies: ["093501F9725A0851"]
 			id: "2888C9E7B1571B7C"
 			tasks: [{
 				id: "04318D9FF6C1164F"
@@ -896,7 +897,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 15.5d
 			y: -3.0d
 			description: ["{er.61c23a1a1b8933b6.quests77.description0}"]
 			dependencies: ["339E99FFA9CEE6D2"]
@@ -909,7 +910,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests54.title}"
-			x: 19.0d
+			x: 20.0d
 			y: 0.0d
 			description: [
 				"{er.61c23a1a1b8933b6.quests52.description0}"
@@ -932,7 +933,7 @@
 			]
 		}
 		{
-			x: 20.5d
+			x: 21.5d
 			y: 0.0d
 			description: [
 				"{er.61c23a1a1b8933b6.quests53.description0}"
@@ -948,8 +949,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -7.0d
+			x: 7.5d
+			y: -4.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests54.description0}"
 				""
@@ -964,8 +965,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -6.0d
+			x: 6.0d
+			y: -4.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests55.description0}"
 				""
@@ -980,7 +981,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 13.0d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests27.description0}"]
 			dependencies: ["309F4243634A2888"]
@@ -998,7 +999,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 13.0d
 			y: 2.0d
 			shape: "tech_circle"
 			description: ["{er.09bc33749d387467.quests28.description0}"]
@@ -1011,8 +1012,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -4.5d
+			x: 16.0d
+			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests58.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "439E2A4DCF4F3D3C"
@@ -1023,8 +1024,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -6.0d
+			x: 17.5d
+			y: -4.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests59.description0}"
 				""
@@ -1039,8 +1040,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -6.5d
+			x: 18.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests60.description0}"]
 			dependencies: ["7561D55FE65CB140"]
 			id: "14D57DB008DFA90B"
@@ -1051,8 +1052,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -6.5d
+			x: 18.0d
+			y: -3.0d
 			description: ["{er.61c23a1a1b8933b6.quests61.description0}"]
 			dependencies: ["7561D55FE65CB140"]
 			id: "6238CE5D50CA2737"
@@ -1064,8 +1065,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests62.title}"
-			x: 6.5d
-			y: -8.0d
+			x: 9.0d
+			y: -5.5d
 			subtitle: "{er.61c23a1a1b8933b6.quests62.subtitle}"
 			description: [
 				"{er.61c23a1a1b8933b6.quests62.description0}"
@@ -1089,8 +1090,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests63.title}"
-			x: 3.5d
-			y: -8.0d
+			x: 9.0d
+			y: -7.5d
 			subtitle: "{er.61c23a1a1b8933b6.quests63.subtitle}"
 			description: [
 				"{er.61c23a1a1b8933b6.quests63.description0}"
@@ -1114,8 +1115,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -9.5d
+			x: 9.5d
+			y: -8.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests64.description0}"
 				""
@@ -1131,8 +1132,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -9.5d
+			x: 9.5d
+			y: -4.5d
 			description: [
 				"{er.61c23a1a1b8933b6.quests65.description0}"
 				""
@@ -1174,8 +1175,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests67.title}"
-			x: 5.0d
-			y: -10.0d
+			x: 11.0d
+			y: -6.5d
 			subtitle: "{er.61c23a1a1b8933b6.quests67.subtitle}"
 			description: [
 				"{er.61c23a1a1b8933b6.quests67.description0}"
@@ -1265,7 +1266,7 @@
 			]
 		}
 		{
-			x: 22.5d
+			x: 23.5d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests70.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -1278,8 +1279,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests71.title}"
-			x: 4.5d
-			y: -6.0d
+			x: 8.5d
+			y: -8.5d
 			description: ["{er.61c23a1a1b8933b6.quests71.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "6872ADC8F44B9111"
@@ -1308,7 +1309,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests72.title}"
-			x: 7.0d
+			x: 8.0d
 			y: 1.5d
 			subtitle: "{er.61c23a1a1b8933b6.quests72.subtitle}"
 			description: [
@@ -1334,7 +1335,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests73.title}"
-			x: 8.0d
+			x: 9.0d
 			y: 0.0d
 			subtitle: "{er.61c23a1a1b8933b6.quests73.subtitle}"
 			description: [
@@ -1442,8 +1443,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -8.5d
+			x: 10.0d
+			y: -6.5d
 			description: ["{er.61c23a1a1b8933b6.quests78.description0}"]
 			dependencies: [
 				"172F8DEC670AAEDC"
@@ -1464,8 +1465,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests78.title}"
-			x: 2.5d
-			y: -5.0d
+			x: 4.5d
+			y: -5.5d
 			subtitle: "{er.09bc33749d387467.quests78.subtitle}"
 			description: [
 				"{er.09bc33749d387467.quests78.description0}"
@@ -1497,8 +1498,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -11.5d
+			x: 12.5d
+			y: -6.5d
 			dependencies: ["39606160F4710D39"]
 			id: "61902C7019114507"
 			tasks: [
@@ -1515,8 +1516,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -12.0d
+			x: 13.0d
+			y: -8.0d
 			dependencies: ["61902C7019114507"]
 			id: "6933E46EE4A22AE1"
 			tasks: [{
@@ -1526,8 +1527,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -11.5d
+			x: 12.5d
+			y: -9.5d
 			dependencies: ["6933E46EE4A22AE1"]
 			id: "5938F1B33EB0B127"
 			tasks: [{
