@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/desh"
+    }
+  ],
+  "results": [
+    {
+      "item": "boss_tools:desh_plate"
+    }
+  ]
+}
