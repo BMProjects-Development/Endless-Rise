@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "tag": "notreepunching:fire_starter_soul_fire_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:nether_grout",
+	  "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}
