@@ -40,7 +40,20 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = hidebutton
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 200
+  height = 50
 }
 
 customization {
@@ -59,7 +72,7 @@ customization {
   x = 110
   width = 421
   action = deep_customization_element:title_screen_forge_top
-  actionid = 98d0fd43-a769-42ba-bf66-8958caae5efd1766313402214
+  actionid = 48e84c55-141c-456f-b592-c86f3740e4001782380991074
   y = 4
   height = 19
 }
@@ -70,7 +83,7 @@ customization {
   x = 2
   width = 128
   action = deep_customization_element:title_screen_branding
-  actionid = c1c945c4-9bc2-4eca-99e7-c91306e88b7b1766313402227
+  actionid = ce33f4ae-1fc5-4116-93ee-1ff9cec29ed61782380991080
   y = 285
   height = 50
 }
@@ -81,7 +94,7 @@ customization {
   x = 327
   width = 312
   action = deep_customization_element:title_screen_forge_copyright
-  actionid = 67a3edb9-3bdf-40b5-b7f9-4319e1f273671766313402227
+  actionid = f79ed6a8-536d-4eb3-90b1-4b5573197b9e1782380991080
   y = 317
   height = 9
 }
@@ -92,7 +105,7 @@ customization {
   x = 423
   width = 13
   action = deep_customization_element:title_screen_realms_notification
-  actionid = 40a0eb4a-a747-42c9-a036-f274fc01e7321766313402228
+  actionid = 2a1bca2b-86ad-43bd-bae4-2abf13fd12f61782380991080
   y = 184
   height = 13
 }
@@ -103,7 +116,7 @@ customization {
   x = 183
   width = 274
   action = deep_customization_element:title_screen_logo
-  actionid = 630c1ed8-3ff8-409c-91e7-f2cf8adb3c961766313402228
+  actionid = ab07edd0-af05-47fd-8a06-1741a844a13b1782380991080
   y = 30
   height = 52
 }
@@ -116,7 +129,7 @@ customization {
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
-  actionid = 77c05522-63d8-4e6b-9c81-0fd4995465da1766313402228
+  actionid = 9fe9cc91-1d49-419c-89cf-6a70aada40ef1782380991081
   y = 0
   height = 30
 }
