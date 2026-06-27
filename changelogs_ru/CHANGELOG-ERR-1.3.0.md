@@ -20,31 +20,31 @@
 <details>
 <summary>Добавлено (2)</summary>
   
-1. Starlight
-2. AE2 Wireless Terminal
+1. [Starlight x Create](https://www.curseforge.com/minecraft/mc-mods/starlight-x-create)
+2. [AE2 Wireless Terminal](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals)
   
 </details>
 
 <details>
 <summary>Обновлено (9)</summary>
   
-1. AddonsLib (3.5 -> 3.6)
-2. Macaw's Abnormals (1.5.2 -> 1.6)
-3. Macaw's Byg (1.5.2 -> 1.6)
-4. Macaw's Quark (1.6.3 -> 1.6.4)
-5. CraftTweaker (7.1.2.527 -> 7.1.2.533)
-6. JustEnoughMekanismMultiblocks (1.10 -> 1.11)
-7. FTB Library (1605.3.4-build.90 -> 1605.3.5-build.724)
-8. Zume (1.2.1 -> 1.2.2)
-9. Fusion (1.2.12 -> 1.3.2)
+1. [AddonsLib](https://www.curseforge.com/minecraft/mc-mods/addonslib) (3.5 -> 3.6)
+2. [Macaw's Abnormals](https://www.curseforge.com/minecraft/mc-mods/macaws-abnormals) (1.5.2 -> 1.6)
+3. [Macaw's Byg](https://www.curseforge.com/minecraft/mc-mods/macaws-byg-bwg) (1.5.2 -> 1.6)
+4. [Macaw's Quark](https://www.curseforge.com/minecraft/mc-mods/macaws-quark) (1.6.3 -> 1.6.4)
+5. [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker) (7.1.2.527 -> 7.1.2.533)
+6. [JustEnoughMekanismMultiblocks](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks) (1.10 -> 1.11)
+7. [FTB Library](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) (1605.3.4-build.90 -> 1605.3.5-build.724)
+8. [Zume](https://www.curseforge.com/minecraft/mc-mods/zume) (1.2.1 -> 1.2.2)
+9. [Fusion](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) (1.2.12 -> 1.3.2)
 
 </details>
 
 <details>
 <summary>Удалено (2)</summary>
   
-1. Packet Fixer
-2. Smooth Chunk
+1. [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)
+2. [Smooth Chunk](https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save)
 
 ***Причина удаления:** В других модах уже есть функционал данных модов.*
   
@@ -567,9 +567,11 @@
 ## Прочее
 
 <details>
-<summary>Исправления</summary>
+<summary>Исправления (3)</summary>
 
-1. Ошибки в русской локализации
+1. Изменено главное меню игры. Добавлена кнопка "Моды" для возможности самостоятельно настраивать моды в игре.
+
+2. Ошибки в русской локализации
       ```diff
       - "er.09bc33749d387467.quests0.description0": "Палки выпадают при ломании листвы. А вот осколки кремения можно получить раздробив кремень об твёрдый блок, например - камень.",
       + "er.09bc33749d387467.quests0.description0": "Палки выпадают из листвы, а вот осколки кремня можно получить раздробив кремень об твёрдый блок, например, камень.",
