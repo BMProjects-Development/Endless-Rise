@@ -9,15 +9,15 @@
 </p>
 
 # Endless Rise: Remastered
-<b>Endless Rise: Remastered</b> is a massive reimagining of the popular modpack by its original developers at BMProjects. In this modpack, you will immerse yourself in a true path of evolution. You are set to progress through 18 game stages: starting from gathering sticks and stones, developing complex machinery, and exploring various dimensions, you will eventually reach the goal of building your very own spacecraft! <b>Endless Rise: Remastered</b> features 290+ mods seamlessly woven into a single progression through 500+ quests, 750+ modified recipes, and custom items. <br/>
+<b>Endless Rise: Remastered</b> is a massive reimagining of the popular modpack by its original developers at BMProjects. In this modpack, you will immerse yourself in a true path of evolution. You are set to progress through 18 game stages: starting from gathering sticks and stones, developing complex machinery, and exploring various dimensions, you will eventually reach the goal of building your very own spacecraft! <b>Endless Rise: Remastered</b> features 290+ mods seamlessly woven into a single progression through 600+ quests, 1000+ modified recipes, and custom items. <br/>
 
 ## Features
 ### <b>Progression and Balance</b>
 - <b>Development Stages</b>: The modpack is divided into 18 distinct game stages, each unlocking more items, blocks, and even new dimensions!
 
-- <b>Modified Recipes</b>: More than 750 recipes have been changed to ensure all 290+ mods are interconnected into a single, logical progression chain.
+- <b>Modified Recipes</b>: More than 1000 recipes have been changed to ensure all 290+ mods are interconnected into a single, logical progression chain.
 
-- <b>Quests</b>: Over 500 quests have been added to guide you through every stage of the game and explain all the unique mechanics.
+- <b>Quests</b>: Over 600 quests have been added to guide you through every stage of the game and explain all the unique mechanics.
 
 ### <b>Custom Content</b>
 - <b>New Textures, Menu, and Music</b>: We created our own resource pack, Endless Rise Textures, which rethemes the game to match the modpack's style. It also includes 9 custom music tracks and a completely redesigned main menu!
@@ -27,7 +27,7 @@
 - <b>Immersive Atmosphere</b>: We’ve integrated specific mods and resource packs that enhance the game's ambiance with new sounds, visual effects, and more.
 
 ### <b>Miscellaneous</b>
-- <b>Various Mechanics</b>: A wide variety of new mechanics have been added—ranging from summoning your own horse in the early game to piloting planes and ships for fast travel across the world!
+- <b>Various Mechanics</b>: A wide variety of new mechanics have been added-ranging from summoning your own horse in the early game to piloting planes and ships for fast travel across the world!
 
 - <b>Config Fine-tuning</b>: A massive number of configuration files have been manually adjusted to ensure the modpack works exactly as intended.
 
