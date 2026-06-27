@@ -752,7 +752,7 @@
     "er.7e3090efc42aff50.quests91.description0": "It's a mechanism useful for automation of your base!",
     "er.7e3090efc42aff50.quests92.title": "Applied Age",
     "er.7e3090efc42aff50.quests92.subtitle": "A new stage!",
-    "er.7e3090efc42aff50.quests92.description0": "By completing this quest &o(by clicking the tick)&r, you can access a new stage - &6Прикладная эпоха&r!",
+    "er.7e3090efc42aff50.quests92.description0": "By completing this quest &o(by clicking the tick)&r, you can access a new stage - &6Applied Age&r!",
     "er.7e3090efc42aff50.quests92.description1": "This stage will give you access to more mechanisms, items and more.",
     "er.7e3090efc42aff50.quests92.tasks0.title": "Click me!",
     "er.09bc33749d387467.quests71.description0": "An upgraded version of a furnace.",
@@ -1111,6 +1111,8 @@
     "er.61c23a1a1b8933b6.quests82.description0": "The foundry controller is the brain and the main part.",
 	"er.61c23a1a1b8933b6.quests82.description1": "A casting foundry is created in the same way as a standard foundry. Only instead of regular parts, there are Scorched parts.",
 	"er.61c23a1a1b8933b6.quests82.description2": "The foundry allows you to create more powerful alloys.",
+	"er.09bc33749d387467.quests80.description0": "These gateways require a lot of empty space to work, so click on them with the right mouse button.",
+	"er.09bc33749d387467.quests80.description1": "This gateway is needed to obtain more Ender pearls.",
 
 	"gateways.from_bee_gate_small": "Bee Gate Pearl",
 
