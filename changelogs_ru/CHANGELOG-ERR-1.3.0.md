@@ -562,6 +562,250 @@
 
 </details>
 
+## Скрипты
+
+<details>
+<summary>Изменено (1)</summary>
+
+1. Множество предметов были убраны из ограничений по стадиям ради оптимизации и удобства при игре (на данный момент они обозначены через комментарии "//" для массовых тестов)
+      ```diff
+      // ItemStages.restrict(<item:mekanism:ingot_copper>, "copper_age");
+      // ItemStages.restrict(<tag:items:forge:storage_blocks/copper>, "copper_age");
+      // ItemStages.restrict(<item:ironchest:copper_chest>, "copper_age");
+      // ItemStages.restrict(<tag:items:forge:dusts/copper>, "copper_age");
+      // ItemStages.restrict(<tag:items:forge:nuggets/copper>, "copper_age");
+      // ItemStages.restrict(<item:supplementaries:copper_lantern>, "copper_age");
+      // ItemStages.restrict(<item:create:copper_shingles>, "copper_age");
+      // ItemStages.restrict(<item:create:copper_tiles>, "copper_age");
+
+      // ItemStages.restrict(<tag:items:forge:gems/diamond>, "diamond_age");
+      // ItemStages.restrict(<tag:items:forge:storage_blocks/diamond>, "diamond_age");
+      // ItemStages.restrict(<tag:items:forge:gears/diamond>, "diamond_age");
+      // ItemStages.restrict(<tag:items:forge:dusts/diamond>, "diamond_age");
+      // ItemStages.restrict(<item:tconstruct:diamond_item_frame>, "diamond_age");
+      // ItemStages.restrict(<tag:items:forge:ores/diamond>, "diamond_age");
+      // ItemStages.restrict(<item:cavesandcliffs:deepslate_diamond_ore>, "diamond_age");
+      // ItemStages.restrict(<item:quark:diamond_heart>, "diamond_age");
+      // ItemStages.restrict(<item:ironchest:diamond_chest>, "diamond_age");
+      // ItemStages.restrict(<item:aquaculture:diamond_fishing_rod>, "diamond_age");
+      // ItemStages.restrict(<item:aquaculture:diamond_fillet_knife>, "diamond_age");
+      // ItemStages.restrict(<item:aquaculture:diamond_hook>, "diamond_age");
+      // ItemStages.restrict(<item:atum:relic_diamond_idol>, "diamond_age");
+      // ItemStages.restrict(<item:atum:relic_diamond_necklace>, "diamond_age");
+      // ItemStages.restrict(<item:atum:relic_diamond_ring>, "diamond_age");
+      // ItemStages.restrict(<item:atum:relic_diamond_brooch>, "diamond_age");
+      // ItemStages.restrict(<item:atum:relic_diamond_bracelet>, "diamond_age");
+      // ItemStages.restrict(<item:atum:desert_helmet_diamond>, "diamond_age");
+      // ItemStages.restrict(<item:atum:desert_chest_diamond>, "diamond_age");
+      // ItemStages.restrict(<item:atum:desert_legs_diamond>, "diamond_age");
+      // ItemStages.restrict(<item:atum:desert_boots_diamond>, "diamond_age");
+      // ItemStages.restrict(<item:atum:desert_wolf_diamond_armor>, "diamond_age");
+      // ItemStages.restrict(<item:atum:camel_diamond_armor>, "diamond_age");
+
+      // ItemStages.restrict(<item:minecraft:purpur_slab>, "end");
+      // ItemStages.restrict(<item:minecraft:purpur_block>, "end");
+      // ItemStages.restrict(<item:minecraft:purpur_pillar>, "end");
+      // ItemStages.restrict(<item:minecraft:purpur_stairs>, "end");
+      // ItemStages.restrict(<item:minecraft:end_stone_bricks>, "end");
+      // ItemStages.restrict(<item:minecraft:end_stone_brick_stairs>, "end");
+      // ItemStages.restrict(<item:minecraft:end_stone_brick_wall>, "end");
+      // ItemStages.restrict(<item:minecraft:end_stone_brick_slab>, "end");
+
+      // ItemStages.restrict(<item:cavesandcliffs:raw_copper>, "forbidden");
+      // ItemStages.restrict(<item:cavesandcliffs:raw_iron>, "forbidden");
+      // ItemStages.restrict(<item:cavesandcliffs:raw_gold>, "forbidden");
+
+      // ItemStages.restrict(<tag:items:forge:ingots/gold>, "gold_age");
+      // ItemStages.restrict(<tag:items:forge:storage_blocks/gold>, "gold_age");
+      // ItemStages.restrict(<tag:items:forge:nuggets/gold>, "gold_age");
+      // ItemStages.restrict(<item:minecraft:golden_carrot>, "gold_age");
+      // ItemStages.restrict(<item:minecraft:golden_apple>, "gold_age");
+      // ItemStages.restrict(<item:minecraft:enchanted_golden_apple>, "gold_age");
+      // ItemStages.restrict(<item:minecraft:golden_horse_armor>, "gold_age");
+      // ItemStages.restrict(<item:ironchest:gold_chest>, "gold_age");
+      // ItemStages.restrict(<item:burningfurnace:dry_enchanted_golden_apple>, "gold_age");
+      // ItemStages.restrict(<item:burningfurnace:dry_golden_apple>, "gold_age");
+      // ItemStages.restrict(<tag:items:forge:dusts/gold>, "gold_age");
+      // ItemStages.restrict(<item:tconstruct:gold_item_frame>, "gold_age");
+      // ItemStages.restrict(<item:tconstruct:reversed_gold_item_frame>, "gold_age");
+      // ItemStages.restrict(<item:supplementaries:gold_door>, "gold_age");
+      // ItemStages.restrict(<item:supplementaries:gold_trapdoor>, "gold_age");
+      // ItemStages.restrict(<item:supplementaries:gold_gate>, "gold_age");
+      // ItemStages.restrict(<item:atum:coin_gold>, "gold_age");
+      // ItemStages.restrict(<item:aquaculture:gold_hook>, "gold_age");
+      // ItemStages.restrict(<item:aquaculture:gold_fishing_rod>, "gold_age");
+      // ItemStages.restrict(<item:aquaculture:gold_fillet_knife>, "gold_age");
+      // ItemStages.restrict(<item:aquaculture:goldfish>, "gold_age");
+      // ItemStages.restrict(<item:artifacts:golden_hook>, "gold_age");
+      // ItemStages.restrict(<item:atum:relic_gold_idol>, "gold_age");
+      // ItemStages.restrict(<item:atum:relic_gold_necklace>, "gold_age");
+      // ItemStages.restrict(<item:atum:relic_gold_ring>, "gold_age");
+      // ItemStages.restrict(<item:atum:relic_gold_brooch>, "gold_age");
+      // ItemStages.restrict(<item:atum:relic_gold_bracelet>, "gold_age");
+      // ItemStages.restrict(<item:atum:desert_helmet_gold>, "gold_age");
+      // ItemStages.restrict(<item:atum:desert_chest_gold>, "gold_age");
+      // ItemStages.restrict(<item:atum:desert_legs_gold>, "gold_age");
+      // ItemStages.restrict(<item:atum:desert_boots_gold>, "gold_age");
+      // ItemStages.restrict(<item:atum:desert_wolf_gold_armor>, "gold_age");
+      // ItemStages.restrict(<item:atum:camel_gold_armor>, "gold_age");
+      // ItemStages.restrict(<item:quark:golden_apple_crate>, "gold_age");
+      // ItemStages.restrict(<item:quark:gold_bars>, "gold_age");
+      // ItemStages.restrict(<item:quark:gold_button>, "gold_age");
+      // ItemStages.restrict(<item:quark:golden_frog_leg>, "gold_age");
+      // ItemStages.restrict(<item:supplementaries:candelabra>, "gold_age");
+      // ItemStages.restrict(<item:atum:golden_date>, "gold_age");
+      // ItemStages.restrict(<item:atum:golden_date_enchanted>, "gold_age");
+      // ItemStages.restrict(<item:betterendforge:gold_chandelier>, "gold_age");
+
+      // ItemStages.restrict(<item:minecraft:iron_ingot>, "iron_age");
+      // ItemStages.restrict(<item:minecraft:iron_nugget>, "iron_age");
+      // ItemStages.restrict(<item:minecraft:iron_block>, "iron_age");
+      // ItemStages.restrict(<item:minecraft:iron_bars>, "iron_age");
+      // ItemStages.restrict(<item:minecraft:iron_trapdoor>, "iron_age");
+      // ItemStages.restrict(<item:minecraft:iron_door>, "iron_age");
+      // ItemStages.restrict(<item:aquaculture:iron_fishing_rod>, "iron_age");
+      // ItemStages.restrict(<item:aquaculture:iron_fillet_knife>, "iron_age");
+      // ItemStages.restrict(<item:ironchest:iron_chest>, "iron_age");
+      // ItemStages.restrict(<item:notreepunching:iron_saw>, "iron_age");
+      // ItemStages.restrict(<item:notreepunching:iron_mattock>, "iron_age");
+      // ItemStages.restrict(<item:notreepunching:iron_knife>, "iron_age");
+      // ItemStages.restrict(<item:sophisticatedbackpacks:iron_backpack>, "iron_age");
+      // ItemStages.restrict(<tag:items:forge:dusts/iron>, "iron_age");
+      // ItemStages.restrict(<tag:items:mekanism:dirty_dusts/iron>, "iron_age");
+      // ItemStages.restrict(<item:mekanism:enriched_iron>, "iron_age");
+      // ItemStages.restrict(<tag:items:mekanism:shards/iron>, "iron_age");
+      // ItemStages.restrict(<item:aquaculture:iron_hook>, "iron_age");
+      // ItemStages.restrict(<item:atum:iron_dagger>, "iron_age");
+      // ItemStages.restrict(<item:atum:iron_scimitar>, "iron_age");
+      // ItemStages.restrict(<item:atum:iron_greatsword>, "iron_age");
+      // ItemStages.restrict(<item:atum:iron_club>, "iron_age");
+      // ItemStages.restrict(<item:atum:iron_khopesh>, "iron_age");
+      // ItemStages.restrict(<item:atum:desert_helmet_iron>, "iron_age");
+      // ItemStages.restrict(<item:atum:desert_chest_iron>, "iron_age");
+      // ItemStages.restrict(<item:atum:desert_legs_iron>, "iron_age");
+      // ItemStages.restrict(<item:atum:desert_boots_iron>, "iron_age");
+      // ItemStages.restrict(<item:atum:desert_wolf_iron_armor>, "iron_age");
+      // ItemStages.restrict(<item:atum:camel_iron_armor>, "iron_age");
+      // ItemStages.restrict(<item:farmersdelight:iron_knife>, "iron_age");
+      // ItemStages.restrict(<item:minecraft:bucket>, "iron_age");
+      // ItemStages.restrict(<item:quark:grate>, "iron_age");
+      // ItemStages.restrict(<item:quark:iron_ladder>, "iron_age");
+      // ItemStages.restrict(<item:quark:iron_button>, "iron_age");
+      // ItemStages.restrict(<item:supplementaries:iron_gate>, "iron_age");
+      // ItemStages.restrict(<item:chimes:iron_chimes>, "iron_age");
+
+      // ItemStages.restrict(<item:mekanism:clump_copper>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:clump_gold>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:clump_iron>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:clump_lead>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:clump_osmium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:clump_tin>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:clump_uranium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_copper>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_gold>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_iron>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_lead>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_osmium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_tin>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:hazmat_boots>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:hazmat_gown>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:hazmat_mask>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:hazmat_pants>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:ingot_refined_glowstone>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:ingot_refined_obsidian>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:shard_uranium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:enriched_carbon>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:enriched_redstone>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:enriched_refined_obsidian>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:enriched_tin>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_copper>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_gold>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_iron>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_lead>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_osmium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_tin>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:crystal_uranium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dictionary>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_copper>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_gold>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_iron>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_lead>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_osmium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_tin>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_dust_uranium>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:dirty_netherite_scrap>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:fluorite_gem>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:fluorite_ore>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:canteen>, "mekanism");
+      // ItemStages.restrict(<item:mekanism:cardboard_box>, "mekanism");
+
+      // ItemStages.restrict(<item:minecraft:blaze_powder>, "nether");
+      // ItemStages.restrict(<item:minecraft:blaze_rod>, "nether");
+      // ItemStages.restrict(<item:cataclysm:ignitium_ingot>, "nether");
+      // ItemStages.restrict(<item:cataclysm:ignitium_block>, "nether");
+      // ItemStages.restrict(<item:cataclysm:ignitium_helmet>, "nether");
+      // ItemStages.restrict(<item:cataclysm:ignitium_chestplate>, "nether");
+      // ItemStages.restrict(<item:cataclysm:ignitium_leggings>, "nether");
+      // ItemStages.restrict(<item:cataclysm:ignitium_boots>, "nether");       
+      // ItemStages.restrict(<tag:items:forge:netherrack>, "nether");
+      // ItemStages.restrict(<tag:items:forge:dusts/glowstone>, "nether");
+      // ItemStages.restrict(<item:infernalexp:glow_torch>, "nether");
+      // ItemStages.restrict(<item:infernalexp:glowsilk_bow>, "nether");
+      // ItemStages.restrict(<tag:items:chipped:soul_sand>, "nether");
+      // ItemStages.restrict(<item:quark:nether_wart_sack>, "nether");
+      // ItemStages.restrict(<tag:items:chipped:nether_bricks>, "nether");
+      // ItemStages.restrict(<tag:items:chipped:red_nether_bricks>, "nether");
+      // ItemStages.restrict(<item:betterendforge:netherite_hammer>, "nether");
+      // ItemStages.restrict(<item:sophisticatedbackpacks:netherite_backpack>, "nether");
+      // ItemStages.restrict(<item:nethers_delight:nether_skewer>, "nether");
+      // ItemStages.restrict(<item:byg:pervaded_netherrack>, "nether");
+      // ItemStages.restrict(<item:tconstruct:netherite_item_frame>, "nether");
+      // ItemStages.restrict(<item:farmersdelight:nether_salad>, "nether");
+      // ItemStages.restrict(<item:minecraft:smooth_quartz>, "nether");
+      // ItemStages.restrict(<item:appliedenergistics2:nether_quartz_cutting_knife>, "nether");
+      // ItemStages.restrict(<tag:items:chipped:crimson_fungus>, "nether");
+      // ItemStages.restrict(<tag:items:chipped:warped_fungus>, "nether");
+      // ItemStages.restrict(<tag:items:chipped:blackstone>, "nether");
+      // ItemStages.restrict(<item:minecraft:blackstone_slab>, "nether");
+      // ItemStages.restrict(<item:minecraft:blackstone_stairs>, "nether");
+
+      // ItemStages.restrict(<item:pneumaticcraft:aphorism_tile>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:cod_n_chips>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:compressed_brick_pillar>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:compressed_brick_slab>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:compressed_brick_stairs>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:compressed_brick_tile>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:compressed_bricks>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:compressed_stone_slab>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:display_shelf>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:display_table>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:pneumatic_boots>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:pneumatic_chestplate>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:pneumatic_helmet>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:pneumatic_leggings>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:raw_salmon_tempura>, "pneumaticcraft");     
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_brick_pillar>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_brick_slab>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_brick_stairs>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_brick_tile>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_bricks>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_stone>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:reinforced_stone_slab>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:salmon_tempura>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:sourdough>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:sourdough_bread>, "pneumaticcraft");
+      // ItemStages.restrict(<item:pneumaticcraft:kerosene_lamp>, "pneumaticcraft");
+
+      // ItemStages.restrict(<item:boss_tools:chesse>, "space_age");
+      // ItemStages.restrict(<item:boss_tools:coal_generator>, "space_age");
+      // ItemStages.restrict(<tag:items:forge:ingots/desh>, "space_age");
+      // ItemStages.restrict(<tag:items:forge:ingots/silicon>, "space_age");
+      // ItemStages.restrict(<tag:items:boss_tools:flags>, "space_age");
+      // ItemStages.restrict(<tag:items:forge:ores/chesse>, "space_age");
+   ```
+
+</details>
+
 ## Конфиги
 
 <details>
