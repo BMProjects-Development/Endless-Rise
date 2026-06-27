@@ -1,10 +1,19 @@
 bivrik
 .sable
 config/fabric/indigo-renderer.properties
+config/bettervillage_1.properties
+config/libraryferret_1.properties
+config/oculus.properties
+config/FatherToast/specialmobs/drowned/
+config/FatherToast/specialmobs/skeletons/
+config/FatherToast/specialmobs/wither_skeletons/
+config/FatherToast/specialmobs/zombies/
+config/FatherToast/specialmobs/zombified_piglins/
 config/iris.properties
 config/packetfixer.properties
 config/ftbchunks-client.snbt
 config/jei/world
+resourcepacks/EmbeddiumExtrasFastChestResourcepack.zip
 ponders_watched.json
 patchouli_data.json
 enigmatic_persistence.dat
@@ -40,6 +49,9 @@ saves/
 xaero/
 XaeroWaypoints_**
 libraries/
+knownkeys.txt
+tconplanner/
+journeymap/
 
 .curseclient
 options.txt
