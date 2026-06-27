@@ -270,16 +270,6 @@ Recipe.type(Type.CARPENTER)
 
 craftingTable.removeRecipe(<item:minecraft:white_bed>);
 
-Recipe.type(Type.CARPENTER)
-  .shaped([
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>],
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
-  ])
-  .tool(<tag:items:artisantools:type/chisel>, 20)
-  .output(<item:minecraft:white_bed>)
-  .register();
-
   Recipe.type(Type.CARPENTER)
   .shaped([
     [<tag:items:minecraft:beds>, <item:minecraft:white_dye>, <item:minecraft:air>],
@@ -289,37 +279,16 @@ Recipe.type(Type.CARPENTER)
   .output(<item:minecraft:white_bed>)
   .register();
 
-  Recipe.type(Type.CARPENTER)
+Recipe.type(Type.CARPENTER)
   .shaped([
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:atum:linen_white>, <item:atum:linen_white>, <item:atum:linen_white>],
+    [<tag:items:forge:wools/white>, <tag:items:forge:wools/white>, <tag:items:forge:wools/white>],
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
   ])
   .tool(<tag:items:artisantools:type/chisel>, 20)
   .output(<item:minecraft:white_bed>)
   .register();
-
-  craftingTable.removeRecipe(<item:minecraft:white_bed>);
-
-Recipe.type(Type.CARPENTER)
-  .shaped([
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>],
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
-  ])
-  .tool(<tag:items:artisantools:type/chisel>, 20)
-  .output(<item:minecraft:white_bed>)
-  .register();
-
-Recipe.type(Type.CARPENTER)
-  .shaped([
-    [<tag:items:minecraft:beds>, <item:minecraft:white_dye>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-  ])
-  .output(<item:minecraft:white_bed>)
-  .register();
-
+  
 Recipe.type(Type.CARPENTER)
   .shaped([
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -329,7 +298,6 @@ Recipe.type(Type.CARPENTER)
   .tool(<tag:items:artisantools:type/chisel>, 20)
   .output(<item:minecraft:white_bed>)
   .register();
-
 
 
 craftingTable.removeRecipe(<item:minecraft:orange_bed>);
