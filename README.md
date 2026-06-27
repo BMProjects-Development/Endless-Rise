@@ -8,10 +8,10 @@
   <a href="https://discord.gg/9GWKBVw3Ty"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=f1c232&color=bf9000" alt="Discord"></a>
 </p>
 
-# $${\color{yellow}{Endless \space Rise: \space Remastered}}$$
+# Endless Rise: Remastered
 <b>Endless Rise: Remastered</b> is a massive reimagining of the popular modpack by its original developers at BMProjects. In this modpack, you will immerse yourself in a true path of evolution. You are set to progress through 18 game stages: starting from gathering sticks and stones, developing complex machinery, and exploring various dimensions, you will eventually reach the goal of building your very own spacecraft! <b>Endless Rise: Remastered</b> features 290+ mods seamlessly woven into a single progression through 500+ quests, 750+ modified recipes, and custom items. <br/>
 
-## $${\color{yellow}{Features}}$$
+## Features
 ### <b>Progression and Balance</b>
 - <b>Development Stages</b>: The modpack is divided into 18 distinct game stages, each unlocking more items, blocks, and even new dimensions!
 
@@ -35,20 +35,21 @@
 
 
 
-# $${\color{yellow}{Trailer}}$$
+# Trailer
 [YouTube](https://youtu.be/IDgItyj6tPI)
 
-# $${\color{yellow}{Download}}$$
+# Download
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/endless-rise) <br/>
 [Google Disk](https://drive.google.com/file/d/16Etwwo8sm6xrZlE02R70ThPWbP897odm/view?usp=drive_link) <br/>
 [Yandex Disk](https://disk.yandex.ru/d/stQwDmmT3aiHPw)
 
-# $${\color{yellow}{Contacts}}$$
+# Contacts
 [Telegram](https://t.me/BMProjects) <br/>
 [Discord](https://discord.gg/9GWKBVw3Ty) <br/>
+[Patreon](https://www.patreon.com/c/BMProjectsMinecraft) <br/>
 [Boosty](https://boosty.to/barmaxx)
 
-# $${\color{yellow}{Other \space links}}$$
+# Other links
 [Gallery](https://www.curseforge.com/minecraft/modpacks/endless-rise/gallery) <br/>
 [Relations](https://www.curseforge.com/minecraft/modpacks/endless-rise/relations/dependencies) <br/>
 
