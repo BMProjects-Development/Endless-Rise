@@ -915,7 +915,19 @@
    + "er.09bc33749d387467.quests12.description2": "You can speed up the process with mechanical bellows — just right‑click them alternately.",
 
    - "er.09bc33749d387467.quests13.description0": "This is the main metal that will help you transition to a new era - the Mechanical Era!",
-   + "er.09bc33749d387467.quests13.description0": "Once the metal has solidified inside the furnace, break the solidified block with a pickaxe to obtain your first iron ingot."
+   + "er.09bc33749d387467.quests13.description0": "Once the metal has solidified inside the furnace, break the solidified block with a pickaxe to obtain your first iron ingot.",
+
+   + "er.61c23a1a1b8933b6.quests80.title": "Nether Grout & Scorched Brick",
+   + "er.61c23a1a1b8933b6.quests80.description0": "By visiting the Nether dimension, you can create a Nether Grout.",
+   + "er.61c23a1a1b8933b6.quests80.description1": "By smelting this cement in a furnace, you will get a Scorched Brick.",
+   + "er.61c23a1a1b8933b6.quests80.description2": "This brick is necessary for creating Scorched Bricks.",
+
+   + "er.61c23a1a1b8933b6.quests81.description0": "By smelting a scorched brick, you can create Scorched Bricks.",
+   + "er.61c23a1a1b8933b6.quests81.description1": "They are necessary for the creation of the Foundry and its parts.",
+
+   + "er.61c23a1a1b8933b6.quests82.description0": "The foundry controller is the brain and the main part.",
+   + "er.61c23a1a1b8933b6.quests82.description1": "A casting foundry is created in the same way as a standard foundry. Only instead of regular parts, there are Scorched parts.",
+   + "er.61c23a1a1b8933b6.quests82.description2": "The foundry allows you to create more powerful alloys.",
    ```
 
 </details>
