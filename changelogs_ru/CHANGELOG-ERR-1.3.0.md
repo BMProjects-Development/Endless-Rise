@@ -53,12 +53,24 @@
 ## Квесты
 
 <details>
-<summary>Добавлено (1)</summary>
+<summary>Добавлено (3)</summary>
 
+1. Квест на незерский цемент и кирпичи
+2. Квест на выжженные кирпичи
+3. Квест на контроллер литейной плавильни
+   
 </details>
 
 <details>
-<summary>Изменено (2)</summary>
+<summary>Изменено (7)</summary>
+
+1. Квест на горелку Всполоха стал необязательным
+2. Квест на латунный слиток теперь зависит от квеста на плавильню
+3. Квест на домну стал более понятным: добавлена картинка для наглядности и улучшено описание
+4. Квест на железную руду стал более понятным: улучшено описание
+5. В главе "Особенности" теперь все квесты скрыты пока не будет видна зависимость
+6. В главе "Технические квесты" теперь все квесты скрыты пока не будет видна зависимость
+7. Прочие незначительные изменения в расстановке квестов
 
 </details>
 
@@ -553,7 +565,7 @@
 ## Конфиги
 
 <details>
-<summary>Изменено (1)</summary>
+<summary>Изменено (2)</summary>
 
 1. geolosys-common.toml
    ```diff
@@ -561,17 +573,35 @@
    + samplePlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock", "minecraft:sand", "minecraft:gravel", "minecraft:clay", "minecraft:dirt", "mekanism:block_salt", "byg:meadow_dirt", "minecraft:coarse_dirt", "cavesandcliffs:rooted_dirt", "minecraft:grass_path", "minecraft:sandstone", "minecraft:sandstone_wall", "minecraft:oak_planks", "minecraft:smooth_sandstone", "minecraft:polished_andesite", "tconstruct:earth_sky_slime_grass", "tconstruct:sky_slime_dirt", "tconstruct:earth_congealed_slime", "cavesandcliffs:moss_block", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:stone_brick_wall", "minecraft:obsidian", "minecraft:blackstone", "minecraft:soul_sand", "minecraft:basalt", "minecraft:crying_obsidian", "minecraft:gilded_blackstone", "minecraft:soul_soil", "quark:jasper", "tconstruct:sky_sky_slime_grass", "tconstruct:sky_congealed_slime", "tconstruct:sky_slime_dirt", "minecraft:polished_basalt", "boss_tools:sky_stone", "minecraft:coal_block", "minecraft:magma_block", "upgrade_aquatic:driftwood_log", "appliedenergistics2:sky_stone_block", "minecraft:snow_block", "savageandravage:gloomy_tiles", "savageandravage:runed_gloomy_tiles", "minecraft:snow", "minecraft:pumpkin"]
    ```
 ***Примечание:** Теперь образцы руд не будут появляться на тыквах*
+
+2. modernfix-mixins.properties‎
+   ```diff
+   - mixin.perf.dynamic_resources=true
+   + #  mixin.perf.dynamic_resources=false # (default)
+
+   - mixin.perf.faster_item_rendering=true
+   + #  mixin.perf.faster_item_rendering=false # (default)
+
+   + mixin.perf.faster_item_rendering=true
+   ```
+
    ‎
 </details>
 
 ## Прочее
 
 <details>
-<summary>Исправления (3)</summary>
+<summary>Исправления (4)</summary>
 
 1. Изменено главное меню игры. Добавлена кнопка "Моды" для возможности самостоятельно настраивать моды в игре.
 
-2. Ошибки в русской локализации
+2. Изменено название окна игры
+      ```diff
+   - title= Endless Rise: Remastered v1.2.3
+   + title= Endless Rise: Remastered v1.3.0
+   ```
+
+3. Ошибки в русской локализации
       ```diff
       - "er.09bc33749d387467.quests0.description0": "Палки выпадают при ломании листвы. А вот осколки кремения можно получить раздробив кремень об твёрдый блок, например - камень.",
       + "er.09bc33749d387467.quests0.description0": "Палки выпадают из листвы, а вот осколки кремня можно получить раздробив кремень об твёрдый блок, например, камень.",
@@ -681,7 +711,7 @@
       + "er.71840908ca6989e1.quests12.description1": "По мере своего развития Вы будете получать всё новые стадии, открывающие предметы, блоки, механики и прочее!",
    ```
   
-3. Ошибки в английской локализации
+4. Ошибки в английской локализации
    ```diff
    - "er.61c23a1a1b8933b6.title": "&6The Mechanic Era",
    + "er.61c23a1a1b8933b6.title": "&6The Mechanical Era",
