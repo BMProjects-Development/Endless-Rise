@@ -1,4 +1,4 @@
-# [Endless Rise: Remastered](https://www.curseforge.com/minecraft/modpacks/endless-rise) — Обновление 1.3.0
+# [Endless Rise: Remastered](https://www.curseforge.com/minecraft/modpacks/endless-rise) — Обновление 1.3.0 "Исправления"
 
 ---
 
