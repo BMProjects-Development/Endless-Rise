@@ -55,22 +55,22 @@ The full list of changes is presented below.
 <details>
 <summary>Added (3)</summary>
 
-1. Quest for nether grout and scorched bricks
-2. Quest for scorched bricks
-3. Quest for foundry controller
+1. Quest for nether grout and scorched bricks.
+2. Quest for scorched bricks.
+3. Quest for foundry controller.
    
 </details>
 
 <details>
 <summary>Changed (7)</summary>
 
-1. Blaze burner quest has become optional
-2. Brass ingot quest now depends on the smeltery quest
-3. Blast furnace quest has become clearer: added an image for clarity and improved the description
-4. Iron ore quest has become clearer: improved description
-5. In the "Information" chapter, all quests are now hidden until the dependency is visible
-6. In the "Maintenance Quests" chapter, all quests are now hidden until the dependency is visible
-7. Other minor changes in quest placement
+1. Blaze burner quest has become optional.
+2. Brass ingot quest now depends on the smeltery quest.
+3. Blast furnace quest has become clearer: added an image for clarity and improved the description.
+4. Iron ore quest has become clearer: improved description.
+5. In the "Information" chapter, all quests are now hidden until the dependency is visible.
+6. In the "Maintenance Quests" chapter, all quests are now hidden until the dependency is visible.
+7. Other minor changes in quest placement.
 
 </details>
 
@@ -79,7 +79,7 @@ The full list of changes is presented below.
 <details>
 <summary>Added (10)</summary>
 
-1. Alternative straw craft
+1. Alternative straw craft.
    ```diff
    {
      "type": "farmersdelight:cutting",
@@ -100,7 +100,7 @@ The full list of changes is presented below.
    }
    ```
 
-2. Alternative aluminum plate craft
+2. Alternative aluminum plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -117,7 +117,7 @@ The full list of changes is presented below.
       }
       ```
 
-3. Alternative desh plate craft
+3. Alternative desh plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -134,7 +134,7 @@ The full list of changes is presented below.
       }
       ```
 
-4. Alternative constantan plate craft
+4. Alternative constantan plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -151,7 +151,7 @@ The full list of changes is presented below.
       }
       ```
 
-5. Alternative electrum plate craft
+5. Alternative electrum plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -168,7 +168,7 @@ The full list of changes is presented below.
       }
       ```
 
-6. Alternative lead plate craft
+6. Alternative lead plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -185,7 +185,7 @@ The full list of changes is presented below.
       }
       ```
 
-7. Alternative nickel plate craft
+7. Alternative nickel plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -202,7 +202,7 @@ The full list of changes is presented below.
       }
       ```
 
-8. Alternative steel plate craft
+8. Alternative steel plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -219,7 +219,7 @@ The full list of changes is presented below.
       }
      ```
 
-9. Alternative uranium plate craft
+9. Alternative uranium plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -236,7 +236,7 @@ The full list of changes is presented below.
       }
       ```
 
-10. Alternative silver plate craft
+10. Alternative silver plate craft.
       ```diff
       {
         "type": "create:pressing",
@@ -258,7 +258,7 @@ The full list of changes is presented below.
 <details>
 <summary>Changed (2)</summary>
 
-1. Nether grout
+1. Nether grout.
       ```diff
       {
         "type": "create:mixing",
@@ -282,9 +282,9 @@ The full list of changes is presented below.
         "heatRequirement": "heated"
       }
       ```
-***Note:** Instead of the standard recipe - a recipe in the mechanical mixer*
+***Note:** Instead of the standard recipe - a recipe in the mechanical mixer.*
 
-2. White bed
+2. White bed.
       ```diff
     Recipe.type(Type.CARPENTER)
       .shaped([
@@ -296,14 +296,14 @@ The full list of changes is presented below.
       .output(<item:minecraft:white_bed>)
       .register();
       ```
-***Note:** Instead of regular white wool (<item:minecraft:white_wool>) - the white wool tag (<tag:items:forge:wools/white>)*  
+***Note:** Instead of regular white wool (<item:minecraft:white_wool>) - the white wool tag (<tag:items:forge:wools/white>).*  
 
 </details>
 
 <details>
 <summary>Deleted (1)</summary>
 
-1. Duplicate white bed recipes
+1. Duplicate white bed recipes.
       ```diff
       Recipe.type(Type.CARPENTER)
         .shaped([
@@ -567,7 +567,7 @@ The full list of changes is presented below.
 <details>
 <summary>Changed (1)</summary>
 
-1. Many items were removed from stage restrictions for optimization and gameplay convenience (currently marked with "//" comments for mass testing)
+1. Many items were removed from stage restrictions for optimization and gameplay convenience (currently marked with "//" comments for mass testing).
       ```diff
       // ItemStages.restrict(<item:mekanism:ingot_copper>, "copper_age");
       // ItemStages.restrict(<tag:items:forge:storage_blocks/copper>, "copper_age");
@@ -816,7 +816,7 @@ The full list of changes is presented below.
    - samplePlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock", "minecraft:sand", "minecraft:gravel", "minecraft:clay", "minecraft:dirt", "mekanism:block_salt", "byg:meadow_dirt", "minecraft:coarse_dirt", "cavesandcliffs:rooted_dirt", "minecraft:grass_path", "minecraft:sandstone", "minecraft:sandstone_wall", "minecraft:oak_planks", "minecraft:smooth_sandstone", "minecraft:polished_andesite", "tconstruct:earth_sky_slime_grass", "tconstruct:sky_slime_dirt", "tconstruct:earth_congealed_slime", "cavesandcliffs:moss_block", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:stone_brick_wall", "minecraft:obsidian", "minecraft:blackstone", "minecraft:soul_sand", "minecraft:basalt", "minecraft:crying_obsidian", "minecraft:gilded_blackstone", "minecraft:soul_soil", "quark:jasper", "tconstruct:sky_sky_slime_grass", "tconstruct:sky_congealed_slime", "tconstruct:sky_slime_dirt", "minecraft:polished_basalt", "boss_tools:sky_stone", "minecraft:coal_block", "minecraft:magma_block", "upgrade_aquatic:driftwood_log", "appliedenergistics2:sky_stone_block", "minecraft:snow_block", "savageandravage:gloomy_tiles", "savageandravage:runed_gloomy_tiles", "minecraft:snow"]
    + samplePlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock", "minecraft:sand", "minecraft:gravel", "minecraft:clay", "minecraft:dirt", "mekanism:block_salt", "byg:meadow_dirt", "minecraft:coarse_dirt", "cavesandcliffs:rooted_dirt", "minecraft:grass_path", "minecraft:sandstone", "minecraft:sandstone_wall", "minecraft:oak_planks", "minecraft:smooth_sandstone", "minecraft:polished_andesite", "tconstruct:earth_sky_slime_grass", "tconstruct:sky_slime_dirt", "tconstruct:earth_congealed_slime", "cavesandcliffs:moss_block", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:stone_brick_wall", "minecraft:obsidian", "minecraft:blackstone", "minecraft:soul_sand", "minecraft:basalt", "minecraft:crying_obsidian", "minecraft:gilded_blackstone", "minecraft:soul_soil", "quark:jasper", "tconstruct:sky_sky_slime_grass", "tconstruct:sky_congealed_slime", "tconstruct:sky_slime_dirt", "minecraft:polished_basalt", "boss_tools:sky_stone", "minecraft:coal_block", "minecraft:magma_block", "upgrade_aquatic:driftwood_log", "appliedenergistics2:sky_stone_block", "minecraft:snow_block", "savageandravage:gloomy_tiles", "savageandravage:runed_gloomy_tiles", "minecraft:snow", "minecraft:pumpkin"]
    ```
-***Note:** Now ore samples will not generate on pumpkins*
+***Note:** Now ore samples will not generate on pumpkins.*
 
 2. modernfix-mixins.properties‎
    ```diff
@@ -839,13 +839,13 @@ The full list of changes is presented below.
 
 1. Changed the main menu of the game. Added a "Mods" button to allow players to configure mods in the game on their own.
 
-2. Changed the title of the game window
+2. Changed the title of the game window.
       ```diff
    - title= Endless Rise: Remastered v1.2.3
    + title= Endless Rise: Remastered v1.3.0
    ```
 
-3. Errors in Russian localization
+3. Errors in Russian localization.
       ```diff
       - "er.09bc33749d387467.quests0.description0": "Палки выпадают при ломании листвы. А вот осколки кремения можно получить раздробив кремень об твёрдый блок, например - камень.",
       + "er.09bc33749d387467.quests0.description0": "Палки выпадают из листвы, а вот осколки кремня можно получить раздробив кремень об твёрдый блок, например, камень.",
@@ -955,7 +955,7 @@ The full list of changes is presented below.
       + "er.71840908ca6989e1.quests12.description1": "По мере своего развития Вы будете получать всё новые стадии, открывающие предметы, блоки, механики и прочее!",
    ```
   
-4. Errors in English localization
+4. Errors in English localization.
    ```diff
    - "er.61c23a1a1b8933b6.title": "&6The Mechanic Era",
    + "er.61c23a1a1b8933b6.title": "&6The Mechanical Era",
