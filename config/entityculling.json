@@ -1,0 +1,30 @@
+{
+  "configVersion": 5,
+  "renderNametagsThroughWalls": true,
+  "blockEntityWhitelist": [
+    "create:rope_pulley",
+    "minecraft:beacon",
+    "create:hose_pulley",
+    "betterend:eternal_pedestal",
+    "immersiveengineering:connector_lv",
+    "immersiveengineering:connector_mv",
+    "immersiveengineering:connector_hv",
+    "immersiveengineering:connector_structural",
+    "immersiveengineering:wire"
+  ],
+  "entityWhitelist": [
+    "botania:mana_burst",
+    "immersiveengineering:skyline_hook"
+  ],
+  "tracingDistance": 128,
+  "debugMode": false,
+  "sleepDelay": 10,
+  "hitboxLimit": 100,
+  "skipMarkerArmorStands": true,
+  "tickCulling": false,
+  "tickCullingWhitelist": [
+    "minecraft:boat",
+    "minecraft:firework_rocket"
+  ],
+  "disableF3": false
+}
