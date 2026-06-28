@@ -15,7 +15,11 @@
 			shape: "tech_circle"
 			subtitle: "{er.71840908ca6989e1.quests0.subtitle}"
 			description: ["{er.71840908ca6989e1.quests1.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4015F9A5ADB11078"
+				"207D5D4DC9F02D96"
+			]
 			hide: true
 			id: "4646110081F3DA55"
 			tasks: [{
@@ -31,7 +35,11 @@
 			shape: "tech_circle"
 			subtitle: "{er.71840908ca6989e1.quests13.subtitle}"
 			description: ["{er.71840908ca6989e1.quests13.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4015F9A5ADB11078"
+				"207D5D4DC9F02D96"
+			]
 			hide: true
 			id: "0D811557B1492FA9"
 			tasks: [{
@@ -53,7 +61,11 @@
 			shape: "tech_circle"
 			subtitle: "{er.71840908ca6989e1.quests14.subtitle}"
 			description: ["{er.71840908ca6989e1.quests14.description0}"]
-			dependencies: ["4015F9A5ADB11078"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4015F9A5ADB11078"
+				"207D5D4DC9F02D96"
+			]
 			hide: true
 			id: "0AC2DBC17F3860F2"
 			tasks: [{
@@ -110,6 +122,7 @@
 			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "08C151FE635392FC"
 			tasks: [{
 				id: "5E4280459302F150"
@@ -126,6 +139,7 @@
 			description: ["{er.71840908ca6989e1.quests5.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "164FAF57F5ED32E1"
 			tasks: [{
 				id: "55F07BE4F7A2913C"
@@ -145,6 +159,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "472983CD65FFD920"
 			tasks: [{
 				id: "66C5D3C800331024"
@@ -169,6 +184,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "3FF34529D1C9CCBE"
 			tasks: [{
 				id: "7001268018E04FE6"
@@ -185,6 +201,7 @@
 			description: ["{er.71840908ca6989e1.quests8.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "77EC3B823796B709"
 			tasks: [{
 				id: "6B30F92AC901932C"
@@ -207,6 +224,7 @@
 			description: ["{er.71840908ca6989e1.quests9.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "3A3CCF0128FBD93C"
 			tasks: [{
 				id: "5F5C87927BEF592D"
@@ -229,6 +247,7 @@
 			description: ["{er.71840908ca6989e1.quests10.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "2549C71245FC0023"
 			tasks: [{
 				id: "27D85AE8268F22C1"
@@ -245,6 +264,7 @@
 			description: ["{er.71840908ca6989e1.quests11.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "5BE5FB3E9050D700"
 			tasks: [{
 				id: "301F57F50EDC6333"
@@ -291,6 +311,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
+			hide: true
 			id: "67F8E4400871772D"
 			tasks: [{
 				id: "68085E57D1770487"

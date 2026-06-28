@@ -243,12 +243,552 @@ Recipe.type(Type.CARPENTER)
   
   
 craftingTable.removeRecipe(<item:minecraft:trapped_chest>);
+
 Recipe.type(Type.CARPENTER)
   .shaped([
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
-    [<tag:items:minecraft:planks>, <item:minecraft:redstone_torch>, <tag:items:minecraft:planks>],
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
-  .tool(<tag:items:artisantools:type/chisel>, 20)
-  
+    [<item:minecraft:chest>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:tripwire_hook>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .tool(<tag:items:artisantools:type/driver>, 5)
   .output(<item:minecraft:trapped_chest>)
+  .register();
+
+  craftingTable.removeRecipe(<item:minecraft:ender_chest>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
+    [<item:minecraft:obsidian>, <item:minecraft:ender_eye>, <item:minecraft:obsidian>],
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .tool(<tag:items:artisantools:type/grimoire>, 20)
+  .output(<item:minecraft:ender_chest>)
+  .register();
+
+
+craftingTable.removeRecipe(<item:minecraft:white_bed>);
+
+  Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:white_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:white_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:wools/white>, <tag:items:forge:wools/white>, <tag:items:forge:wools/white>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:white_bed>)
+  .register();
+  
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_white>, <item:atum:linen_white>, <item:atum:linen_white>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:white_bed>)
+  .register();
+
+
+craftingTable.removeRecipe(<item:minecraft:orange_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:orange_wool>, <item:minecraft:orange_wool>, <item:minecraft:orange_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:orange_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:orange_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:orange_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_orange>, <item:atum:linen_orange>, <item:atum:linen_orange>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:orange_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:magenta_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:magenta_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:magenta_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:magenta_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_magenta>, <item:atum:linen_magenta>, <item:atum:linen_magenta>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:magenta_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:light_blue_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:light_blue_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:light_blue_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:light_blue_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_light_blue>, <item:atum:linen_light_blue>, <item:atum:linen_light_blue>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:light_blue_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:yellow_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:yellow_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:yellow_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:yellow_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_yellow>, <item:atum:linen_yellow>, <item:atum:linen_yellow>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:yellow_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:lime_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:lime_wool>, <item:minecraft:lime_wool>, <item:minecraft:lime_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:lime_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:lime_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:lime_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_lime>, <item:atum:linen_lime>, <item:atum:linen_lime>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:lime_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:pink_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:pink_wool>, <item:minecraft:pink_wool>, <item:minecraft:pink_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:pink_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:pink_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:pink_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_pink>, <item:atum:linen_pink>, <item:atum:linen_pink>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:pink_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:gray_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:gray_wool>, <item:minecraft:gray_wool>, <item:minecraft:gray_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:gray_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:gray_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:gray_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_gray>, <item:atum:linen_gray>, <item:atum:linen_gray>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:gray_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:light_gray_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:light_gray_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:light_gray_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:light_gray_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_light_gray>, <item:atum:linen_light_gray>, <item:atum:linen_light_gray>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:light_gray_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:cyan_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:cyan_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:cyan_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:cyan_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_cyan>, <item:atum:linen_cyan>, <item:atum:linen_cyan>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:cyan_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:purple_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:purple_wool>, <item:minecraft:purple_wool>, <item:minecraft:purple_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:purple_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:purple_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:purple_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_purple>, <item:atum:linen_purple>, <item:atum:linen_purple>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:purple_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:blue_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:blue_wool>, <item:minecraft:blue_wool>, <item:minecraft:blue_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:blue_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:blue_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:blue_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_blue>, <item:atum:linen_blue>, <item:atum:linen_blue>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:blue_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:brown_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:brown_wool>, <item:minecraft:brown_wool>, <item:minecraft:brown_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:brown_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:brown_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:brown_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_brown>, <item:atum:linen_brown>, <item:atum:linen_brown>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:brown_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:green_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:green_wool>, <item:minecraft:green_wool>, <item:minecraft:green_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:green_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:green_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:green_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_green>, <item:atum:linen_green>, <item:atum:linen_green>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:green_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:red_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:red_wool>, <item:minecraft:red_wool>, <item:minecraft:red_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:red_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:red_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:red_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_red>, <item:atum:linen_red>, <item:atum:linen_red>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:red_bed>)
+  .register();
+
+
+
+craftingTable.removeRecipe(<item:minecraft:black_bed>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:black_wool>, <item:minecraft:black_wool>, <item:minecraft:black_wool>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:black_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:minecraft:beds>, <item:minecraft:black_dye>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+  ])
+  .output(<item:minecraft:black_bed>)
+  .register();
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:atum:linen_black>, <item:atum:linen_black>, <item:atum:linen_black>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:minecraft:black_bed>)
   .register();

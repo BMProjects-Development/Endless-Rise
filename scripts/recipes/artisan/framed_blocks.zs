@@ -37,3 +37,16 @@ Recipe.type(Type.CARPENTER)
   
   .output(<item:framedblocks:framed_wrench>)
   .register();
+
+
+craftingTable.removeRecipe(<item:framedblocks:framed_chest>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:framedblocks:framed_cube>, <item:framedblocks:framed_cube>, <item:framedblocks:framed_cube>],
+    [<item:framedblocks:framed_cube>, <item:minecraft:air>, <item:framedblocks:framed_cube>],
+    [<item:framedblocks:framed_cube>, <item:framedblocks:framed_cube>, <item:framedblocks:framed_cube>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:framedblocks:framed_chest>)
+  .register();

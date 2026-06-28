@@ -2,10 +2,10 @@
 disable_equipment_damage = true
 
 [scarecrow]
-	#Animal entities that will not be scared
-	mobs_blacklist = [""]
 	#All animal entities will be scared. add here additional ones that are not included
 	mobs_whitelist = [""]
+	#Animal entities that will not be scared
+	mobs_blacklist = [""]
 	#Scaring radius
 	#Range: 0 ~ 100
 	scare_radius = 12

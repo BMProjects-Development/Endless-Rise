@@ -77,3 +77,16 @@ Recipe.type(Type.TAILOR)
   
   .output(<item:tconstruct:silky_cloth>)
   .register();
+
+
+  craftingTable.removeRecipe(<item:tconstruct:tinkers_chest>);
+
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<item:minecraft:air>, <item:tconstruct:pattern>, <item:minecraft:air>],
+    [<item:minecraft:lapis_lazuli>, <tag:items:forge:chests/wooden>, <item:minecraft:lapis_lazuli>],
+    [<item:minecraft:lapis_lazuli>, <tag:items:minecraft:planks>, <item:minecraft:lapis_lazuli>]
+  ])
+  .tool(<tag:items:artisantools:type/chisel>, 20)
+  .output(<item:tconstruct:tinkers_chest>)
+  .register();
