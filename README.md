@@ -9,7 +9,7 @@
 </p>
 
 # Endless Rise: Remastered
-<b>Endless Rise: Remastered</b> is a massive reimagining of the popular modpack by its original developers at BMProjects. In this modpack, you will immerse yourself in a true path of evolution. You are set to progress through 18 game stages: starting from gathering sticks and stones, developing complex machinery, and exploring various dimensions, you will eventually reach the goal of building your very own spacecraft! <b>Endless Rise: Remastered</b> features 290+ mods seamlessly woven into a single progression through 600+ quests, 1000+ modified recipes, and custom items. <br/>
+<b>Endless Rise: Remastered</b> is a massive reimagining of the popular modpack by its original developers at [BMProjects](https://github.com/BMProjects-Development). In this modpack, you will immerse yourself in a true path of evolution. You are set to progress through 18 game stages: starting from gathering sticks and stones, developing complex machinery, and exploring various dimensions, you will eventually reach the goal of building your very own spacecraft! <b>Endless Rise: Remastered</b> features 290+ mods seamlessly woven into a single progression through 600+ quests, 1000+ modified recipes, and custom items. <br/>
 
 ## Features
 ### <b>Progression and Balance</b>
