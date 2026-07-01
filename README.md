@@ -43,7 +43,7 @@
 [Google Disk](https://drive.google.com/file/d/16Etwwo8sm6xrZlE02R70ThPWbP897odm/view?usp=drive_link) <br/>
 [Yandex Disk](https://disk.yandex.ru/d/stQwDmmT3aiHPw)
 
-# Contacts
+# Contacts & Supports
 [Telegram](https://t.me/BMProjects) <br/>
 [Discord](https://discord.gg/9GWKBVw3Ty) <br/>
 [Patreon](https://www.patreon.com/c/BMProjectsMinecraft) <br/>
