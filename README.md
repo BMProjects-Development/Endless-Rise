@@ -20,7 +20,7 @@
 - <b>Quests</b>: Over 600 quests have been added to guide you through every stage of the game and explain all the unique mechanics.
 
 ### <b>Custom Content</b>
-- <b>New Textures, Menu, and Music</b>: We created our own resource pack, Endless Rise Textures, which rethemes the game to match the modpack's style. It also includes 9 custom music tracks and a completely redesigned main menu!
+- <b>New Textures, Menu, and Music</b>: We created our own resource pack, [Endless Rise Textures](https://www.curseforge.com/minecraft/texture-packs/endless-rise-textures), which rethemes the game to match the modpack's style. It also includes 9 custom music tracks and a completely redesigned main menu!
 
 - <b>Custom Items</b>: Exclusive custom items have been added to the modpack to enable more logical and balanced crafting recipes.
 
