@@ -1,4 +1,7 @@
 <div align="center">
+
+  <a href="./README.md"><b>English</b></a> | <a href="./README_RU.md"><b>Русский</b></a>
+  
 <img width="1920" height="1080" alt="Endless Rise Cover" src="https://github.com/user-attachments/assets/ee9f523d-b588-4e82-88e0-2d1e603b7e72" />
 
 <p>
