@@ -96,7 +96,8 @@ onEvent('recipes', event => {
 	'create:smelting/iron_ingot_from_crushed',
 	'notreepunching:campfire/brick',
 	'minecraft:charcoal',
-	'quark:building/crafting/compressed/charcoal_block_uncompress'
+	'quark:building/crafting/compressed/charcoal_block_uncompress',
+	'tconstruct:smeltery/casting/scorched/brick_composite'
   ]
   
   recipesToRemove.forEach(id => {
