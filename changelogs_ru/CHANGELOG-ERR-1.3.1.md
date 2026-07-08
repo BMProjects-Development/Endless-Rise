@@ -56,7 +56,7 @@
 <summary>Удалено</summary>
 
 1. Удалён альтернативный способ создания компонента кирпичей для рудной плавильни ( без смешивания ), потом надо посмотреть как точно называется
- ```'tconstruct:smeltery/casting/scorched/brick_composite'```
+ ```diff'tconstruct:smeltery/casting/scorched/brick_composite'```
 
 </details>
 
@@ -78,7 +78,9 @@
 
 <details>
 <summary>Изменено</summary>
-   ‎
+  
+   1. Уменьшен шанс спавна мимика из мода Artifacts‎ из 30% до 0.5%
+
 </details>
 
 ## Прочее
