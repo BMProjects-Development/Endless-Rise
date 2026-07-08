@@ -6,7 +6,6 @@
 Данное обновление сосредоточено на исправлении некоторых важных проблем и общем улучшении проекта. Мы исправили множество небольших ошибок, которые мешали комфортной игре, а также в целом улучшили многие аспекты для более удобного геймплея.
 
 Ключевые изменения:
-1. 
 
 Полный список изменений представлен ниже.
 
@@ -17,23 +16,15 @@
 <details>
 <summary>Добавлено</summary>
   
-1.
-  
 </details>
 
 <details>
 <summary>Обновлено</summary>
-  
-1. 
 
 </details>
 
 <details>
 <summary>Удалено</summary>
-  
-1. 
-
-***Причина удаления:** В других модах уже есть функционал данных модов.*
   
 </details>
 
@@ -41,15 +32,11 @@
 
 <details>
 <summary>Добавлено</summary>
-
-1. 
    
 </details>
 
 <details>
 <summary>Изменено</summary>
-
-1. 
 
 </details>
 
@@ -58,22 +45,18 @@
 <details>
 <summary>Добавлено</summary>
 
-1. 
-
 </details>
 
 <details>
 <summary>Изменено</summary>
-
-1. 
-
 
 </details>
 
 <details>
 <summary>Удалено</summary>
 
-1. 
+1. Удалён альтернативный способ создания компонента кирпичей для рудной плавильни ( без смешивания ), потом надо посмотреть как точно называется
+ ```'tconstruct:smeltery/casting/scorched/brick_composite'```
 
 </details>
 
@@ -89,16 +72,12 @@
 <details>
 <summary>Изменено</summary>
 
-1. 
-
 </details>
 
 ## Конфиги
 
 <details>
 <summary>Изменено</summary>
-
-1.
    ‎
 </details>
 
@@ -106,8 +85,6 @@
 
 <details>
 <summary>Исправления</summary>
-
-1. 
 
 </details>
 
