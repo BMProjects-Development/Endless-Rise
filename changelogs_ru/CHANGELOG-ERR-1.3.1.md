@@ -15,7 +15,7 @@
 
 <details>
 <summary>Добавлено</summary>
-  1. Добавлен [Lootjs](https://www.curseforge.com/minecraft/mc-mods/lootjs), для подальшей лучшей интеграции лута и их шансов
+  1.[Lootjs](https://www.curseforge.com/minecraft/mc-mods/lootjs).
 </details>
 
 <details>
